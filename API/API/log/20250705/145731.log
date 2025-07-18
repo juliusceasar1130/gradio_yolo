@@ -1,0 +1,48 @@
+2025-07-05 14:57:31 | INFO | logger_config.py:39 | 日志系统已初始化，日志文件: API\log\20250705\145731.log
+2025-07-05 14:57:31 | INFO | service.py:30 | 模型位置: D:\00deeplearn\yolo11\【2】训练模型\cls\train_new\weights\best.pt
+2025-07-05 14:57:31 | INFO | service.py:195 | 服务启动在端口: 5000
+2025-07-05 14:57:45 | INFO | service.py:75 | 接收到请求 - 雪橇号码: 1378, 日期: 20250521
+2025-07-05 14:57:45 | INFO | service.py:79 | 接收到图片数据
+2025-07-05 14:57:48 | INFO | service.py:103 | .....................
+2025-07-05 14:57:48 | DEBUG | service.py:104 | 模型所有类别: {0: 'C', 1: 'M', 2: 'S'}
+2025-07-05 14:57:48 | INFO | service.py:105 | 检测类别结果: M
+2025-07-05 14:57:48 | INFO | service.py:106 | ----------------------
+2025-07-05 14:57:48 | INFO | service.py:142 | 图像处理完成，准备显示结果
+2025-07-05 14:57:51 | ERROR | db_utils.py:71 | 保存检测结果到数据库失败: 'dict' object has no attribute 'host'
+2025-07-05 14:57:51 | INFO | service.py:59 | 创建响应 - 状态码: 200, 消息: detection_success, 检测类别: M
+2025-07-05 15:07:02 | INFO | service.py:75 | 接收到请求 - 雪橇号码: 1378, 日期: 20250521
+2025-07-05 15:07:02 | INFO | service.py:79 | 接收到图片数据
+2025-07-05 15:07:02 | INFO | service.py:103 | .....................
+2025-07-05 15:07:02 | DEBUG | service.py:104 | 模型所有类别: {0: 'C', 1: 'M', 2: 'S'}
+2025-07-05 15:07:02 | INFO | service.py:105 | 检测类别结果: M
+2025-07-05 15:07:02 | INFO | service.py:106 | ----------------------
+2025-07-05 15:07:02 | INFO | service.py:142 | 图像处理完成，准备显示结果
+2025-07-05 15:07:06 | ERROR | db_utils.py:71 | 保存检测结果到数据库失败: 'dict' object has no attribute 'host'
+2025-07-05 15:07:06 | INFO | service.py:59 | 创建响应 - 状态码: 200, 消息: detection_success, 检测类别: M
+2025-07-05 15:09:37 | INFO | service.py:75 | 接收到请求 - 雪橇号码: 1378, 日期: 20250521
+2025-07-05 15:09:37 | INFO | service.py:79 | 接收到图片数据
+2025-07-05 15:09:37 | INFO | service.py:103 | .....................
+2025-07-05 15:09:37 | DEBUG | service.py:104 | 模型所有类别: {0: 'C', 1: 'M', 2: 'S'}
+2025-07-05 15:09:37 | INFO | service.py:105 | 检测类别结果: M
+2025-07-05 15:09:37 | INFO | service.py:106 | ----------------------
+2025-07-05 15:09:37 | INFO | service.py:142 | 图像处理完成，准备显示结果
+2025-07-05 15:09:40 | ERROR | db_utils.py:71 | 保存检测结果到数据库失败: 'dict' object has no attribute 'host'
+2025-07-05 15:09:40 | INFO | service.py:59 | 创建响应 - 状态码: 200, 消息: detection_success, 检测类别: M
+2025-07-05 15:11:01 | INFO | service.py:75 | 接收到请求 - 雪橇号码: 1378, 日期: 20250521
+2025-07-05 15:11:01 | INFO | service.py:79 | 接收到图片数据
+2025-07-05 15:11:01 | INFO | service.py:103 | .....................
+2025-07-05 15:11:01 | DEBUG | service.py:104 | 模型所有类别: {0: 'C', 1: 'M', 2: 'S'}
+2025-07-05 15:11:01 | INFO | service.py:105 | 检测类别结果: M
+2025-07-05 15:11:01 | INFO | service.py:106 | ----------------------
+2025-07-05 15:11:01 | INFO | service.py:142 | 图像处理完成，准备显示结果
+2025-07-05 15:11:03 | ERROR | db_utils.py:71 | 保存检测结果到数据库失败: 'dict' object has no attribute 'host'
+2025-07-05 15:11:03 | INFO | service.py:59 | 创建响应 - 状态码: 200, 消息: detection_success, 检测类别: M
+2025-07-05 15:22:32 | INFO | service.py:75 | 接收到请求 - 雪橇号码: 1378, 日期: 20250521
+2025-07-05 15:22:32 | INFO | service.py:79 | 接收到图片数据
+2025-07-05 15:22:33 | INFO | service.py:103 | .....................
+2025-07-05 15:22:33 | DEBUG | service.py:104 | 模型所有类别: {0: 'C', 1: 'M', 2: 'S'}
+2025-07-05 15:22:33 | INFO | service.py:105 | 检测类别结果: M
+2025-07-05 15:22:33 | INFO | service.py:106 | ----------------------
+2025-07-05 15:22:33 | INFO | service.py:142 | 图像处理完成，准备显示结果
+2025-07-05 15:22:35 | ERROR | db_utils.py:71 | 保存检测结果到数据库失败: 'dict' object has no attribute 'host'
+2025-07-05 15:22:35 | INFO | service.py:59 | 创建响应 - 状态码: 200, 消息: detection_success, 检测类别: M

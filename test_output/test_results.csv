@@ -1,0 +1,3 @@
+﻿timestamp,image_path,detector_type,class_name,class_id,confidence,bbox_x1,bbox_y1,bbox_x2,bbox_y2,mask_area
+2025-07-27T22:40:00,test_image.jpg,detection,person,0,0.85,100,100,200,300,
+2025-07-27T22:40:00,test_image.jpg,detection,car,1,0.92,300,150,500,350,

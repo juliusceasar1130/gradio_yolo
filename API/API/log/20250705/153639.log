@@ -1,3 +1,0 @@
-2025-07-05 15:36:39 | INFO | logger_config.py:39 | 日志系统已初始化，日志文件: API\log\20250705\153639.log
-2025-07-05 15:36:39 | INFO | service.py:31 | 模型位置: D:\00deeplearn\yolo11\【2】训练模型\cls\train_new\weights\best.pt
-2025-07-05 15:36:39 | INFO | service.py:196 | 服务启动在端口: 5000

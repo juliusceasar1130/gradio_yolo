@@ -1,0 +1,67 @@
+# 创建者/修改者: chenliang；修改时间：2025年7月27日 22:32；主要修改内容：创建默认配置文件
+
+# 模型配置
+models:
+  detection:
+    path: "D:/00deeplearn/yolo11/【2】训练模型/cls/train_new/weights/best.pt"
+    type: "detection"
+    description: "目标检测模型"
+  
+  segmentation:
+    path: "D:/00deeplearn/yolo11/【2】训练模型/seg/train2_new/weights/best.pt"
+    type: "segmentation"
+    description: "图像分割模型"
+  
+  classification:
+    path: "E:/00learning/00test/cls_train/train12/weights/best.pt"
+    type: "classification"
+    description: "图像分类模型"
+
+# 数据路径配置
+data:
+  input_folder: "D:/Python/00雪橇打标/123456"
+  output_folder: "./outputs"
+  backup_folder: "./backup"
+  test_images_folder: "D:/Python/00雪橇打标/20250525"
+
+# 检测参数配置
+detection:
+  confidence_threshold: 0.25
+  max_detections: 1000
+  nms_threshold: 0.45
+  image_size: 640
+
+# 分割参数配置
+segmentation:
+  confidence_threshold: 0.25
+  retina_masks: true
+  show_boxes: false
+
+# 批量处理配置
+batch_processing:
+  max_workers: 4
+  chunk_size: 10
+  export_format: "csv"
+  include_images: true
+
+# UI配置
+ui:
+  theme: "soft"
+  title: "YOLO 目标检测与分割系统"
+  description: "上传图片或使用示例图片进行物体检测"
+  max_file_size: "10MB"
+  allowed_extensions: [".jpg", ".jpeg", ".png", ".bmp", ".tiff"]
+
+# 日志配置
+logging:
+  level: "INFO"
+  format: "{time:YYYY-MM-DD HH:mm:ss} | {level} | {name}:{function}:{line} - {message}"
+  file: "logs/yolo_detector.log"
+  rotation: "10 MB"
+  retention: "7 days"
+
+# 系统配置
+system:
+  device: "auto"  # auto, cpu, cuda
+  num_threads: 4
+  memory_limit: "2GB"

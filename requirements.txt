@@ -1,0 +1,27 @@
+# 创建者/修改者: chenliang；修改时间：2025年7月27日 22:32；主要修改内容：创建项目依赖文件
+
+# 核心依赖
+gradio>=4.0.0
+ultralytics>=8.0.0
+torch>=2.0.0
+torchvision>=0.15.0
+
+# 图像处理
+opencv-python>=4.8.0
+Pillow>=10.0.0
+numpy>=1.24.0
+
+# 数据处理
+pandas>=2.0.0
+
+# 配置管理
+PyYAML>=6.0
+
+# 开发和测试
+pytest>=7.0.0
+pytest-cov>=4.0.0
+black>=23.0.0
+flake8>=6.0.0
+
+# 日志
+loguru>=0.7.0

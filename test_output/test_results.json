@@ -1,0 +1,49 @@
+{
+  "timestamp": "2025-07-27T22:40:00",
+  "detector_type": "detection",
+  "image_path": "test_image.jpg",
+  "statistics": {
+    "total_detections": 2,
+    "classes": {
+      "person": {
+        "count": 1,
+        "confidences": [
+          0.85
+        ]
+      },
+      "car": {
+        "count": 1,
+        "confidences": [
+          0.92
+        ]
+      }
+    },
+    "has_detections": true
+  },
+  "detections": [
+    {
+      "id": 0,
+      "class_name": "person",
+      "class_id": 0,
+      "confidence": 0.85,
+      "bbox": [
+        100,
+        100,
+        200,
+        300
+      ]
+    },
+    {
+      "id": 1,
+      "class_name": "car",
+      "class_id": 1,
+      "confidence": 0.92,
+      "bbox": [
+        300,
+        150,
+        500,
+        350
+      ]
+    }
+  ]
+}

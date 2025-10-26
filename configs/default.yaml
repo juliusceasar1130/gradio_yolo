@@ -1,4 +1,9 @@
-# 创建者/修改者: chenliang；修改时间：2025年7月27日 22:32；主要修改内容：创建默认配置文件
+# 创建者/修改者: chenliang
+# 修改时间：2025年1月27日
+# 主要修改内容：
+# 1. 分离预测参数和可视化参数，避免混淆
+# 2. 将kpt_radius、kpt_line等可视化参数移到visualization配置中
+# 3. 保持预测参数的纯净性，只包含model.predict()方法的有效参数
 
 # 模型配置
 models:
@@ -12,8 +17,13 @@ models:
     type: "segmentation"
     description: "图像分割模型"
   
+  pose:
+    path: "D:/00deeplearn/yolo11/【2】训练模型/pose/yolo11s-pose.pt"
+    type: "pose"
+    description: "姿态检测模型"
+  
   classification:
-    path: "E:/00learning/00test/cls_train/train12/weights/best.pt"
+    path: "D:/00deeplearn/yolo11/【2】训练模型/cls/train_new/weights/best.pt"
     type: "classification"
     description: "图像分类模型"
 
@@ -24,18 +34,133 @@ data:
   backup_folder: "./backup"
   test_images_folder: "D:/Python/00雪橇打标/20250525"
 
-# 检测参数配置
+# 检测参数配置 - 仅包含model.predict()方法的有效参数
 detection:
   confidence_threshold: 0.25
   max_detections: 1000
   nms_threshold: 0.45
   image_size: 640
+  
+  # 可视化参数 - 用于plot()方法
+  visualization:
+    labels: true          # 显示标签
+    conf: true            # 显示置信度
+    boxes: true           # 是否显示边界框
+    line_width: 3         # 边界框线条宽度
+    font_size: 12         # 文本字体大小
+    color_mode: "class"   # 颜色模式
 
-# 分割参数配置
+# 分割参数配置 - 仅包含model.predict()方法的有效参数
 segmentation:
   confidence_threshold: 0.25
   retina_masks: true
   show_boxes: false
+  
+  # 可视化参数 - 用于plot()方法
+  visualization:
+    labels: true          # 显示标签
+    conf: true            # 显示置信度
+    boxes: false          # 是否显示边界框
+    masks: true           # 是否显示掩码
+    line_width: 3         # 边界框线条宽度
+    font_size: 12         # 文本字体大小
+    color_mode: "class"   # 颜色模式
+
+# 姿态检测参数配置 - 仅包含model.predict()方法的有效参数
+pose:
+  # 预测参数
+  confidence_threshold: 0.25
+  max_det: 1000              # 最大检测数量
+  iou: 0.45                  # IoU阈值
+  imgsz: 640                 # 图像尺寸
+  device: ""                 # 设备选择 (空字符串表示自动选择)
+  half: false                # 半精度推理
+  
+  # 关键点定义 (COCO 17关键点)
+  keypoints:
+    names:
+      - "鼻子"
+      - "左眼"
+      - "右眼"
+      - "左耳"
+      - "右耳"
+      - "左肩"
+      - "右肩"
+      - "左肘"
+      - "右肘"
+      - "左腕"
+      - "右腕"
+      - "左髋"
+      - "右髋"
+      - "左膝"
+      - "右膝"
+      - "左踝"
+      - "右踝"
+    
+    # 关键点分组
+    groups:
+      "头部": [0, 1, 2, 3, 4]
+      "躯干": [5, 6, 11, 12]
+      "上肢": [5, 6, 7, 8, 9, 10]
+      "下肢": [11, 12, 13, 14, 15, 16]
+    
+    # 骨架连接关系 (关键点索引对)
+    skeleton:
+      - [0, 1]    # 鼻子-左眼
+      - [0, 2]    # 鼻子-右眼
+      - [1, 3]    # 左眼-左耳
+      - [2, 4]    # 右眼-右耳
+      - [5, 6]    # 左肩-右肩
+      - [5, 7]    # 左肩-左肘
+      - [7, 9]    # 左肘-左腕
+      - [6, 8]    # 右肩-右肘
+      - [8, 10]   # 右肘-右腕
+      - [5, 11]   # 左肩-左髋
+      - [6, 12]   # 右肩-右髋
+      - [11, 12]  # 左髋-右髋
+      - [11, 13]  # 左髋-左膝
+      - [13, 15]  # 左膝-左踝
+      - [12, 14]  # 右髋-右膝
+      - [14, 16]  # 右膝-右踝
+  
+  # 可视化参数 - 用于plot()方法
+  visualization:
+    kpt_radius: 5            # 关键点绘制半径
+    kpt_line: false           # 是否绘制骨架连线
+    labels: true             # 显示标签
+    boxes: true              # 是否显示边界框
+    masks: true              # 是否显示掩码
+    probs: true              # 显示置信度
+    line_width: 3            # 边界框线条宽度
+    font_size: 12            # 文本字体大小
+    color_mode: "class"      # 颜色模式
+    
+    # 关键点颜色配置
+    colors:
+      keypoint: "#FF0000"     # 关键点颜色
+      skeleton: "#00FF00"     # 骨架连线颜色
+      group_colors:           # 分组颜色
+        "头部": "#FF6B6B"
+        "躯干": "#4ECDC4"
+        "上肢": "#45B7D1"
+        "下肢": "#96CEB4"
+
+# 分类参数配置 - 仅包含model.predict()方法的有效参数
+classification:
+  # 预测参数
+  confidence_threshold: 0.25
+  imgsz: 640                 # 图像尺寸
+  device: ""                 # 设备选择 (空字符串表示自动选择)
+  half: false                # 半精度推理
+  
+  # 可视化参数 - 用于plot()方法
+  visualization:
+    labels: true              # 显示标签
+    conf: true                # 显示置信度
+    probs: true               # 显示分类概率
+    line_width: 3             # 边界框线条宽度
+    font_size: 12             # 文本字体大小
+    color_mode: "class"       # 颜色模式
 
 # 批量处理配置
 batch_processing:
@@ -47,8 +172,8 @@ batch_processing:
 # UI配置
 ui:
   theme: "soft"
-  title: "YOLO 目标检测与分割系统"
-  description: "上传图片或使用示例图片进行物体检测"
+  title: "YOLO 目标检测、分割与姿态识别系统"
+  description: "上传图片进行物体检测、图像分割或姿态识别"
   max_file_size: "10MB"
   allowed_extensions: [".jpg", ".jpeg", ".png", ".bmp", ".tiff"]
 

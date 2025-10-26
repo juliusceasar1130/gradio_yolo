@@ -15,7 +15,7 @@ import logging
 
 from ..config.settings import Config
 from ..models.model_loader import ModelLoader
-from ..core import ObjectDetector, SegmentationDetector, BatchProcessor
+from ..core import ObjectDetector, SegmentationDetector, PoseDetector, BatchProcessor
 from ..core.image_processor import ImageProcessor
 from ..core.result_processor import ResultProcessor
 from ..utils import get_image_files, get_example_images, format_image_info, get_logger, setup_logging
@@ -41,16 +41,17 @@ class GradioApp:
         # 初始化检测器
         self.object_detector = ObjectDetector(self.model_loader, self.config)
         self.segmentation_detector = SegmentationDetector(self.model_loader, self.config)
+        self.pose_detector = PoseDetector(self.model_loader, self.config)
         
         # 当前状态
-        self.current_detector = "detection"  # "detection" 或 "segmentation"
+        self.current_detector = "detection"  # "detection"、"segmentation"、"pose"
         self.current_filename = ""
         
         # UI配置
         ui_config = self.config.get_ui_config()
         self.theme = ui_config.get('theme', 'soft')
-        self.title = ui_config.get('title', 'YOLO 目标检测与分割系统')
-        self.description = ui_config.get('description', '上传图片或使用示例图片进行物体检测')
+        self.title = ui_config.get('title', 'YOLO 目标检测、分割与姿态识别系统')
+        self.description = ui_config.get('description', '上传图片进行物体检测、图像分割或姿态识别')
         
         logger.info("Gradio应用初始化完成")
     
@@ -58,8 +59,10 @@ class GradioApp:
         """获取当前检测器"""
         if self.current_detector == "detection":
             return self.object_detector
-        else:
+        elif self.current_detector == "segmentation":
             return self.segmentation_detector
+        else:  # pose
+            return self.pose_detector
     
     def switch_detector(self, detector_type: str) -> str:
         """
@@ -84,7 +87,8 @@ class GradioApp:
                 if not success:
                     return f"切换到{detector_type}模式失败：模型加载失败"
             
-            mode_name = "目标检测" if detector_type == "detection" else "图像分割"
+            mode_name = "目标检测" if detector_type == "detection" else \
+                        "图像分割" if detector_type == "segmentation" else "姿态检测"
             logger.info(f"切换到{mode_name}模式")
             return f"已切换到{mode_name}模式"
             
@@ -283,7 +287,11 @@ class GradioApp:
                     with gr.Column(scale=1):
                         # 检测器选择
                         detector_radio = gr.Radio(
-                            choices=[("目标检测", "detection"), ("图像分割", "segmentation")],
+                            choices=[
+                                ("目标检测", "detection"), 
+                                ("图像分割", "segmentation"),
+                                ("姿态检测", "pose")
+                            ],
                             value="detection",
                             label="检测模式",
                             info="选择检测类型"

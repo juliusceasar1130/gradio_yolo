@@ -12,7 +12,7 @@ __author__ = "chenliang"
 from .config.settings import Config
 from .models.model_loader import ModelLoader
 from .core import (
-    ObjectDetector, SegmentationDetector, DetectionResult,
+    ObjectDetector, SegmentationDetector, PoseDetector, DetectionResult,
     ImageProcessor, ResultProcessor, BatchProcessor
 )
 from .ui import create_gradio_interface, GradioApp
@@ -22,6 +22,7 @@ __all__ = [
     "ModelLoader",
     "ObjectDetector",
     "SegmentationDetector",
+    "PoseDetector",
     "DetectionResult",
     "ImageProcessor",
     "ResultProcessor",

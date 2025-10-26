@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:docs.ultralytics.com)",
+      "WebFetch(domain:github.com)",
+      "WebSearch",
+      "WebFetch(domain:cocodataset.org)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

@@ -28,7 +28,16 @@ class Config:
         if config_path is None:
             # 获取项目根目录
             project_root = Path(__file__).parent.parent.parent.parent
-            config_path = project_root / "configs" / "default.yaml"
+            
+            # 检查是否在Docker环境中，优先使用docker.yaml
+            docker_config = project_root / "configs" / "docker.yaml"
+            default_config = project_root / "configs" / "default.yaml"
+            
+            if docker_config.exists() and os.getenv('DOCKER_ENV', '').lower() == 'true':
+                config_path = docker_config
+                logger.info("检测到Docker环境，使用docker.yaml配置")
+            else:
+                config_path = default_config
         
         self.config_path = Path(config_path)
         self._config = self._load_config()
@@ -168,6 +177,14 @@ class Config:
     def get_segmentation_config(self) -> Dict[str, Any]:
         """获取分割参数配置"""
         return self.get('segmentation', {})
+    
+    def get_classification_config(self) -> Dict[str, Any]:
+        """获取分类参数配置"""
+        return self.get('classification', {})
+    
+    def get_pose_config(self) -> Dict[str, Any]:
+        """获取姿态检测参数配置"""
+        return self.get('pose', {})
     
     def get_ui_config(self) -> Dict[str, Any]:
         """获取UI配置"""

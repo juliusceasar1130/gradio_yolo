@@ -4488,3 +4488,1563 @@
 2025-07-29 13:16:44 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:195 - 使用示例图像: 1044_20250525_134735.jpg
 2025-07-29 13:16:45 | [32mINFO[0m | yolo_detector.core.detector:detect:469 - 图像分割完成
 2025-07-29 13:16:45 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:134 - 检测完成: 9 个对象
+2025-08-01 15:53:02 | [32mINFO[0m | yolo_detector.config.settings:_load_config:49 - 成功加载配置文件: D:\00deeplearn\yolo11\gradi_yolo\configs\default.yaml
+2025-08-01 15:53:02 | [32mINFO[0m | yolo_detector.config.settings:_validate_config:126 - 配置验证完成
+2025-08-01 15:53:02 | [32mINFO[0m | __main__:setup_environment:36 - 环境设置完成
+2025-08-01 15:53:02 | [32mINFO[0m | __main__:run_web_interface:49 - 启动Web界面...
+2025-08-01 15:53:02 | [32mINFO[0m | yolo_detector.ui.gradio_app:__init__:55 - Gradio应用初始化完成
+2025-08-01 15:53:02 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 15 个图像文件在 D:\Python\00雪橇打标\123456
+2025-08-01 15:53:02 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 12 个示例图像
+2025-08-01 15:53:02 | [32mINFO[0m | yolo_detector.ui.gradio_app:create_interface:382 - Gradio界面创建完成
+2025-08-01 15:53:02 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: GET http://127.0.0.1:7861/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-08-01 15:53:02 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: HEAD http://127.0.0.1:7861/ "HTTP/1.1 200 OK"
+2025-08-01 15:53:20 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 15 个图像文件在 D:\Python\00雪橇打标\123456
+2025-08-01 15:53:20 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 12 个示例图像
+2025-08-01 15:53:20 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:195 - 使用示例图像: 1044_20250523_092028.jpg
+2025-08-01 15:53:20 | [32mINFO[0m | yolo_detector.models.model_loader:load_model:81 - 开始加载detection模型: D:/00deeplearn/yolo11/【2】训练模型/cls/train_new/weights/best.pt
+2025-08-01 15:53:21 | [32mINFO[0m | yolo_detector.models.model_loader:load_model:92 - 成功加载detection模型: D:/00deeplearn/yolo11/【2】训练模型/cls/train_new/weights/best.pt
+2025-08-01 15:53:21 | [32mINFO[0m | yolo_detector.core.detector:load_model:349 - 目标检测模型加载成功
+2025-08-01 15:53:27 | [32mINFO[0m | yolo_detector.core.detector:detect:395 - 目标检测完成
+2025-08-01 15:53:27 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:134 - 检测完成: 1 个对象
+2025-08-01 15:53:30 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 15 个图像文件在 D:\Python\00雪橇打标\123456
+2025-08-01 15:53:30 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 12 个示例图像
+2025-08-01 15:53:30 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:195 - 使用示例图像: 1044_20250523_204911.jpg
+2025-08-01 15:53:30 | [32mINFO[0m | yolo_detector.core.detector:detect:395 - 目标检测完成
+2025-08-01 15:53:30 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:134 - 检测完成: 1 个对象
+2025-08-01 15:53:32 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 15 个图像文件在 D:\Python\00雪橇打标\123456
+2025-08-01 15:53:32 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 12 个示例图像
+2025-08-01 15:53:32 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:195 - 使用示例图像: 1063_20250525_233836.jpg
+2025-08-01 15:53:32 | [32mINFO[0m | yolo_detector.core.detector:detect:395 - 目标检测完成
+2025-08-01 15:53:32 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:134 - 检测完成: 1 个对象
+2025-08-01 15:53:34 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 15 个图像文件在 D:\Python\00雪橇打标\123456
+2025-08-01 15:53:34 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 12 个示例图像
+2025-08-01 15:53:34 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:195 - 使用示例图像: 1152_20250525_171205.jpg
+2025-08-01 15:53:34 | [32mINFO[0m | yolo_detector.models.model_loader:load_model:81 - 开始加载segmentation模型: D:/00deeplearn/yolo11/【2】训练模型/seg/train2_new/weights/best.pt
+2025-08-01 15:53:35 | [32mINFO[0m | yolo_detector.models.model_loader:load_model:92 - 成功加载segmentation模型: D:/00deeplearn/yolo11/【2】训练模型/seg/train2_new/weights/best.pt
+2025-08-01 15:53:35 | [32mINFO[0m | yolo_detector.core.detector:load_model:418 - 图像分割模型加载成功
+2025-08-01 15:53:35 | [32mINFO[0m | yolo_detector.ui.gradio_app:switch_detector:88 - 切换到图像分割模式
+2025-08-01 15:53:36 | [32mINFO[0m | yolo_detector.core.detector:detect:469 - 图像分割完成
+2025-08-01 15:53:36 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:134 - 检测完成: 4 个对象
+2025-08-01 15:53:40 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 15 个图像文件在 D:\Python\00雪橇打标\123456
+2025-08-01 15:53:40 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 12 个示例图像
+2025-08-01 15:53:40 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:195 - 使用示例图像: 1182_20250523_130435.jpg
+2025-08-01 15:53:40 | [32mINFO[0m | yolo_detector.core.detector:detect:469 - 图像分割完成
+2025-08-01 15:53:40 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:134 - 检测完成: 5 个对象
+2025-08-01 15:53:43 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 15 个图像文件在 D:\Python\00雪橇打标\123456
+2025-08-01 15:53:43 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 12 个示例图像
+2025-08-01 15:53:43 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:195 - 使用示例图像: 1329_20250525_111141.jpg
+2025-08-01 15:53:44 | [32mINFO[0m | yolo_detector.core.detector:detect:469 - 图像分割完成
+2025-08-01 15:53:44 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:134 - 检测完成: 5 个对象
+2025-08-02 11:17:18 | [32mINFO[0m | yolo_detector.config.settings:_load_config:58 - 成功加载配置文件: D:\00deeplearn\yolo11\gradi_yolo\configs\default.yaml
+2025-08-02 11:17:18 | [32mINFO[0m | yolo_detector.config.settings:_validate_config:135 - 配置验证完成
+2025-08-02 11:17:18 | [32mINFO[0m | __main__:setup_environment:36 - 环境设置完成
+2025-08-02 11:17:18 | [32mINFO[0m | __main__:run_web_interface:49 - 启动Web界面...
+2025-08-02 11:17:18 | [32mINFO[0m | yolo_detector.ui.gradio_app:__init__:55 - Gradio应用初始化完成
+2025-08-02 11:17:18 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 15 个图像文件在 D:\Python\00雪橇打标\123456
+2025-08-02 11:17:18 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 12 个示例图像
+2025-08-02 11:17:18 | [32mINFO[0m | yolo_detector.ui.gradio_app:create_interface:382 - Gradio界面创建完成
+2025-08-02 11:17:18 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: GET http://127.0.0.1:7861/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-08-02 11:17:19 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: HEAD http://127.0.0.1:7861/ "HTTP/1.1 200 OK"
+2025-08-02 11:17:39 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 15 个图像文件在 D:\Python\00雪橇打标\123456
+2025-08-02 11:17:39 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 12 个示例图像
+2025-08-02 11:17:39 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:195 - 使用示例图像: 1044_20250523_092028.jpg
+2025-08-02 11:17:40 | [32mINFO[0m | yolo_detector.models.model_loader:load_model:81 - 开始加载detection模型: D:/00deeplearn/yolo11/【2】训练模型/cls/train_new/weights/best.pt
+2025-08-02 11:17:40 | [32mINFO[0m | yolo_detector.models.model_loader:load_model:92 - 成功加载detection模型: D:/00deeplearn/yolo11/【2】训练模型/cls/train_new/weights/best.pt
+2025-08-02 11:17:40 | [32mINFO[0m | yolo_detector.core.detector:load_model:349 - 目标检测模型加载成功
+2025-08-02 11:17:45 | [32mINFO[0m | yolo_detector.core.detector:detect:395 - 目标检测完成
+2025-08-02 11:17:45 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:134 - 检测完成: 1 个对象
+2025-08-02 11:17:52 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 15 个图像文件在 D:\Python\00雪橇打标\123456
+2025-08-02 11:17:52 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 12 个示例图像
+2025-08-02 11:17:52 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:195 - 使用示例图像: 1364_20250525_123543.jpg
+2025-08-02 11:17:53 | [32mINFO[0m | yolo_detector.models.model_loader:load_model:81 - 开始加载segmentation模型: D:/00deeplearn/yolo11/【2】训练模型/seg/train2_new/weights/best.pt
+2025-08-02 11:17:53 | [32mINFO[0m | yolo_detector.models.model_loader:load_model:92 - 成功加载segmentation模型: D:/00deeplearn/yolo11/【2】训练模型/seg/train2_new/weights/best.pt
+2025-08-02 11:17:53 | [32mINFO[0m | yolo_detector.core.detector:load_model:418 - 图像分割模型加载成功
+2025-08-02 11:17:53 | [32mINFO[0m | yolo_detector.ui.gradio_app:switch_detector:88 - 切换到图像分割模式
+2025-08-02 11:17:54 | [32mINFO[0m | yolo_detector.core.detector:detect:469 - 图像分割完成
+2025-08-02 11:17:54 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:134 - 检测完成: 4 个对象
+2025-08-02 11:18:00 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 15 个图像文件在 D:\Python\00雪橇打标\123456
+2025-08-02 11:18:00 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 12 个示例图像
+2025-08-02 11:18:00 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:195 - 使用示例图像: 1104_20250523_215716.jpg
+2025-08-02 11:18:00 | [32mINFO[0m | yolo_detector.core.detector:detect:469 - 图像分割完成
+2025-08-02 11:18:01 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:134 - 检测完成: 7 个对象
+2025-08-02 11:18:06 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 15 个图像文件在 D:\Python\00雪橇打标\123456
+2025-08-02 11:18:06 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 12 个示例图像
+2025-08-02 11:18:06 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:195 - 使用示例图像: 1336_20250525_230317.jpg
+2025-08-02 11:18:07 | [32mINFO[0m | yolo_detector.core.detector:detect:469 - 图像分割完成
+2025-08-02 11:18:07 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:134 - 检测完成: 7 个对象
+2025-08-02 11:18:18 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 15 个图像文件在 D:\Python\00雪橇打标\123456
+2025-08-02 11:18:18 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 12 个示例图像
+2025-08-02 11:18:18 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:195 - 使用示例图像: 1104_20250523_215716.jpg
+2025-08-02 11:18:19 | [32mINFO[0m | yolo_detector.core.detector:detect:469 - 图像分割完成
+2025-08-02 11:18:19 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:134 - 检测完成: 7 个对象
+2025-08-02 11:18:21 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 15 个图像文件在 D:\Python\00雪橇打标\123456
+2025-08-02 11:18:21 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 12 个示例图像
+2025-08-02 11:18:21 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:195 - 使用示例图像: 1152_20250525_171205.jpg
+2025-08-02 11:18:22 | [32mINFO[0m | yolo_detector.core.detector:detect:469 - 图像分割完成
+2025-08-02 11:18:22 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:134 - 检测完成: 4 个对象
+2025-08-02 11:18:24 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 15 个图像文件在 D:\Python\00雪橇打标\123456
+2025-08-02 11:18:24 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 12 个示例图像
+2025-08-02 11:18:24 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:195 - 使用示例图像: 1182_20250523_130435.jpg
+2025-08-02 11:18:25 | [32mINFO[0m | yolo_detector.core.detector:detect:469 - 图像分割完成
+2025-08-02 11:18:25 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:134 - 检测完成: 5 个对象
+2025-08-02 11:18:34 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 15 个图像文件在 D:\Python\00雪橇打标\123456
+2025-08-02 11:18:34 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 12 个示例图像
+2025-08-02 11:18:34 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:195 - 使用示例图像: 1255_20250523_090519.jpg
+2025-08-02 11:18:35 | [32mINFO[0m | yolo_detector.core.detector:detect:469 - 图像分割完成
+2025-08-02 11:18:35 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:134 - 检测完成: 5 个对象
+2025-08-02 11:18:44 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 15 个图像文件在 D:\Python\00雪橇打标\123456
+2025-08-02 11:18:44 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 12 个示例图像
+2025-08-02 11:18:44 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:195 - 使用示例图像: 1336_20250525_230317.jpg
+2025-08-02 11:18:45 | [32mINFO[0m | yolo_detector.core.detector:detect:469 - 图像分割完成
+2025-08-02 11:18:45 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:134 - 检测完成: 7 个对象
+2025-08-02 11:18:55 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 15 个图像文件在 D:\Python\00雪橇打标\123456
+2025-08-02 11:18:55 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 12 个示例图像
+2025-08-02 11:18:55 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:195 - 使用示例图像: 1255_20250523_090519.jpg
+2025-08-02 11:18:56 | [32mINFO[0m | yolo_detector.core.detector:detect:469 - 图像分割完成
+2025-08-02 11:18:56 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:134 - 检测完成: 5 个对象
+2025-08-02 11:18:58 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 15 个图像文件在 D:\Python\00雪橇打标\123456
+2025-08-02 11:18:58 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 12 个示例图像
+2025-08-02 11:18:58 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:195 - 使用示例图像: 1329_20250525_111141.jpg
+2025-08-02 11:18:59 | [32mINFO[0m | yolo_detector.core.detector:detect:469 - 图像分割完成
+2025-08-02 11:18:59 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:134 - 检测完成: 5 个对象
+2025-08-02 11:19:01 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 15 个图像文件在 D:\Python\00雪橇打标\123456
+2025-08-02 11:19:01 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 12 个示例图像
+2025-08-02 11:19:01 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:195 - 使用示例图像: 1336_20250525_230317.jpg
+2025-08-02 11:19:02 | [32mINFO[0m | yolo_detector.core.detector:detect:469 - 图像分割完成
+2025-08-02 11:19:02 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:134 - 检测完成: 7 个对象
+2025-08-02 11:19:05 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 15 个图像文件在 D:\Python\00雪橇打标\123456
+2025-08-02 11:19:05 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 12 个示例图像
+2025-08-02 11:19:05 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:195 - 使用示例图像: 1360_20250525_131703.jpg
+2025-08-02 11:19:06 | [32mINFO[0m | yolo_detector.core.detector:detect:469 - 图像分割完成
+2025-08-02 11:19:06 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:134 - 检测完成: 6 个对象
+2025-08-02 11:19:07 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 15 个图像文件在 D:\Python\00雪橇打标\123456
+2025-08-02 11:19:07 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 12 个示例图像
+2025-08-02 11:19:07 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:195 - 使用示例图像: 1364_20250525_123543.jpg
+2025-08-02 11:19:08 | [32mINFO[0m | yolo_detector.core.detector:detect:469 - 图像分割完成
+2025-08-02 11:19:08 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:134 - 检测完成: 4 个对象
+2025-08-02 11:19:11 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 15 个图像文件在 D:\Python\00雪橇打标\123456
+2025-08-02 11:19:11 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 12 个示例图像
+2025-08-02 11:19:11 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:195 - 使用示例图像: 1044_20250523_092028.jpg
+2025-08-02 11:19:11 | [32mINFO[0m | yolo_detector.core.detector:detect:469 - 图像分割完成
+2025-08-02 11:19:11 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:134 - 检测完成: 4 个对象
+2025-08-02 11:19:15 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 15 个图像文件在 D:\Python\00雪橇打标\123456
+2025-08-02 11:19:15 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 12 个示例图像
+2025-08-02 11:19:15 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:195 - 使用示例图像: 1044_20250523_204911.jpg
+2025-08-02 11:19:16 | [32mINFO[0m | yolo_detector.core.detector:detect:469 - 图像分割完成
+2025-08-02 11:19:16 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:134 - 检测完成: 2 个对象
+2025-08-02 11:19:21 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 15 个图像文件在 D:\Python\00雪橇打标\123456
+2025-08-02 11:19:21 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 12 个示例图像
+2025-08-02 11:19:21 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:195 - 使用示例图像: 1044_20250525_134735.jpg
+2025-08-02 11:19:22 | [32mINFO[0m | yolo_detector.core.detector:detect:469 - 图像分割完成
+2025-08-02 11:19:22 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:134 - 检测完成: 9 个对象
+2025-08-02 11:19:30 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 15 个图像文件在 D:\Python\00雪橇打标\123456
+2025-08-02 11:19:30 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 12 个示例图像
+2025-08-02 11:19:30 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:195 - 使用示例图像: 1063_20250525_233836.jpg
+2025-08-02 11:19:31 | [32mINFO[0m | yolo_detector.core.detector:detect:469 - 图像分割完成
+2025-08-02 11:19:31 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:134 - 检测完成: 9 个对象
+2025-08-02 11:19:33 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 15 个图像文件在 D:\Python\00雪橇打标\123456
+2025-08-02 11:19:33 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 12 个示例图像
+2025-08-02 11:19:33 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:195 - 使用示例图像: 1104_20250523_215716.jpg
+2025-08-02 11:19:33 | [32mINFO[0m | yolo_detector.core.detector:detect:469 - 图像分割完成
+2025-08-02 11:19:33 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:134 - 检测完成: 7 个对象
+2025-08-02 11:19:35 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 15 个图像文件在 D:\Python\00雪橇打标\123456
+2025-08-02 11:19:35 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 12 个示例图像
+2025-08-02 11:19:35 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:195 - 使用示例图像: 1152_20250525_171205.jpg
+2025-08-02 11:19:36 | [32mINFO[0m | yolo_detector.core.detector:detect:469 - 图像分割完成
+2025-08-02 11:19:36 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:134 - 检测完成: 4 个对象
+2025-08-02 11:19:38 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 15 个图像文件在 D:\Python\00雪橇打标\123456
+2025-08-02 11:19:38 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 12 个示例图像
+2025-08-02 11:19:38 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:195 - 使用示例图像: 1182_20250523_130435.jpg
+2025-08-02 11:19:39 | [32mINFO[0m | yolo_detector.core.detector:detect:469 - 图像分割完成
+2025-08-02 11:19:39 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:134 - 检测完成: 5 个对象
+2025-08-02 11:19:40 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 15 个图像文件在 D:\Python\00雪橇打标\123456
+2025-08-02 11:19:40 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 12 个示例图像
+2025-08-02 11:19:40 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:195 - 使用示例图像: 1255_20250523_090519.jpg
+2025-08-02 11:19:41 | [32mINFO[0m | yolo_detector.core.detector:detect:469 - 图像分割完成
+2025-08-02 11:19:41 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:134 - 检测完成: 5 个对象
+2025-08-02 12:11:38 | [32mINFO[0m | yolo_detector.config.settings:_load_config:58 - 成功加载配置文件: D:\00deeplearn\yolo11\gradi_yolo\configs\default.yaml
+2025-08-02 12:11:38 | [32mINFO[0m | yolo_detector.config.settings:_validate_config:135 - 配置验证完成
+2025-08-02 12:11:38 | [32mINFO[0m | __main__:setup_environment:36 - 环境设置完成
+2025-08-02 12:11:38 | [32mINFO[0m | __main__:run_web_interface:49 - 启动Web界面...
+2025-08-02 12:11:38 | [32mINFO[0m | yolo_detector.ui.gradio_app:__init__:55 - Gradio应用初始化完成
+2025-08-02 12:11:38 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 15 个图像文件在 D:\Python\00雪橇打标\123456
+2025-08-02 12:11:38 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 12 个示例图像
+2025-08-02 12:11:39 | [32mINFO[0m | yolo_detector.ui.gradio_app:create_interface:382 - Gradio界面创建完成
+2025-08-02 12:11:39 | [31mERROR[0m | __main__:run_web_interface:65 - 启动Web界面失败: Cannot find empty port in range: 7861-7861. You can specify a different port by setting the GRADIO_SERVER_PORT environment variable or passing the `server_port` parameter to `launch()`.
+2025-08-02 12:11:51 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-08-02 12:12:11 | [32mINFO[0m | yolo_detector.models.model_loader:unload_all_models:201 - 所有模型已卸载
+2025-08-02 14:28:43 | [32mINFO[0m | yolo_detector.config.settings:_load_config:58 - 成功加载配置文件: D:\00deeplearn\yolo11\gradi_yolo\configs\default.yaml
+2025-08-02 14:28:43 | [32mINFO[0m | yolo_detector.config.settings:_validate_config:135 - 配置验证完成
+2025-08-02 14:28:43 | [32mINFO[0m | __main__:setup_environment:36 - 环境设置完成
+2025-08-02 14:28:43 | [32mINFO[0m | __main__:run_web_interface:49 - 启动Web界面...
+2025-08-02 14:28:43 | [32mINFO[0m | yolo_detector.ui.gradio_app:__init__:55 - Gradio应用初始化完成
+2025-08-02 14:28:43 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 15 个图像文件在 D:\Python\00雪橇打标\123456
+2025-08-02 14:28:43 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 12 个示例图像
+2025-08-02 14:28:43 | [32mINFO[0m | yolo_detector.ui.gradio_app:create_interface:382 - Gradio界面创建完成
+2025-08-02 14:28:43 | [31mERROR[0m | __main__:run_web_interface:65 - 启动Web界面失败: Cannot find empty port in range: 7861-7861. You can specify a different port by setting the GRADIO_SERVER_PORT environment variable or passing the `server_port` parameter to `launch()`.
+2025-08-02 14:28:44 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-08-02 14:29:04 | [32mINFO[0m | yolo_detector.models.model_loader:unload_all_models:201 - 所有模型已卸载
+2025-08-02 14:38:19 | [32mINFO[0m | yolo_detector.config.settings:_load_config:58 - 成功加载配置文件: D:\00deeplearn\yolo11\gradi_yolo\configs\default.yaml
+2025-08-02 14:38:19 | [32mINFO[0m | yolo_detector.config.settings:_validate_config:135 - 配置验证完成
+2025-08-02 14:38:19 | [32mINFO[0m | __main__:setup_environment:36 - 环境设置完成
+2025-08-02 14:38:20 | [32mINFO[0m | __main__:run_web_interface:49 - 启动Web界面...
+2025-08-02 14:38:20 | [32mINFO[0m | yolo_detector.ui.gradio_app:__init__:55 - Gradio应用初始化完成
+2025-08-02 14:38:20 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 15 个图像文件在 D:\Python\00雪橇打标\123456
+2025-08-02 14:38:20 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 12 个示例图像
+2025-08-02 14:38:20 | [32mINFO[0m | yolo_detector.ui.gradio_app:create_interface:382 - Gradio界面创建完成
+2025-08-02 14:38:20 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: GET http://127.0.0.1:7861/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-08-02 14:38:20 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: HEAD http://127.0.0.1:7861/ "HTTP/1.1 200 OK"
+2025-08-02 14:38:43 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 15 个图像文件在 D:\Python\00雪橇打标\123456
+2025-08-02 14:38:43 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 12 个示例图像
+2025-08-02 14:38:43 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:195 - 使用示例图像: 1044_20250523_092028.jpg
+2025-08-02 14:38:44 | [32mINFO[0m | yolo_detector.models.model_loader:load_model:81 - 开始加载detection模型: D:/00deeplearn/yolo11/【2】训练模型/cls/train_new/weights/best.pt
+2025-08-02 14:38:44 | [32mINFO[0m | yolo_detector.models.model_loader:load_model:92 - 成功加载detection模型: D:/00deeplearn/yolo11/【2】训练模型/cls/train_new/weights/best.pt
+2025-08-02 14:38:44 | [32mINFO[0m | yolo_detector.core.detector:load_model:349 - 目标检测模型加载成功
+2025-08-02 14:38:46 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 15 个图像文件在 D:\Python\00雪橇打标\123456
+2025-08-02 14:38:46 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 12 个示例图像
+2025-08-02 14:38:46 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:195 - 使用示例图像: 1044_20250523_204911.jpg
+2025-08-02 14:38:47 | [32mINFO[0m | yolo_detector.core.detector:detect:395 - 目标检测完成
+2025-08-02 14:38:47 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:134 - 检测完成: 1 个对象
+2025-08-02 14:38:48 | [32mINFO[0m | yolo_detector.core.detector:detect:395 - 目标检测完成
+2025-08-02 14:38:48 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:134 - 检测完成: 1 个对象
+2025-08-02 14:38:51 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 15 个图像文件在 D:\Python\00雪橇打标\123456
+2025-08-02 14:38:51 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 12 个示例图像
+2025-08-02 14:38:51 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:195 - 使用示例图像: 1063_20250525_233836.jpg
+2025-08-02 14:38:51 | [32mINFO[0m | yolo_detector.models.model_loader:load_model:81 - 开始加载segmentation模型: D:/00deeplearn/yolo11/【2】训练模型/seg/train2_new/weights/best.pt
+2025-08-02 14:38:52 | [32mINFO[0m | yolo_detector.models.model_loader:load_model:92 - 成功加载segmentation模型: D:/00deeplearn/yolo11/【2】训练模型/seg/train2_new/weights/best.pt
+2025-08-02 14:38:52 | [32mINFO[0m | yolo_detector.core.detector:load_model:418 - 图像分割模型加载成功
+2025-08-02 14:38:52 | [32mINFO[0m | yolo_detector.ui.gradio_app:switch_detector:88 - 切换到图像分割模式
+2025-08-02 14:38:52 | [32mINFO[0m | yolo_detector.core.detector:detect:469 - 图像分割完成
+2025-08-02 14:38:53 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:134 - 检测完成: 9 个对象
+2025-08-02 14:38:56 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 15 个图像文件在 D:\Python\00雪橇打标\123456
+2025-08-02 14:38:56 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 12 个示例图像
+2025-08-02 14:38:56 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:195 - 使用示例图像: 1104_20250523_215716.jpg
+2025-08-02 14:38:57 | [32mINFO[0m | yolo_detector.core.detector:detect:469 - 图像分割完成
+2025-08-02 14:38:57 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:134 - 检测完成: 7 个对象
+2025-08-02 14:38:58 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 15 个图像文件在 D:\Python\00雪橇打标\123456
+2025-08-02 14:38:58 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 12 个示例图像
+2025-08-02 14:38:58 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:195 - 使用示例图像: 1152_20250525_171205.jpg
+2025-08-02 14:38:59 | [32mINFO[0m | yolo_detector.core.detector:detect:469 - 图像分割完成
+2025-08-02 14:38:59 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:134 - 检测完成: 4 个对象
+2025-08-02 14:39:34 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 15 个图像文件在 D:\Python\00雪橇打标\123456
+2025-08-02 14:39:34 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 12 个示例图像
+2025-08-02 14:39:34 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:195 - 使用示例图像: 1182_20250523_130435.jpg
+2025-08-02 14:39:34 | [32mINFO[0m | yolo_detector.core.detector:detect:469 - 图像分割完成
+2025-08-02 14:39:35 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:134 - 检测完成: 5 个对象
+2025-08-02 14:56:35 | [32mINFO[0m | yolo_detector.models.model_loader:unload_model:185 - 成功卸载detection模型
+2025-08-02 14:56:35 | [32mINFO[0m | yolo_detector.models.model_loader:unload_model:185 - 成功卸载segmentation模型
+2025-08-02 14:56:35 | [32mINFO[0m | yolo_detector.models.model_loader:unload_all_models:201 - 所有模型已卸载
+2025-10-25 16:58:50 | [32mINFO[0m | yolo_detector.config.settings:_load_config:58 - 成功加载配置文件: D:\00deeplearn\yolo11\gradi_yolo\configs\default.yaml
+2025-10-25 16:58:50 | [32mINFO[0m | yolo_detector.config.settings:_validate_config:135 - 配置验证完成
+2025-10-25 16:58:50 | [32mINFO[0m | __main__:setup_environment:54 - 环境设置完成
+2025-10-25 16:58:50 | [32mINFO[0m | __main__:run_web_interface:67 - 启动Web界面...
+2025-10-25 16:58:50 | [32mINFO[0m | yolo_detector.ui.gradio_app:__init__:55 - Gradio应用初始化完成
+2025-10-25 16:58:50 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 15 个图像文件在 D:\Python\00雪橇打标\123456
+2025-10-25 16:58:50 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 12 个示例图像
+2025-10-25 16:58:50 | [32mINFO[0m | yolo_detector.ui.gradio_app:create_interface:382 - Gradio界面创建完成
+2025-10-25 16:58:50 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: GET http://127.0.0.1:7861/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-10-25 16:58:51 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: HEAD http://127.0.0.1:7861/ "HTTP/1.1 200 OK"
+2025-10-25 16:59:18 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 15 个图像文件在 D:\Python\00雪橇打标\123456
+2025-10-25 16:59:18 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 12 个示例图像
+2025-10-25 16:59:18 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:195 - 使用示例图像: 1044_20250523_092028.jpg
+2025-10-25 16:59:18 | [32mINFO[0m | yolo_detector.models.model_loader:load_model:81 - 开始加载detection模型: D:/00deeplearn/yolo11/【2】训练模型/cls/train_new/weights/best.pt
+2025-10-25 16:59:19 | [32mINFO[0m | yolo_detector.models.model_loader:load_model:92 - 成功加载detection模型: D:/00deeplearn/yolo11/【2】训练模型/cls/train_new/weights/best.pt
+2025-10-25 16:59:19 | [32mINFO[0m | yolo_detector.core.detector:load_model:349 - 目标检测模型加载成功
+2025-10-25 16:59:22 | [32mINFO[0m | yolo_detector.core.detector:detect:395 - 目标检测完成
+2025-10-25 16:59:22 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:134 - 检测完成: 1 个对象
+2025-10-25 16:59:23 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 15 个图像文件在 D:\Python\00雪橇打标\123456
+2025-10-25 16:59:23 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 12 个示例图像
+2025-10-25 16:59:23 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:195 - 使用示例图像: 1063_20250525_233836.jpg
+2025-10-25 16:59:24 | [32mINFO[0m | yolo_detector.core.detector:detect:395 - 目标检测完成
+2025-10-25 16:59:24 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:134 - 检测完成: 1 个对象
+2025-10-25 16:59:29 | [32mINFO[0m | yolo_detector.models.model_loader:load_model:81 - 开始加载segmentation模型: D:/00deeplearn/yolo11/【2】训练模型/seg/train2_new/weights/best.pt
+2025-10-25 16:59:30 | [32mINFO[0m | yolo_detector.models.model_loader:load_model:92 - 成功加载segmentation模型: D:/00deeplearn/yolo11/【2】训练模型/seg/train2_new/weights/best.pt
+2025-10-25 16:59:30 | [32mINFO[0m | yolo_detector.core.detector:load_model:418 - 图像分割模型加载成功
+2025-10-25 16:59:30 | [32mINFO[0m | yolo_detector.ui.gradio_app:switch_detector:88 - 切换到图像分割模式
+2025-10-25 16:59:30 | [32mINFO[0m | yolo_detector.core.detector:detect:469 - 图像分割完成
+2025-10-25 16:59:30 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:134 - 检测完成: 9 个对象
+2025-10-25 16:59:33 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 15 个图像文件在 D:\Python\00雪橇打标\123456
+2025-10-25 16:59:33 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 12 个示例图像
+2025-10-25 16:59:33 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:195 - 使用示例图像: 1255_20250523_090519.jpg
+2025-10-25 16:59:34 | [32mINFO[0m | yolo_detector.core.detector:detect:469 - 图像分割完成
+2025-10-25 16:59:34 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:134 - 检测完成: 5 个对象
+2025-10-25 16:59:36 | [32mINFO[0m | yolo_detector.core.detector:detect:469 - 图像分割完成
+2025-10-25 16:59:36 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:134 - 检测完成: 5 个对象
+2025-10-25 16:59:38 | [32mINFO[0m | yolo_detector.core.detector:detect:469 - 图像分割完成
+2025-10-25 16:59:38 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:134 - 检测完成: 5 个对象
+2025-10-25 17:11:51 | [32mINFO[0m | yolo_detector.config.settings:_load_config:58 - 成功加载配置文件: D:\00deeplearn\yolo11\gradio_web_yolo\configs\default.yaml
+2025-10-25 17:11:51 | [32mINFO[0m | yolo_detector.config.settings:_validate_config:135 - 配置验证完成
+2025-10-25 17:11:51 | [32mINFO[0m | __main__:setup_environment:54 - 环境设置完成
+2025-10-25 17:11:51 | [32mINFO[0m | __main__:run_web_interface:67 - 启动Web界面...
+2025-10-25 17:11:51 | [32mINFO[0m | yolo_detector.ui.gradio_app:__init__:55 - Gradio应用初始化完成
+2025-10-25 17:11:51 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 15 个图像文件在 D:\Python\00雪橇打标\123456
+2025-10-25 17:11:51 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 12 个示例图像
+2025-10-25 17:11:51 | [32mINFO[0m | yolo_detector.ui.gradio_app:create_interface:382 - Gradio界面创建完成
+2025-10-25 17:11:52 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: GET http://127.0.0.1:7861/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-10-25 17:11:52 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: HEAD http://127.0.0.1:7861/ "HTTP/1.1 200 OK"
+2025-10-25 17:12:15 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 15 个图像文件在 D:\Python\00雪橇打标\123456
+2025-10-25 17:12:15 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 12 个示例图像
+2025-10-25 17:12:15 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:195 - 使用示例图像: 1044_20250523_092028.jpg
+2025-10-25 17:12:16 | [32mINFO[0m | yolo_detector.models.model_loader:load_model:81 - 开始加载segmentation模型: D:/00deeplearn/yolo11/【2】训练模型/seg/train2_new/weights/best.pt
+2025-10-25 17:12:16 | [32mINFO[0m | yolo_detector.models.model_loader:load_model:92 - 成功加载segmentation模型: D:/00deeplearn/yolo11/【2】训练模型/seg/train2_new/weights/best.pt
+2025-10-25 17:12:16 | [32mINFO[0m | yolo_detector.core.detector:load_model:418 - 图像分割模型加载成功
+2025-10-25 17:12:16 | [32mINFO[0m | yolo_detector.ui.gradio_app:switch_detector:88 - 切换到图像分割模式
+2025-10-25 17:12:18 | [32mINFO[0m | yolo_detector.core.detector:detect:469 - 图像分割完成
+2025-10-25 17:12:18 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:134 - 检测完成: 4 个对象
+2025-10-25 17:12:21 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 15 个图像文件在 D:\Python\00雪橇打标\123456
+2025-10-25 17:12:21 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 12 个示例图像
+2025-10-25 17:12:21 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:195 - 使用示例图像: 1336_20250525_230317.jpg
+2025-10-25 17:12:22 | [32mINFO[0m | yolo_detector.core.detector:detect:469 - 图像分割完成
+2025-10-25 17:12:22 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:134 - 检测完成: 7 个对象
+2025-10-25 17:12:32 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 15 个图像文件在 D:\Python\00雪橇打标\123456
+2025-10-25 17:12:32 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 12 个示例图像
+2025-10-25 17:12:32 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:195 - 使用示例图像: 1063_20250525_233836.jpg
+2025-10-25 17:12:32 | [32mINFO[0m | yolo_detector.models.model_loader:load_model:81 - 开始加载detection模型: D:/00deeplearn/yolo11/【2】训练模型/cls/train_new/weights/best.pt
+2025-10-25 17:12:32 | [32mINFO[0m | yolo_detector.models.model_loader:load_model:92 - 成功加载detection模型: D:/00deeplearn/yolo11/【2】训练模型/cls/train_new/weights/best.pt
+2025-10-25 17:12:32 | [32mINFO[0m | yolo_detector.core.detector:load_model:349 - 目标检测模型加载成功
+2025-10-25 17:12:32 | [32mINFO[0m | yolo_detector.ui.gradio_app:switch_detector:88 - 切换到目标检测模式
+2025-10-25 17:12:32 | [32mINFO[0m | yolo_detector.core.detector:detect:395 - 目标检测完成
+2025-10-25 17:12:32 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:134 - 检测完成: 1 个对象
+2025-10-25 17:39:11 | [32mINFO[0m | yolo_detector.models.model_loader:unload_model:185 - 成功卸载segmentation模型
+2025-10-25 17:39:11 | [32mINFO[0m | yolo_detector.models.model_loader:unload_model:185 - 成功卸载detection模型
+2025-10-25 17:39:11 | [32mINFO[0m | yolo_detector.models.model_loader:unload_all_models:201 - 所有模型已卸载
+2025-10-25 17:39:20 | [32mINFO[0m | yolo_detector.config.settings:_load_config:58 - 成功加载配置文件: D:\00deeplearn\yolo11\gradio_web_yolo\configs\default.yaml
+2025-10-25 17:39:20 | [32mINFO[0m | yolo_detector.config.settings:_validate_config:135 - 配置验证完成
+2025-10-25 17:39:20 | [32mINFO[0m | __main__:setup_environment:54 - 环境设置完成
+2025-10-25 17:39:20 | [32mINFO[0m | __main__:run_web_interface:67 - 启动Web界面...
+2025-10-25 17:39:20 | [32mINFO[0m | yolo_detector.ui.gradio_app:__init__:56 - Gradio应用初始化完成
+2025-10-25 17:39:20 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 15 个图像文件在 D:\Python\00雪橇打标\123456
+2025-10-25 17:39:20 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 12 个示例图像
+2025-10-25 17:39:20 | [32mINFO[0m | yolo_detector.ui.gradio_app:create_interface:390 - Gradio界面创建完成
+2025-10-25 17:39:20 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: GET http://127.0.0.1:7861/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-10-25 17:39:20 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: HEAD http://127.0.0.1:7861/ "HTTP/1.1 200 OK"
+2025-10-25 17:39:28 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 15 个图像文件在 D:\Python\00雪橇打标\123456
+2025-10-25 17:39:28 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 12 个示例图像
+2025-10-25 17:39:28 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:199 - 使用示例图像: 1044_20250523_092028.jpg
+2025-10-25 17:39:28 | [32mINFO[0m | yolo_detector.models.model_loader:load_model:81 - 开始加载pose模型: D:/00deeplearn/yolo11/【2】训练模型/pose/yolo11s-pose.pt
+2025-10-25 17:39:28 | [32mINFO[0m | yolo_detector.models.model_loader:load_model:92 - 成功加载pose模型: D:/00deeplearn/yolo11/【2】训练模型/pose/yolo11s-pose.pt
+2025-10-25 17:39:28 | [32mINFO[0m | yolo_detector.core.detector:load_model:648 - 姿态检测模型加载成功
+2025-10-25 17:39:28 | [32mINFO[0m | yolo_detector.ui.gradio_app:switch_detector:92 - 切换到姿态检测模式
+2025-10-25 17:39:30 | [32mINFO[0m | yolo_detector.core.detector:detect:699 - 姿态检测完成
+2025-10-25 17:39:30 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:138 - 检测完成: 0 个对象
+2025-10-25 17:43:35 | [32mINFO[0m | yolo_detector.models.model_loader:unload_model:186 - 成功卸载pose模型
+2025-10-25 17:43:35 | [32mINFO[0m | yolo_detector.models.model_loader:unload_all_models:202 - 所有模型已卸载
+2025-10-25 17:43:42 | [32mINFO[0m | yolo_detector.config.settings:_load_config:58 - 成功加载配置文件: D:\00deeplearn\yolo11\gradio_web_yolo\configs\default.yaml
+2025-10-25 17:43:42 | [32mINFO[0m | yolo_detector.config.settings:_validate_config:135 - 配置验证完成
+2025-10-25 17:43:42 | [32mINFO[0m | __main__:setup_environment:54 - 环境设置完成
+2025-10-25 17:43:42 | [32mINFO[0m | __main__:run_web_interface:67 - 启动Web界面...
+2025-10-25 17:43:42 | [32mINFO[0m | yolo_detector.ui.gradio_app:__init__:56 - Gradio应用初始化完成
+2025-10-25 17:43:42 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 5 个图像文件在 D:\Python\00雪橇打标\123456
+2025-10-25 17:43:42 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 5 个示例图像
+2025-10-25 17:43:42 | [32mINFO[0m | yolo_detector.ui.gradio_app:create_interface:390 - Gradio界面创建完成
+2025-10-25 17:43:43 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: GET http://127.0.0.1:7861/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-10-25 17:43:43 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: HEAD http://127.0.0.1:7861/ "HTTP/1.1 200 OK"
+2025-10-25 17:43:51 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 5 个图像文件在 D:\Python\00雪橇打标\123456
+2025-10-25 17:43:51 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 5 个示例图像
+2025-10-25 17:43:51 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:199 - 使用示例图像: 1.png
+2025-10-25 17:43:51 | [32mINFO[0m | yolo_detector.models.model_loader:load_model:81 - 开始加载detection模型: D:/00deeplearn/yolo11/【2】训练模型/cls/train_new/weights/best.pt
+2025-10-25 17:43:51 | [32mINFO[0m | yolo_detector.models.model_loader:load_model:92 - 成功加载detection模型: D:/00deeplearn/yolo11/【2】训练模型/cls/train_new/weights/best.pt
+2025-10-25 17:43:51 | [32mINFO[0m | yolo_detector.core.detector:load_model:505 - 目标检测模型加载成功
+2025-10-25 17:43:53 | [32mINFO[0m | yolo_detector.core.detector:detect:551 - 目标检测完成
+2025-10-25 17:43:53 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:138 - 检测完成: 0 个对象
+2025-10-25 17:43:57 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 5 个图像文件在 D:\Python\00雪橇打标\123456
+2025-10-25 17:43:57 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 5 个示例图像
+2025-10-25 17:43:57 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:199 - 使用示例图像: 2.jpeg
+2025-10-25 17:43:57 | [32mINFO[0m | yolo_detector.core.detector:detect:551 - 目标检测完成
+2025-10-25 17:43:57 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:138 - 检测完成: 0 个对象
+2025-10-25 17:43:59 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 5 个图像文件在 D:\Python\00雪橇打标\123456
+2025-10-25 17:43:59 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 5 个示例图像
+2025-10-25 17:43:59 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:199 - 使用示例图像: 3.jpg
+2025-10-25 17:44:00 | [32mINFO[0m | yolo_detector.core.detector:detect:551 - 目标检测完成
+2025-10-25 17:44:00 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:138 - 检测完成: 0 个对象
+2025-10-25 17:44:02 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 5 个图像文件在 D:\Python\00雪橇打标\123456
+2025-10-25 17:44:02 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 5 个示例图像
+2025-10-25 17:44:02 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:199 - 使用示例图像: 4.jpg
+2025-10-25 17:44:03 | [32mINFO[0m | yolo_detector.core.detector:detect:551 - 目标检测完成
+2025-10-25 17:44:03 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:138 - 检测完成: 0 个对象
+2025-10-25 17:44:11 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 5 个图像文件在 D:\Python\00雪橇打标\123456
+2025-10-25 17:44:11 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 5 个示例图像
+2025-10-25 17:44:11 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:199 - 使用示例图像: 1.png
+2025-10-25 17:44:11 | [32mINFO[0m | yolo_detector.core.detector:detect:551 - 目标检测完成
+2025-10-25 17:44:11 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:138 - 检测完成: 0 个对象
+2025-10-25 17:44:12 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 5 个图像文件在 D:\Python\00雪橇打标\123456
+2025-10-25 17:44:12 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 5 个示例图像
+2025-10-25 17:44:12 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:199 - 使用示例图像: 2.jpeg
+2025-10-25 17:44:12 | [32mINFO[0m | yolo_detector.core.detector:detect:551 - 目标检测完成
+2025-10-25 17:44:12 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:138 - 检测完成: 0 个对象
+2025-10-25 17:44:14 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 5 个图像文件在 D:\Python\00雪橇打标\123456
+2025-10-25 17:44:14 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 5 个示例图像
+2025-10-25 17:44:14 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:199 - 使用示例图像: 3.jpg
+2025-10-25 17:44:15 | [32mINFO[0m | yolo_detector.core.detector:detect:551 - 目标检测完成
+2025-10-25 17:44:15 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:138 - 检测完成: 0 个对象
+2025-10-25 17:45:01 | [32mINFO[0m | yolo_detector.models.model_loader:load_model:81 - 开始加载pose模型: D:/00deeplearn/yolo11/【2】训练模型/pose/yolo11s-pose.pt
+2025-10-25 17:45:01 | [32mINFO[0m | yolo_detector.models.model_loader:load_model:92 - 成功加载pose模型: D:/00deeplearn/yolo11/【2】训练模型/pose/yolo11s-pose.pt
+2025-10-25 17:45:01 | [32mINFO[0m | yolo_detector.core.detector:load_model:648 - 姿态检测模型加载成功
+2025-10-25 17:45:01 | [32mINFO[0m | yolo_detector.ui.gradio_app:switch_detector:92 - 切换到姿态检测模式
+2025-10-25 17:45:01 | [32mINFO[0m | yolo_detector.core.detector:detect:699 - 姿态检测完成
+2025-10-25 17:45:01 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:138 - 检测完成: 1 个对象
+2025-10-25 17:45:09 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 5 个图像文件在 D:\Python\00雪橇打标\123456
+2025-10-25 17:45:09 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 5 个示例图像
+2025-10-25 17:45:09 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:199 - 使用示例图像: 1.png
+2025-10-25 17:45:09 | [32mINFO[0m | yolo_detector.core.detector:detect:699 - 姿态检测完成
+2025-10-25 17:45:09 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:138 - 检测完成: 4 个对象
+2025-10-25 17:45:45 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 5 个图像文件在 D:\Python\00雪橇打标\123456
+2025-10-25 17:45:45 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 5 个示例图像
+2025-10-25 17:45:45 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:199 - 使用示例图像: 4.jpg
+2025-10-25 17:45:46 | [32mINFO[0m | yolo_detector.core.detector:detect:699 - 姿态检测完成
+2025-10-25 17:45:46 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:138 - 检测完成: 4 个对象
+2025-10-25 17:46:00 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 5 个图像文件在 D:\Python\00雪橇打标\123456
+2025-10-25 17:46:00 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 5 个示例图像
+2025-10-25 17:46:00 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:199 - 使用示例图像: 5.webp
+2025-10-25 17:46:00 | [32mINFO[0m | yolo_detector.core.detector:detect:699 - 姿态检测完成
+2025-10-25 17:46:00 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:138 - 检测完成: 7 个对象
+2025-10-25 18:03:52 | [32mINFO[0m | yolo_detector.models.model_loader:unload_model:186 - 成功卸载detection模型
+2025-10-25 18:03:52 | [32mINFO[0m | yolo_detector.models.model_loader:unload_model:186 - 成功卸载pose模型
+2025-10-25 18:03:52 | [32mINFO[0m | yolo_detector.models.model_loader:unload_all_models:202 - 所有模型已卸载
+2025-10-25 18:04:00 | [32mINFO[0m | yolo_detector.config.settings:_load_config:58 - 成功加载配置文件: D:\00deeplearn\yolo11\gradio_web_yolo\configs\default.yaml
+2025-10-25 18:04:00 | [32mINFO[0m | yolo_detector.config.settings:_validate_config:135 - 配置验证完成
+2025-10-25 18:04:00 | [32mINFO[0m | __main__:setup_environment:54 - 环境设置完成
+2025-10-25 18:04:00 | [32mINFO[0m | __main__:run_web_interface:67 - 启动Web界面...
+2025-10-25 18:04:00 | [32mINFO[0m | yolo_detector.ui.gradio_app:__init__:56 - Gradio应用初始化完成
+2025-10-25 18:04:00 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 5 个图像文件在 D:\Python\00雪橇打标\123456
+2025-10-25 18:04:00 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 5 个示例图像
+2025-10-25 18:04:00 | [32mINFO[0m | yolo_detector.ui.gradio_app:create_interface:390 - Gradio界面创建完成
+2025-10-25 18:04:00 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: GET http://127.0.0.1:7861/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-10-25 18:04:00 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: HEAD http://127.0.0.1:7861/ "HTTP/1.1 200 OK"
+2025-10-25 18:04:52 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 5 个图像文件在 D:\Python\00雪橇打标\123456
+2025-10-25 18:04:52 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 5 个示例图像
+2025-10-25 18:04:52 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:199 - 使用示例图像: 1.png
+2025-10-25 18:04:53 | [32mINFO[0m | yolo_detector.models.model_loader:load_model:81 - 开始加载detection模型: D:/00deeplearn/yolo11/【2】训练模型/cls/train_new/weights/best.pt
+2025-10-25 18:04:53 | [32mINFO[0m | yolo_detector.models.model_loader:load_model:92 - 成功加载detection模型: D:/00deeplearn/yolo11/【2】训练模型/cls/train_new/weights/best.pt
+2025-10-25 18:04:53 | [32mINFO[0m | yolo_detector.core.detector:load_model:505 - 目标检测模型加载成功
+2025-10-25 18:04:55 | [32mINFO[0m | yolo_detector.core.detector:detect:551 - 目标检测完成
+2025-10-25 18:04:55 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:138 - 检测完成: 0 个对象
+2025-10-25 18:04:58 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 5 个图像文件在 D:\Python\00雪橇打标\123456
+2025-10-25 18:04:58 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 5 个示例图像
+2025-10-25 18:04:58 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:199 - 使用示例图像: 2.jpeg
+2025-10-25 18:04:59 | [32mINFO[0m | yolo_detector.models.model_loader:load_model:81 - 开始加载pose模型: D:/00deeplearn/yolo11/【2】训练模型/pose/yolo11s-pose.pt
+2025-10-25 18:04:59 | [32mINFO[0m | yolo_detector.models.model_loader:load_model:92 - 成功加载pose模型: D:/00deeplearn/yolo11/【2】训练模型/pose/yolo11s-pose.pt
+2025-10-25 18:04:59 | [32mINFO[0m | yolo_detector.core.detector:load_model:648 - 姿态检测模型加载成功
+2025-10-25 18:04:59 | [32mINFO[0m | yolo_detector.ui.gradio_app:switch_detector:92 - 切换到姿态检测模式
+2025-10-25 18:04:59 | [31mERROR[0m | yolo_detector.core.detector:detect:724 - 姿态检测失败: '[31m[1mkpt_radius[0m' is not a valid YOLO argument. 
+'[31m[1mkpt_shape[0m' is not a valid YOLO argument. 
+'[31m[1mkpt_line[0m' is not a valid YOLO argument. 
+
+    Arguments received: ['yolo', 'web']. Ultralytics 'yolo' commands use the following syntax:
+
+        yolo TASK MODE ARGS
+
+        Where   TASK (optional) is one of ['classify', 'obb', 'pose', 'detect', 'segment']
+                MODE (required) is one of ['val', 'train', 'track', 'benchmark', 'export', 'predict']
+                ARGS (optional) are any number of custom 'arg=value' pairs like 'imgsz=320' that override defaults.
+                    See all ARGS at https://docs.ultralytics.com/usage/cfg or with 'yolo cfg'
+
+    1. Train a detection model for 10 epochs with an initial learning_rate of 0.01
+        yolo train data=coco8.yaml model=yolo11n.pt epochs=10 lr0=0.01
+
+    2. Predict a YouTube video using a pretrained segmentation model at image size 320:
+        yolo predict model=yolo11n-seg.pt source='https://youtu.be/LNwODJXcvt4' imgsz=320
+
+    3. Val a pretrained detection model at batch-size 1 and image size 640:
+        yolo val model=yolo11n.pt data=coco8.yaml batch=1 imgsz=640
+
+    4. Export a YOLO11n classification model to ONNX format at image size 224 by 128 (no TASK required)
+        yolo export model=yolo11n-cls.pt format=onnx imgsz=224,128
+
+    5. Ultralytics solutions usage
+        yolo solutions count or in ['crop', 'blur', 'workout', 'heatmap', 'isegment', 'visioneye', 'speed', 'queue', 'analytics', 'inference', 'trackzone'] source="path/to/video.mp4"
+
+    6. Run special commands:
+        yolo help
+        yolo checks
+        yolo version
+        yolo settings
+        yolo copy-cfg
+        yolo cfg
+        yolo solutions help
+
+    Docs: https://docs.ultralytics.com
+    Solutions: https://docs.ultralytics.com/solutions/
+    Community: https://community.ultralytics.com
+    GitHub: https://github.com/ultralytics/ultralytics
+    
+2025-10-25 18:05:11 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 5 个图像文件在 D:\Python\00雪橇打标\123456
+2025-10-25 18:05:11 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 5 个示例图像
+2025-10-25 18:05:11 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:199 - 使用示例图像: 1.png
+2025-10-25 18:05:11 | [31mERROR[0m | yolo_detector.core.detector:detect:724 - 姿态检测失败: '[31m[1mkpt_radius[0m' is not a valid YOLO argument. 
+'[31m[1mkpt_shape[0m' is not a valid YOLO argument. 
+'[31m[1mkpt_line[0m' is not a valid YOLO argument. 
+
+    Arguments received: ['yolo', 'web']. Ultralytics 'yolo' commands use the following syntax:
+
+        yolo TASK MODE ARGS
+
+        Where   TASK (optional) is one of ['classify', 'obb', 'pose', 'detect', 'segment']
+                MODE (required) is one of ['val', 'train', 'track', 'benchmark', 'export', 'predict']
+                ARGS (optional) are any number of custom 'arg=value' pairs like 'imgsz=320' that override defaults.
+                    See all ARGS at https://docs.ultralytics.com/usage/cfg or with 'yolo cfg'
+
+    1. Train a detection model for 10 epochs with an initial learning_rate of 0.01
+        yolo train data=coco8.yaml model=yolo11n.pt epochs=10 lr0=0.01
+
+    2. Predict a YouTube video using a pretrained segmentation model at image size 320:
+        yolo predict model=yolo11n-seg.pt source='https://youtu.be/LNwODJXcvt4' imgsz=320
+
+    3. Val a pretrained detection model at batch-size 1 and image size 640:
+        yolo val model=yolo11n.pt data=coco8.yaml batch=1 imgsz=640
+
+    4. Export a YOLO11n classification model to ONNX format at image size 224 by 128 (no TASK required)
+        yolo export model=yolo11n-cls.pt format=onnx imgsz=224,128
+
+    5. Ultralytics solutions usage
+        yolo solutions count or in ['crop', 'blur', 'workout', 'heatmap', 'isegment', 'visioneye', 'speed', 'queue', 'analytics', 'inference', 'trackzone'] source="path/to/video.mp4"
+
+    6. Run special commands:
+        yolo help
+        yolo checks
+        yolo version
+        yolo settings
+        yolo copy-cfg
+        yolo cfg
+        yolo solutions help
+
+    Docs: https://docs.ultralytics.com
+    Solutions: https://docs.ultralytics.com/solutions/
+    Community: https://community.ultralytics.com
+    GitHub: https://github.com/ultralytics/ultralytics
+    
+2025-10-25 18:05:14 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 5 个图像文件在 D:\Python\00雪橇打标\123456
+2025-10-25 18:05:14 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 5 个示例图像
+2025-10-25 18:05:14 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:199 - 使用示例图像: 2.jpeg
+2025-10-25 18:05:14 | [31mERROR[0m | yolo_detector.core.detector:detect:724 - 姿态检测失败: '[31m[1mkpt_radius[0m' is not a valid YOLO argument. 
+'[31m[1mkpt_shape[0m' is not a valid YOLO argument. 
+'[31m[1mkpt_line[0m' is not a valid YOLO argument. 
+
+    Arguments received: ['yolo', 'web']. Ultralytics 'yolo' commands use the following syntax:
+
+        yolo TASK MODE ARGS
+
+        Where   TASK (optional) is one of ['classify', 'obb', 'pose', 'detect', 'segment']
+                MODE (required) is one of ['val', 'train', 'track', 'benchmark', 'export', 'predict']
+                ARGS (optional) are any number of custom 'arg=value' pairs like 'imgsz=320' that override defaults.
+                    See all ARGS at https://docs.ultralytics.com/usage/cfg or with 'yolo cfg'
+
+    1. Train a detection model for 10 epochs with an initial learning_rate of 0.01
+        yolo train data=coco8.yaml model=yolo11n.pt epochs=10 lr0=0.01
+
+    2. Predict a YouTube video using a pretrained segmentation model at image size 320:
+        yolo predict model=yolo11n-seg.pt source='https://youtu.be/LNwODJXcvt4' imgsz=320
+
+    3. Val a pretrained detection model at batch-size 1 and image size 640:
+        yolo val model=yolo11n.pt data=coco8.yaml batch=1 imgsz=640
+
+    4. Export a YOLO11n classification model to ONNX format at image size 224 by 128 (no TASK required)
+        yolo export model=yolo11n-cls.pt format=onnx imgsz=224,128
+
+    5. Ultralytics solutions usage
+        yolo solutions count or in ['crop', 'blur', 'workout', 'heatmap', 'isegment', 'visioneye', 'speed', 'queue', 'analytics', 'inference', 'trackzone'] source="path/to/video.mp4"
+
+    6. Run special commands:
+        yolo help
+        yolo checks
+        yolo version
+        yolo settings
+        yolo copy-cfg
+        yolo cfg
+        yolo solutions help
+
+    Docs: https://docs.ultralytics.com
+    Solutions: https://docs.ultralytics.com/solutions/
+    Community: https://community.ultralytics.com
+    GitHub: https://github.com/ultralytics/ultralytics
+    
+2025-10-25 18:05:15 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 5 个图像文件在 D:\Python\00雪橇打标\123456
+2025-10-25 18:05:15 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 5 个示例图像
+2025-10-25 18:05:15 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:199 - 使用示例图像: 3.jpg
+2025-10-25 18:05:16 | [31mERROR[0m | yolo_detector.core.detector:detect:724 - 姿态检测失败: '[31m[1mkpt_radius[0m' is not a valid YOLO argument. 
+'[31m[1mkpt_shape[0m' is not a valid YOLO argument. 
+'[31m[1mkpt_line[0m' is not a valid YOLO argument. 
+
+    Arguments received: ['yolo', 'web']. Ultralytics 'yolo' commands use the following syntax:
+
+        yolo TASK MODE ARGS
+
+        Where   TASK (optional) is one of ['classify', 'obb', 'pose', 'detect', 'segment']
+                MODE (required) is one of ['val', 'train', 'track', 'benchmark', 'export', 'predict']
+                ARGS (optional) are any number of custom 'arg=value' pairs like 'imgsz=320' that override defaults.
+                    See all ARGS at https://docs.ultralytics.com/usage/cfg or with 'yolo cfg'
+
+    1. Train a detection model for 10 epochs with an initial learning_rate of 0.01
+        yolo train data=coco8.yaml model=yolo11n.pt epochs=10 lr0=0.01
+
+    2. Predict a YouTube video using a pretrained segmentation model at image size 320:
+        yolo predict model=yolo11n-seg.pt source='https://youtu.be/LNwODJXcvt4' imgsz=320
+
+    3. Val a pretrained detection model at batch-size 1 and image size 640:
+        yolo val model=yolo11n.pt data=coco8.yaml batch=1 imgsz=640
+
+    4. Export a YOLO11n classification model to ONNX format at image size 224 by 128 (no TASK required)
+        yolo export model=yolo11n-cls.pt format=onnx imgsz=224,128
+
+    5. Ultralytics solutions usage
+        yolo solutions count or in ['crop', 'blur', 'workout', 'heatmap', 'isegment', 'visioneye', 'speed', 'queue', 'analytics', 'inference', 'trackzone'] source="path/to/video.mp4"
+
+    6. Run special commands:
+        yolo help
+        yolo checks
+        yolo version
+        yolo settings
+        yolo copy-cfg
+        yolo cfg
+        yolo solutions help
+
+    Docs: https://docs.ultralytics.com
+    Solutions: https://docs.ultralytics.com/solutions/
+    Community: https://community.ultralytics.com
+    GitHub: https://github.com/ultralytics/ultralytics
+    
+2025-10-25 18:05:17 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 5 个图像文件在 D:\Python\00雪橇打标\123456
+2025-10-25 18:05:17 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 5 个示例图像
+2025-10-25 18:05:17 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:199 - 使用示例图像: 4.jpg
+2025-10-25 18:05:17 | [31mERROR[0m | yolo_detector.core.detector:detect:724 - 姿态检测失败: '[31m[1mkpt_radius[0m' is not a valid YOLO argument. 
+'[31m[1mkpt_shape[0m' is not a valid YOLO argument. 
+'[31m[1mkpt_line[0m' is not a valid YOLO argument. 
+
+    Arguments received: ['yolo', 'web']. Ultralytics 'yolo' commands use the following syntax:
+
+        yolo TASK MODE ARGS
+
+        Where   TASK (optional) is one of ['classify', 'obb', 'pose', 'detect', 'segment']
+                MODE (required) is one of ['val', 'train', 'track', 'benchmark', 'export', 'predict']
+                ARGS (optional) are any number of custom 'arg=value' pairs like 'imgsz=320' that override defaults.
+                    See all ARGS at https://docs.ultralytics.com/usage/cfg or with 'yolo cfg'
+
+    1. Train a detection model for 10 epochs with an initial learning_rate of 0.01
+        yolo train data=coco8.yaml model=yolo11n.pt epochs=10 lr0=0.01
+
+    2. Predict a YouTube video using a pretrained segmentation model at image size 320:
+        yolo predict model=yolo11n-seg.pt source='https://youtu.be/LNwODJXcvt4' imgsz=320
+
+    3. Val a pretrained detection model at batch-size 1 and image size 640:
+        yolo val model=yolo11n.pt data=coco8.yaml batch=1 imgsz=640
+
+    4. Export a YOLO11n classification model to ONNX format at image size 224 by 128 (no TASK required)
+        yolo export model=yolo11n-cls.pt format=onnx imgsz=224,128
+
+    5. Ultralytics solutions usage
+        yolo solutions count or in ['crop', 'blur', 'workout', 'heatmap', 'isegment', 'visioneye', 'speed', 'queue', 'analytics', 'inference', 'trackzone'] source="path/to/video.mp4"
+
+    6. Run special commands:
+        yolo help
+        yolo checks
+        yolo version
+        yolo settings
+        yolo copy-cfg
+        yolo cfg
+        yolo solutions help
+
+    Docs: https://docs.ultralytics.com
+    Solutions: https://docs.ultralytics.com/solutions/
+    Community: https://community.ultralytics.com
+    GitHub: https://github.com/ultralytics/ultralytics
+    
+2025-10-25 18:05:23 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 5 个图像文件在 D:\Python\00雪橇打标\123456
+2025-10-25 18:05:23 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 5 个示例图像
+2025-10-25 18:05:23 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:199 - 使用示例图像: 1.png
+2025-10-25 18:05:24 | [32mINFO[0m | yolo_detector.ui.gradio_app:switch_detector:92 - 切换到目标检测模式
+2025-10-25 18:05:24 | [32mINFO[0m | yolo_detector.core.detector:detect:551 - 目标检测完成
+2025-10-25 18:05:24 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:138 - 检测完成: 0 个对象
+2025-10-25 18:05:30 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 5 个图像文件在 D:\Python\00雪橇打标\123456
+2025-10-25 18:05:30 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 5 个示例图像
+2025-10-25 18:05:30 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:199 - 使用示例图像: 1.png
+2025-10-25 18:05:30 | [32mINFO[0m | yolo_detector.ui.gradio_app:switch_detector:92 - 切换到姿态检测模式
+2025-10-25 18:05:30 | [31mERROR[0m | yolo_detector.core.detector:detect:724 - 姿态检测失败: '[31m[1mkpt_radius[0m' is not a valid YOLO argument. 
+'[31m[1mkpt_shape[0m' is not a valid YOLO argument. 
+'[31m[1mkpt_line[0m' is not a valid YOLO argument. 
+
+    Arguments received: ['yolo', 'web']. Ultralytics 'yolo' commands use the following syntax:
+
+        yolo TASK MODE ARGS
+
+        Where   TASK (optional) is one of ['classify', 'obb', 'pose', 'detect', 'segment']
+                MODE (required) is one of ['val', 'train', 'track', 'benchmark', 'export', 'predict']
+                ARGS (optional) are any number of custom 'arg=value' pairs like 'imgsz=320' that override defaults.
+                    See all ARGS at https://docs.ultralytics.com/usage/cfg or with 'yolo cfg'
+
+    1. Train a detection model for 10 epochs with an initial learning_rate of 0.01
+        yolo train data=coco8.yaml model=yolo11n.pt epochs=10 lr0=0.01
+
+    2. Predict a YouTube video using a pretrained segmentation model at image size 320:
+        yolo predict model=yolo11n-seg.pt source='https://youtu.be/LNwODJXcvt4' imgsz=320
+
+    3. Val a pretrained detection model at batch-size 1 and image size 640:
+        yolo val model=yolo11n.pt data=coco8.yaml batch=1 imgsz=640
+
+    4. Export a YOLO11n classification model to ONNX format at image size 224 by 128 (no TASK required)
+        yolo export model=yolo11n-cls.pt format=onnx imgsz=224,128
+
+    5. Ultralytics solutions usage
+        yolo solutions count or in ['crop', 'blur', 'workout', 'heatmap', 'isegment', 'visioneye', 'speed', 'queue', 'analytics', 'inference', 'trackzone'] source="path/to/video.mp4"
+
+    6. Run special commands:
+        yolo help
+        yolo checks
+        yolo version
+        yolo settings
+        yolo copy-cfg
+        yolo cfg
+        yolo solutions help
+
+    Docs: https://docs.ultralytics.com
+    Solutions: https://docs.ultralytics.com/solutions/
+    Community: https://community.ultralytics.com
+    GitHub: https://github.com/ultralytics/ultralytics
+    
+2025-10-25 18:05:32 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 5 个图像文件在 D:\Python\00雪橇打标\123456
+2025-10-25 18:05:32 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 5 个示例图像
+2025-10-25 18:05:32 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:199 - 使用示例图像: 2.jpeg
+2025-10-25 18:05:32 | [31mERROR[0m | yolo_detector.core.detector:detect:724 - 姿态检测失败: '[31m[1mkpt_radius[0m' is not a valid YOLO argument. 
+'[31m[1mkpt_shape[0m' is not a valid YOLO argument. 
+'[31m[1mkpt_line[0m' is not a valid YOLO argument. 
+
+    Arguments received: ['yolo', 'web']. Ultralytics 'yolo' commands use the following syntax:
+
+        yolo TASK MODE ARGS
+
+        Where   TASK (optional) is one of ['classify', 'obb', 'pose', 'detect', 'segment']
+                MODE (required) is one of ['val', 'train', 'track', 'benchmark', 'export', 'predict']
+                ARGS (optional) are any number of custom 'arg=value' pairs like 'imgsz=320' that override defaults.
+                    See all ARGS at https://docs.ultralytics.com/usage/cfg or with 'yolo cfg'
+
+    1. Train a detection model for 10 epochs with an initial learning_rate of 0.01
+        yolo train data=coco8.yaml model=yolo11n.pt epochs=10 lr0=0.01
+
+    2. Predict a YouTube video using a pretrained segmentation model at image size 320:
+        yolo predict model=yolo11n-seg.pt source='https://youtu.be/LNwODJXcvt4' imgsz=320
+
+    3. Val a pretrained detection model at batch-size 1 and image size 640:
+        yolo val model=yolo11n.pt data=coco8.yaml batch=1 imgsz=640
+
+    4. Export a YOLO11n classification model to ONNX format at image size 224 by 128 (no TASK required)
+        yolo export model=yolo11n-cls.pt format=onnx imgsz=224,128
+
+    5. Ultralytics solutions usage
+        yolo solutions count or in ['crop', 'blur', 'workout', 'heatmap', 'isegment', 'visioneye', 'speed', 'queue', 'analytics', 'inference', 'trackzone'] source="path/to/video.mp4"
+
+    6. Run special commands:
+        yolo help
+        yolo checks
+        yolo version
+        yolo settings
+        yolo copy-cfg
+        yolo cfg
+        yolo solutions help
+
+    Docs: https://docs.ultralytics.com
+    Solutions: https://docs.ultralytics.com/solutions/
+    Community: https://community.ultralytics.com
+    GitHub: https://github.com/ultralytics/ultralytics
+    
+2025-10-25 18:05:34 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 5 个图像文件在 D:\Python\00雪橇打标\123456
+2025-10-25 18:05:34 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 5 个示例图像
+2025-10-25 18:05:34 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:199 - 使用示例图像: 3.jpg
+2025-10-25 18:05:34 | [31mERROR[0m | yolo_detector.core.detector:detect:724 - 姿态检测失败: '[31m[1mkpt_radius[0m' is not a valid YOLO argument. 
+'[31m[1mkpt_shape[0m' is not a valid YOLO argument. 
+'[31m[1mkpt_line[0m' is not a valid YOLO argument. 
+
+    Arguments received: ['yolo', 'web']. Ultralytics 'yolo' commands use the following syntax:
+
+        yolo TASK MODE ARGS
+
+        Where   TASK (optional) is one of ['classify', 'obb', 'pose', 'detect', 'segment']
+                MODE (required) is one of ['val', 'train', 'track', 'benchmark', 'export', 'predict']
+                ARGS (optional) are any number of custom 'arg=value' pairs like 'imgsz=320' that override defaults.
+                    See all ARGS at https://docs.ultralytics.com/usage/cfg or with 'yolo cfg'
+
+    1. Train a detection model for 10 epochs with an initial learning_rate of 0.01
+        yolo train data=coco8.yaml model=yolo11n.pt epochs=10 lr0=0.01
+
+    2. Predict a YouTube video using a pretrained segmentation model at image size 320:
+        yolo predict model=yolo11n-seg.pt source='https://youtu.be/LNwODJXcvt4' imgsz=320
+
+    3. Val a pretrained detection model at batch-size 1 and image size 640:
+        yolo val model=yolo11n.pt data=coco8.yaml batch=1 imgsz=640
+
+    4. Export a YOLO11n classification model to ONNX format at image size 224 by 128 (no TASK required)
+        yolo export model=yolo11n-cls.pt format=onnx imgsz=224,128
+
+    5. Ultralytics solutions usage
+        yolo solutions count or in ['crop', 'blur', 'workout', 'heatmap', 'isegment', 'visioneye', 'speed', 'queue', 'analytics', 'inference', 'trackzone'] source="path/to/video.mp4"
+
+    6. Run special commands:
+        yolo help
+        yolo checks
+        yolo version
+        yolo settings
+        yolo copy-cfg
+        yolo cfg
+        yolo solutions help
+
+    Docs: https://docs.ultralytics.com
+    Solutions: https://docs.ultralytics.com/solutions/
+    Community: https://community.ultralytics.com
+    GitHub: https://github.com/ultralytics/ultralytics
+    
+2025-10-25 18:05:35 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 5 个图像文件在 D:\Python\00雪橇打标\123456
+2025-10-25 18:05:35 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 5 个示例图像
+2025-10-25 18:05:35 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:199 - 使用示例图像: 2.jpeg
+2025-10-25 18:05:35 | [31mERROR[0m | yolo_detector.core.detector:detect:724 - 姿态检测失败: '[31m[1mkpt_radius[0m' is not a valid YOLO argument. 
+'[31m[1mkpt_shape[0m' is not a valid YOLO argument. 
+'[31m[1mkpt_line[0m' is not a valid YOLO argument. 
+
+    Arguments received: ['yolo', 'web']. Ultralytics 'yolo' commands use the following syntax:
+
+        yolo TASK MODE ARGS
+
+        Where   TASK (optional) is one of ['classify', 'obb', 'pose', 'detect', 'segment']
+                MODE (required) is one of ['val', 'train', 'track', 'benchmark', 'export', 'predict']
+                ARGS (optional) are any number of custom 'arg=value' pairs like 'imgsz=320' that override defaults.
+                    See all ARGS at https://docs.ultralytics.com/usage/cfg or with 'yolo cfg'
+
+    1. Train a detection model for 10 epochs with an initial learning_rate of 0.01
+        yolo train data=coco8.yaml model=yolo11n.pt epochs=10 lr0=0.01
+
+    2. Predict a YouTube video using a pretrained segmentation model at image size 320:
+        yolo predict model=yolo11n-seg.pt source='https://youtu.be/LNwODJXcvt4' imgsz=320
+
+    3. Val a pretrained detection model at batch-size 1 and image size 640:
+        yolo val model=yolo11n.pt data=coco8.yaml batch=1 imgsz=640
+
+    4. Export a YOLO11n classification model to ONNX format at image size 224 by 128 (no TASK required)
+        yolo export model=yolo11n-cls.pt format=onnx imgsz=224,128
+
+    5. Ultralytics solutions usage
+        yolo solutions count or in ['crop', 'blur', 'workout', 'heatmap', 'isegment', 'visioneye', 'speed', 'queue', 'analytics', 'inference', 'trackzone'] source="path/to/video.mp4"
+
+    6. Run special commands:
+        yolo help
+        yolo checks
+        yolo version
+        yolo settings
+        yolo copy-cfg
+        yolo cfg
+        yolo solutions help
+
+    Docs: https://docs.ultralytics.com
+    Solutions: https://docs.ultralytics.com/solutions/
+    Community: https://community.ultralytics.com
+    GitHub: https://github.com/ultralytics/ultralytics
+    
+2025-10-25 18:05:37 | [31mERROR[0m | yolo_detector.core.detector:detect:724 - 姿态检测失败: '[31m[1mkpt_radius[0m' is not a valid YOLO argument. 
+'[31m[1mkpt_shape[0m' is not a valid YOLO argument. 
+'[31m[1mkpt_line[0m' is not a valid YOLO argument. 
+
+    Arguments received: ['yolo', 'web']. Ultralytics 'yolo' commands use the following syntax:
+
+        yolo TASK MODE ARGS
+
+        Where   TASK (optional) is one of ['classify', 'obb', 'pose', 'detect', 'segment']
+                MODE (required) is one of ['val', 'train', 'track', 'benchmark', 'export', 'predict']
+                ARGS (optional) are any number of custom 'arg=value' pairs like 'imgsz=320' that override defaults.
+                    See all ARGS at https://docs.ultralytics.com/usage/cfg or with 'yolo cfg'
+
+    1. Train a detection model for 10 epochs with an initial learning_rate of 0.01
+        yolo train data=coco8.yaml model=yolo11n.pt epochs=10 lr0=0.01
+
+    2. Predict a YouTube video using a pretrained segmentation model at image size 320:
+        yolo predict model=yolo11n-seg.pt source='https://youtu.be/LNwODJXcvt4' imgsz=320
+
+    3. Val a pretrained detection model at batch-size 1 and image size 640:
+        yolo val model=yolo11n.pt data=coco8.yaml batch=1 imgsz=640
+
+    4. Export a YOLO11n classification model to ONNX format at image size 224 by 128 (no TASK required)
+        yolo export model=yolo11n-cls.pt format=onnx imgsz=224,128
+
+    5. Ultralytics solutions usage
+        yolo solutions count or in ['crop', 'blur', 'workout', 'heatmap', 'isegment', 'visioneye', 'speed', 'queue', 'analytics', 'inference', 'trackzone'] source="path/to/video.mp4"
+
+    6. Run special commands:
+        yolo help
+        yolo checks
+        yolo version
+        yolo settings
+        yolo copy-cfg
+        yolo cfg
+        yolo solutions help
+
+    Docs: https://docs.ultralytics.com
+    Solutions: https://docs.ultralytics.com/solutions/
+    Community: https://community.ultralytics.com
+    GitHub: https://github.com/ultralytics/ultralytics
+    
+2025-10-25 18:05:38 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 5 个图像文件在 D:\Python\00雪橇打标\123456
+2025-10-25 18:05:38 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 5 个示例图像
+2025-10-25 18:05:38 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:199 - 使用示例图像: 3.jpg
+2025-10-25 18:05:38 | [31mERROR[0m | yolo_detector.core.detector:detect:724 - 姿态检测失败: '[31m[1mkpt_radius[0m' is not a valid YOLO argument. 
+'[31m[1mkpt_shape[0m' is not a valid YOLO argument. 
+'[31m[1mkpt_line[0m' is not a valid YOLO argument. 
+
+    Arguments received: ['yolo', 'web']. Ultralytics 'yolo' commands use the following syntax:
+
+        yolo TASK MODE ARGS
+
+        Where   TASK (optional) is one of ['classify', 'obb', 'pose', 'detect', 'segment']
+                MODE (required) is one of ['val', 'train', 'track', 'benchmark', 'export', 'predict']
+                ARGS (optional) are any number of custom 'arg=value' pairs like 'imgsz=320' that override defaults.
+                    See all ARGS at https://docs.ultralytics.com/usage/cfg or with 'yolo cfg'
+
+    1. Train a detection model for 10 epochs with an initial learning_rate of 0.01
+        yolo train data=coco8.yaml model=yolo11n.pt epochs=10 lr0=0.01
+
+    2. Predict a YouTube video using a pretrained segmentation model at image size 320:
+        yolo predict model=yolo11n-seg.pt source='https://youtu.be/LNwODJXcvt4' imgsz=320
+
+    3. Val a pretrained detection model at batch-size 1 and image size 640:
+        yolo val model=yolo11n.pt data=coco8.yaml batch=1 imgsz=640
+
+    4. Export a YOLO11n classification model to ONNX format at image size 224 by 128 (no TASK required)
+        yolo export model=yolo11n-cls.pt format=onnx imgsz=224,128
+
+    5. Ultralytics solutions usage
+        yolo solutions count or in ['crop', 'blur', 'workout', 'heatmap', 'isegment', 'visioneye', 'speed', 'queue', 'analytics', 'inference', 'trackzone'] source="path/to/video.mp4"
+
+    6. Run special commands:
+        yolo help
+        yolo checks
+        yolo version
+        yolo settings
+        yolo copy-cfg
+        yolo cfg
+        yolo solutions help
+
+    Docs: https://docs.ultralytics.com
+    Solutions: https://docs.ultralytics.com/solutions/
+    Community: https://community.ultralytics.com
+    GitHub: https://github.com/ultralytics/ultralytics
+    
+2025-10-25 18:06:58 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 5 个图像文件在 D:\Python\00雪橇打标\123456
+2025-10-25 18:06:58 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 5 个示例图像
+2025-10-25 18:06:58 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:199 - 使用示例图像: 2.jpeg
+2025-10-25 18:06:58 | [31mERROR[0m | yolo_detector.core.detector:detect:724 - 姿态检测失败: '[31m[1mkpt_radius[0m' is not a valid YOLO argument. 
+'[31m[1mkpt_shape[0m' is not a valid YOLO argument. 
+'[31m[1mkpt_line[0m' is not a valid YOLO argument. 
+
+    Arguments received: ['yolo', 'web']. Ultralytics 'yolo' commands use the following syntax:
+
+        yolo TASK MODE ARGS
+
+        Where   TASK (optional) is one of ['classify', 'obb', 'pose', 'detect', 'segment']
+                MODE (required) is one of ['val', 'train', 'track', 'benchmark', 'export', 'predict']
+                ARGS (optional) are any number of custom 'arg=value' pairs like 'imgsz=320' that override defaults.
+                    See all ARGS at https://docs.ultralytics.com/usage/cfg or with 'yolo cfg'
+
+    1. Train a detection model for 10 epochs with an initial learning_rate of 0.01
+        yolo train data=coco8.yaml model=yolo11n.pt epochs=10 lr0=0.01
+
+    2. Predict a YouTube video using a pretrained segmentation model at image size 320:
+        yolo predict model=yolo11n-seg.pt source='https://youtu.be/LNwODJXcvt4' imgsz=320
+
+    3. Val a pretrained detection model at batch-size 1 and image size 640:
+        yolo val model=yolo11n.pt data=coco8.yaml batch=1 imgsz=640
+
+    4. Export a YOLO11n classification model to ONNX format at image size 224 by 128 (no TASK required)
+        yolo export model=yolo11n-cls.pt format=onnx imgsz=224,128
+
+    5. Ultralytics solutions usage
+        yolo solutions count or in ['crop', 'blur', 'workout', 'heatmap', 'isegment', 'visioneye', 'speed', 'queue', 'analytics', 'inference', 'trackzone'] source="path/to/video.mp4"
+
+    6. Run special commands:
+        yolo help
+        yolo checks
+        yolo version
+        yolo settings
+        yolo copy-cfg
+        yolo cfg
+        yolo solutions help
+
+    Docs: https://docs.ultralytics.com
+    Solutions: https://docs.ultralytics.com/solutions/
+    Community: https://community.ultralytics.com
+    GitHub: https://github.com/ultralytics/ultralytics
+    
+2025-10-25 18:06:59 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 5 个图像文件在 D:\Python\00雪橇打标\123456
+2025-10-25 18:06:59 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 5 个示例图像
+2025-10-25 18:06:59 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:199 - 使用示例图像: 1.png
+2025-10-25 18:06:59 | [31mERROR[0m | yolo_detector.core.detector:detect:724 - 姿态检测失败: '[31m[1mkpt_radius[0m' is not a valid YOLO argument. 
+'[31m[1mkpt_shape[0m' is not a valid YOLO argument. 
+'[31m[1mkpt_line[0m' is not a valid YOLO argument. 
+
+    Arguments received: ['yolo', 'web']. Ultralytics 'yolo' commands use the following syntax:
+
+        yolo TASK MODE ARGS
+
+        Where   TASK (optional) is one of ['classify', 'obb', 'pose', 'detect', 'segment']
+                MODE (required) is one of ['val', 'train', 'track', 'benchmark', 'export', 'predict']
+                ARGS (optional) are any number of custom 'arg=value' pairs like 'imgsz=320' that override defaults.
+                    See all ARGS at https://docs.ultralytics.com/usage/cfg or with 'yolo cfg'
+
+    1. Train a detection model for 10 epochs with an initial learning_rate of 0.01
+        yolo train data=coco8.yaml model=yolo11n.pt epochs=10 lr0=0.01
+
+    2. Predict a YouTube video using a pretrained segmentation model at image size 320:
+        yolo predict model=yolo11n-seg.pt source='https://youtu.be/LNwODJXcvt4' imgsz=320
+
+    3. Val a pretrained detection model at batch-size 1 and image size 640:
+        yolo val model=yolo11n.pt data=coco8.yaml batch=1 imgsz=640
+
+    4. Export a YOLO11n classification model to ONNX format at image size 224 by 128 (no TASK required)
+        yolo export model=yolo11n-cls.pt format=onnx imgsz=224,128
+
+    5. Ultralytics solutions usage
+        yolo solutions count or in ['crop', 'blur', 'workout', 'heatmap', 'isegment', 'visioneye', 'speed', 'queue', 'analytics', 'inference', 'trackzone'] source="path/to/video.mp4"
+
+    6. Run special commands:
+        yolo help
+        yolo checks
+        yolo version
+        yolo settings
+        yolo copy-cfg
+        yolo cfg
+        yolo solutions help
+
+    Docs: https://docs.ultralytics.com
+    Solutions: https://docs.ultralytics.com/solutions/
+    Community: https://community.ultralytics.com
+    GitHub: https://github.com/ultralytics/ultralytics
+    
+2025-10-25 18:09:05 | [32mINFO[0m | yolo_detector.config.settings:_load_config:58 - 成功加载配置文件: D:\00deeplearn\yolo11\gradio_web_yolo\configs\default.yaml
+2025-10-25 18:09:05 | [32mINFO[0m | yolo_detector.config.settings:_validate_config:135 - 配置验证完成
+2025-10-25 18:09:05 | [32mINFO[0m | __main__:setup_environment:54 - 环境设置完成
+2025-10-25 18:09:05 | [32mINFO[0m | __main__:run_web_interface:67 - 启动Web界面...
+2025-10-25 18:09:05 | [32mINFO[0m | yolo_detector.ui.gradio_app:__init__:56 - Gradio应用初始化完成
+2025-10-25 18:09:05 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 5 个图像文件在 D:\Python\00雪橇打标\123456
+2025-10-25 18:09:05 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 5 个示例图像
+2025-10-25 18:09:05 | [32mINFO[0m | yolo_detector.ui.gradio_app:create_interface:390 - Gradio界面创建完成
+2025-10-25 18:09:05 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: GET http://127.0.0.1:7861/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-10-25 18:09:05 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: HEAD http://127.0.0.1:7861/ "HTTP/1.1 200 OK"
+2025-10-25 18:09:10 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 5 个图像文件在 D:\Python\00雪橇打标\123456
+2025-10-25 18:09:10 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 5 个示例图像
+2025-10-25 18:09:10 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:199 - 使用示例图像: 1.png
+2025-10-25 18:09:10 | [32mINFO[0m | yolo_detector.models.model_loader:load_model:81 - 开始加载detection模型: D:/00deeplearn/yolo11/【2】训练模型/cls/train_new/weights/best.pt
+2025-10-25 18:09:10 | [32mINFO[0m | yolo_detector.models.model_loader:load_model:92 - 成功加载detection模型: D:/00deeplearn/yolo11/【2】训练模型/cls/train_new/weights/best.pt
+2025-10-25 18:09:10 | [32mINFO[0m | yolo_detector.core.detector:load_model:505 - 目标检测模型加载成功
+2025-10-25 18:09:12 | [32mINFO[0m | yolo_detector.core.detector:detect:551 - 目标检测完成
+2025-10-25 18:09:12 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:138 - 检测完成: 0 个对象
+2025-10-25 18:09:34 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 5 个图像文件在 D:\Python\00雪橇打标\123456
+2025-10-25 18:09:34 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 5 个示例图像
+2025-10-25 18:09:34 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:199 - 使用示例图像: 2.jpeg
+2025-10-25 18:09:34 | [32mINFO[0m | yolo_detector.models.model_loader:load_model:81 - 开始加载pose模型: D:/00deeplearn/yolo11/【2】训练模型/pose/yolo11s-pose.pt
+2025-10-25 18:09:34 | [32mINFO[0m | yolo_detector.models.model_loader:load_model:92 - 成功加载pose模型: D:/00deeplearn/yolo11/【2】训练模型/pose/yolo11s-pose.pt
+2025-10-25 18:09:34 | [32mINFO[0m | yolo_detector.core.detector:load_model:648 - 姿态检测模型加载成功
+2025-10-25 18:09:34 | [32mINFO[0m | yolo_detector.ui.gradio_app:switch_detector:92 - 切换到姿态检测模式
+2025-10-25 18:09:34 | [31mERROR[0m | yolo_detector.core.detector:detect:724 - 姿态检测失败: '[31m[1mkpt_shape[0m' is not a valid YOLO argument. 
+'[31m[1mkpt_radius[0m' is not a valid YOLO argument. 
+'[31m[1mkpt_line[0m' is not a valid YOLO argument. 
+
+    Arguments received: ['yolo', 'web']. Ultralytics 'yolo' commands use the following syntax:
+
+        yolo TASK MODE ARGS
+
+        Where   TASK (optional) is one of ['detect', 'pose', 'segment', 'classify', 'obb']
+                MODE (required) is one of ['train', 'export', 'benchmark', 'track', 'predict', 'val']
+                ARGS (optional) are any number of custom 'arg=value' pairs like 'imgsz=320' that override defaults.
+                    See all ARGS at https://docs.ultralytics.com/usage/cfg or with 'yolo cfg'
+
+    1. Train a detection model for 10 epochs with an initial learning_rate of 0.01
+        yolo train data=coco8.yaml model=yolo11n.pt epochs=10 lr0=0.01
+
+    2. Predict a YouTube video using a pretrained segmentation model at image size 320:
+        yolo predict model=yolo11n-seg.pt source='https://youtu.be/LNwODJXcvt4' imgsz=320
+
+    3. Val a pretrained detection model at batch-size 1 and image size 640:
+        yolo val model=yolo11n.pt data=coco8.yaml batch=1 imgsz=640
+
+    4. Export a YOLO11n classification model to ONNX format at image size 224 by 128 (no TASK required)
+        yolo export model=yolo11n-cls.pt format=onnx imgsz=224,128
+
+    5. Ultralytics solutions usage
+        yolo solutions count or in ['crop', 'blur', 'workout', 'heatmap', 'isegment', 'visioneye', 'speed', 'queue', 'analytics', 'inference', 'trackzone'] source="path/to/video.mp4"
+
+    6. Run special commands:
+        yolo help
+        yolo checks
+        yolo version
+        yolo settings
+        yolo copy-cfg
+        yolo cfg
+        yolo solutions help
+
+    Docs: https://docs.ultralytics.com
+    Solutions: https://docs.ultralytics.com/solutions/
+    Community: https://community.ultralytics.com
+    GitHub: https://github.com/ultralytics/ultralytics
+    
+2025-10-25 19:45:27 | [32mINFO[0m | yolo_detector.config.settings:_load_config:58 - 成功加载配置文件: D:\00deeplearn\yolo11\gradio_web_yolo\configs\default.yaml
+2025-10-25 19:45:27 | [32mINFO[0m | yolo_detector.config.settings:_validate_config:135 - 配置验证完成
+2025-10-25 19:45:27 | [32mINFO[0m | __main__:setup_environment:54 - 环境设置完成
+2025-10-25 19:45:27 | [32mINFO[0m | yolo_detector.models.model_loader:unload_all_models:202 - 所有模型已卸载
+2025-10-25 19:45:47 | [32mINFO[0m | yolo_detector.config.settings:_load_config:58 - 成功加载配置文件: D:\00deeplearn\yolo11\gradio_web_yolo\configs\default.yaml
+2025-10-25 19:45:47 | [32mINFO[0m | yolo_detector.config.settings:_validate_config:135 - 配置验证完成
+2025-10-25 19:45:47 | [32mINFO[0m | __main__:setup_environment:54 - 环境设置完成
+2025-10-25 19:45:47 | [32mINFO[0m | __main__:run_web_interface:67 - 启动Web界面...
+2025-10-25 19:45:47 | [32mINFO[0m | yolo_detector.ui.gradio_app:__init__:56 - Gradio应用初始化完成
+2025-10-25 19:45:47 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 5 个图像文件在 D:\Python\00雪橇打标\123456
+2025-10-25 19:45:47 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 5 个示例图像
+2025-10-25 19:45:47 | [32mINFO[0m | yolo_detector.ui.gradio_app:create_interface:390 - Gradio界面创建完成
+2025-10-25 19:45:47 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: GET http://127.0.0.1:7861/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-10-25 19:45:47 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: HEAD http://127.0.0.1:7861/ "HTTP/1.1 200 OK"
+2025-10-25 19:46:00 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 5 个图像文件在 D:\Python\00雪橇打标\123456
+2025-10-25 19:46:00 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 5 个示例图像
+2025-10-25 19:46:00 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:199 - 使用示例图像: 1.png
+2025-10-25 19:46:00 | [32mINFO[0m | yolo_detector.models.model_loader:load_model:81 - 开始加载detection模型: D:/00deeplearn/yolo11/【2】训练模型/cls/train_new/weights/best.pt
+2025-10-25 19:46:00 | [32mINFO[0m | yolo_detector.models.model_loader:load_model:92 - 成功加载detection模型: D:/00deeplearn/yolo11/【2】训练模型/cls/train_new/weights/best.pt
+2025-10-25 19:46:00 | [32mINFO[0m | yolo_detector.core.detector:load_model:505 - 目标检测模型加载成功
+2025-10-25 19:46:02 | [32mINFO[0m | yolo_detector.core.detector:detect:551 - 目标检测完成
+2025-10-25 19:46:02 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:138 - 检测完成: 0 个对象
+2025-10-25 19:46:04 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 5 个图像文件在 D:\Python\00雪橇打标\123456
+2025-10-25 19:46:04 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 5 个示例图像
+2025-10-25 19:46:04 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:199 - 使用示例图像: 2.jpeg
+2025-10-25 19:46:05 | [32mINFO[0m | yolo_detector.models.model_loader:load_model:81 - 开始加载pose模型: D:/00deeplearn/yolo11/【2】训练模型/pose/yolo11s-pose.pt
+2025-10-25 19:46:05 | [32mINFO[0m | yolo_detector.models.model_loader:load_model:92 - 成功加载pose模型: D:/00deeplearn/yolo11/【2】训练模型/pose/yolo11s-pose.pt
+2025-10-25 19:46:05 | [32mINFO[0m | yolo_detector.core.detector:load_model:648 - 姿态检测模型加载成功
+2025-10-25 19:46:05 | [32mINFO[0m | yolo_detector.ui.gradio_app:switch_detector:92 - 切换到姿态检测模式
+2025-10-25 19:46:05 | [31mERROR[0m | yolo_detector.core.detector:detect:724 - 姿态检测失败: '[31m[1mkpt_shape[0m' is not a valid YOLO argument. 
+'[31m[1mkpt_radius[0m' is not a valid YOLO argument. 
+'[31m[1mkpt_line[0m' is not a valid YOLO argument. 
+
+    Arguments received: ['yolo', 'web']. Ultralytics 'yolo' commands use the following syntax:
+
+        yolo TASK MODE ARGS
+
+        Where   TASK (optional) is one of ['segment', 'obb', 'pose', 'detect', 'classify']
+                MODE (required) is one of ['track', 'benchmark', 'predict', 'train', 'val', 'export']
+                ARGS (optional) are any number of custom 'arg=value' pairs like 'imgsz=320' that override defaults.
+                    See all ARGS at https://docs.ultralytics.com/usage/cfg or with 'yolo cfg'
+
+    1. Train a detection model for 10 epochs with an initial learning_rate of 0.01
+        yolo train data=coco8.yaml model=yolo11n.pt epochs=10 lr0=0.01
+
+    2. Predict a YouTube video using a pretrained segmentation model at image size 320:
+        yolo predict model=yolo11n-seg.pt source='https://youtu.be/LNwODJXcvt4' imgsz=320
+
+    3. Val a pretrained detection model at batch-size 1 and image size 640:
+        yolo val model=yolo11n.pt data=coco8.yaml batch=1 imgsz=640
+
+    4. Export a YOLO11n classification model to ONNX format at image size 224 by 128 (no TASK required)
+        yolo export model=yolo11n-cls.pt format=onnx imgsz=224,128
+
+    5. Ultralytics solutions usage
+        yolo solutions count or in ['crop', 'blur', 'workout', 'heatmap', 'isegment', 'visioneye', 'speed', 'queue', 'analytics', 'inference', 'trackzone'] source="path/to/video.mp4"
+
+    6. Run special commands:
+        yolo help
+        yolo checks
+        yolo version
+        yolo settings
+        yolo copy-cfg
+        yolo cfg
+        yolo solutions help
+
+    Docs: https://docs.ultralytics.com
+    Solutions: https://docs.ultralytics.com/solutions/
+    Community: https://community.ultralytics.com
+    GitHub: https://github.com/ultralytics/ultralytics
+    
+2025-10-25 19:46:07 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 5 个图像文件在 D:\Python\00雪橇打标\123456
+2025-10-25 19:46:07 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 5 个示例图像
+2025-10-25 19:46:07 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:199 - 使用示例图像: 1.png
+2025-10-25 19:46:07 | [31mERROR[0m | yolo_detector.core.detector:detect:724 - 姿态检测失败: '[31m[1mkpt_shape[0m' is not a valid YOLO argument. 
+'[31m[1mkpt_radius[0m' is not a valid YOLO argument. 
+'[31m[1mkpt_line[0m' is not a valid YOLO argument. 
+
+    Arguments received: ['yolo', 'web']. Ultralytics 'yolo' commands use the following syntax:
+
+        yolo TASK MODE ARGS
+
+        Where   TASK (optional) is one of ['segment', 'obb', 'pose', 'detect', 'classify']
+                MODE (required) is one of ['track', 'benchmark', 'predict', 'train', 'val', 'export']
+                ARGS (optional) are any number of custom 'arg=value' pairs like 'imgsz=320' that override defaults.
+                    See all ARGS at https://docs.ultralytics.com/usage/cfg or with 'yolo cfg'
+
+    1. Train a detection model for 10 epochs with an initial learning_rate of 0.01
+        yolo train data=coco8.yaml model=yolo11n.pt epochs=10 lr0=0.01
+
+    2. Predict a YouTube video using a pretrained segmentation model at image size 320:
+        yolo predict model=yolo11n-seg.pt source='https://youtu.be/LNwODJXcvt4' imgsz=320
+
+    3. Val a pretrained detection model at batch-size 1 and image size 640:
+        yolo val model=yolo11n.pt data=coco8.yaml batch=1 imgsz=640
+
+    4. Export a YOLO11n classification model to ONNX format at image size 224 by 128 (no TASK required)
+        yolo export model=yolo11n-cls.pt format=onnx imgsz=224,128
+
+    5. Ultralytics solutions usage
+        yolo solutions count or in ['crop', 'blur', 'workout', 'heatmap', 'isegment', 'visioneye', 'speed', 'queue', 'analytics', 'inference', 'trackzone'] source="path/to/video.mp4"
+
+    6. Run special commands:
+        yolo help
+        yolo checks
+        yolo version
+        yolo settings
+        yolo copy-cfg
+        yolo cfg
+        yolo solutions help
+
+    Docs: https://docs.ultralytics.com
+    Solutions: https://docs.ultralytics.com/solutions/
+    Community: https://community.ultralytics.com
+    GitHub: https://github.com/ultralytics/ultralytics
+    
+2025-10-25 19:56:24 | [32mINFO[0m | yolo_detector.models.model_loader:unload_model:186 - 成功卸载detection模型
+2025-10-25 19:56:24 | [32mINFO[0m | yolo_detector.models.model_loader:unload_model:186 - 成功卸载pose模型
+2025-10-25 19:56:24 | [32mINFO[0m | yolo_detector.models.model_loader:unload_all_models:202 - 所有模型已卸载
+2025-10-25 19:56:31 | [32mINFO[0m | yolo_detector.config.settings:_load_config:58 - 成功加载配置文件: D:\00deeplearn\yolo11\gradio_web_yolo\configs\default.yaml
+2025-10-25 19:56:31 | [32mINFO[0m | yolo_detector.config.settings:_validate_config:135 - 配置验证完成
+2025-10-25 19:56:31 | [32mINFO[0m | __main__:setup_environment:54 - 环境设置完成
+2025-10-25 19:56:31 | [32mINFO[0m | __main__:run_web_interface:67 - 启动Web界面...
+2025-10-25 19:56:31 | [32mINFO[0m | yolo_detector.ui.gradio_app:__init__:56 - Gradio应用初始化完成
+2025-10-25 19:56:32 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 5 个图像文件在 D:\Python\00雪橇打标\123456
+2025-10-25 19:56:32 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 5 个示例图像
+2025-10-25 19:56:32 | [32mINFO[0m | yolo_detector.ui.gradio_app:create_interface:390 - Gradio界面创建完成
+2025-10-25 19:56:32 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: GET http://127.0.0.1:7861/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-10-25 19:56:32 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: HEAD http://127.0.0.1:7861/ "HTTP/1.1 200 OK"
+2025-10-25 19:56:59 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 5 个图像文件在 D:\Python\00雪橇打标\123456
+2025-10-25 19:56:59 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 5 个示例图像
+2025-10-25 19:56:59 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:199 - 使用示例图像: 1.png
+2025-10-25 19:56:59 | [32mINFO[0m | yolo_detector.models.model_loader:load_model:81 - 开始加载detection模型: D:/00deeplearn/yolo11/【2】训练模型/cls/train_new/weights/best.pt
+2025-10-25 19:56:59 | [32mINFO[0m | yolo_detector.models.model_loader:load_model:92 - 成功加载detection模型: D:/00deeplearn/yolo11/【2】训练模型/cls/train_new/weights/best.pt
+2025-10-25 19:56:59 | [32mINFO[0m | yolo_detector.core.detector:load_model:511 - 目标检测模型加载成功
+2025-10-25 19:57:01 | [32mINFO[0m | yolo_detector.core.detector:detect:557 - 目标检测完成
+2025-10-25 19:57:01 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:138 - 检测完成: 0 个对象
+2025-10-25 19:57:03 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 5 个图像文件在 D:\Python\00雪橇打标\123456
+2025-10-25 19:57:03 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 5 个示例图像
+2025-10-25 19:57:03 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:199 - 使用示例图像: 2.jpeg
+2025-10-25 19:57:03 | [32mINFO[0m | yolo_detector.models.model_loader:load_model:81 - 开始加载pose模型: D:/00deeplearn/yolo11/【2】训练模型/pose/yolo11s-pose.pt
+2025-10-25 19:57:03 | [32mINFO[0m | yolo_detector.models.model_loader:load_model:92 - 成功加载pose模型: D:/00deeplearn/yolo11/【2】训练模型/pose/yolo11s-pose.pt
+2025-10-25 19:57:03 | [32mINFO[0m | yolo_detector.core.detector:load_model:654 - 姿态检测模型加载成功
+2025-10-25 19:57:03 | [32mINFO[0m | yolo_detector.ui.gradio_app:switch_detector:92 - 切换到姿态检测模式
+2025-10-25 19:57:04 | [32mINFO[0m | yolo_detector.core.detector:detect:718 - 姿态检测完成
+2025-10-25 19:57:04 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:138 - 检测完成: 1 个对象
+2025-10-25 19:57:11 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 5 个图像文件在 D:\Python\00雪橇打标\123456
+2025-10-25 19:57:11 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 5 个示例图像
+2025-10-25 19:57:11 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:199 - 使用示例图像: 3.jpg
+2025-10-25 19:57:12 | [32mINFO[0m | yolo_detector.core.detector:detect:718 - 姿态检测完成
+2025-10-25 19:57:12 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:138 - 检测完成: 1 个对象
+2025-10-25 19:57:13 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 5 个图像文件在 D:\Python\00雪橇打标\123456
+2025-10-25 19:57:13 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 5 个示例图像
+2025-10-25 19:57:13 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:199 - 使用示例图像: 4.jpg
+2025-10-25 19:57:13 | [32mINFO[0m | yolo_detector.core.detector:detect:718 - 姿态检测完成
+2025-10-25 19:57:13 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:138 - 检测完成: 4 个对象
+2025-10-25 20:11:10 | [32mINFO[0m | yolo_detector.models.model_loader:unload_model:186 - 成功卸载detection模型
+2025-10-25 20:11:10 | [32mINFO[0m | yolo_detector.models.model_loader:unload_model:186 - 成功卸载pose模型
+2025-10-25 20:11:10 | [32mINFO[0m | yolo_detector.models.model_loader:unload_all_models:202 - 所有模型已卸载
+2025-10-25 20:11:17 | [32mINFO[0m | yolo_detector.config.settings:_load_config:58 - 成功加载配置文件: D:\00deeplearn\yolo11\gradio_web_yolo\configs\default.yaml
+2025-10-25 20:11:17 | [32mINFO[0m | yolo_detector.config.settings:_validate_config:135 - 配置验证完成
+2025-10-25 20:11:17 | [32mINFO[0m | __main__:setup_environment:54 - 环境设置完成
+2025-10-25 20:11:17 | [32mINFO[0m | __main__:run_web_interface:67 - 启动Web界面...
+2025-10-25 20:11:17 | [32mINFO[0m | yolo_detector.ui.gradio_app:__init__:56 - Gradio应用初始化完成
+2025-10-25 20:11:17 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 5 个图像文件在 D:\Python\00雪橇打标\123456
+2025-10-25 20:11:17 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 5 个示例图像
+2025-10-25 20:11:18 | [32mINFO[0m | yolo_detector.ui.gradio_app:create_interface:390 - Gradio界面创建完成
+2025-10-25 20:11:18 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: GET http://127.0.0.1:7861/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-10-25 20:11:18 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: HEAD http://127.0.0.1:7861/ "HTTP/1.1 200 OK"
+2025-10-25 20:11:28 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 5 个图像文件在 D:\Python\00雪橇打标\123456
+2025-10-25 20:11:28 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 5 个示例图像
+2025-10-25 20:11:28 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:199 - 使用示例图像: 2.jpeg
+2025-10-25 20:11:28 | [32mINFO[0m | yolo_detector.models.model_loader:load_model:81 - 开始加载pose模型: D:/00deeplearn/yolo11/【2】训练模型/pose/yolo11s-pose.pt
+2025-10-25 20:11:29 | [32mINFO[0m | yolo_detector.models.model_loader:load_model:92 - 成功加载pose模型: D:/00deeplearn/yolo11/【2】训练模型/pose/yolo11s-pose.pt
+2025-10-25 20:11:29 | [32mINFO[0m | yolo_detector.core.detector:load_model:654 - 姿态检测模型加载成功
+2025-10-25 20:11:29 | [32mINFO[0m | yolo_detector.ui.gradio_app:switch_detector:92 - 切换到姿态检测模式
+2025-10-25 20:11:31 | [32mINFO[0m | yolo_detector.core.detector:detect:718 - 姿态检测完成
+2025-10-25 20:11:31 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:138 - 检测完成: 1 个对象
+2025-10-25 20:11:45 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 5 个图像文件在 D:\Python\00雪橇打标\123456
+2025-10-25 20:11:45 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 5 个示例图像
+2025-10-25 20:11:45 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:199 - 使用示例图像: 4.jpg
+2025-10-25 20:11:46 | [32mINFO[0m | yolo_detector.core.detector:detect:718 - 姿态检测完成
+2025-10-25 20:11:46 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:138 - 检测完成: 4 个对象
+2025-10-25 20:43:08 | [32mINFO[0m | yolo_detector.models.model_loader:unload_model:186 - 成功卸载pose模型
+2025-10-25 20:43:08 | [32mINFO[0m | yolo_detector.models.model_loader:unload_all_models:202 - 所有模型已卸载
+2025-10-25 20:43:16 | [32mINFO[0m | yolo_detector.config.settings:_load_config:58 - 成功加载配置文件: D:\00deeplearn\yolo11\gradio_web_yolo\configs\default.yaml
+2025-10-25 20:43:16 | [32mINFO[0m | yolo_detector.config.settings:_validate_config:135 - 配置验证完成
+2025-10-25 20:43:16 | [32mINFO[0m | __main__:setup_environment:54 - 环境设置完成
+2025-10-25 20:43:16 | [32mINFO[0m | __main__:run_web_interface:67 - 启动Web界面...
+2025-10-25 20:43:16 | [32mINFO[0m | yolo_detector.ui.gradio_app:__init__:56 - Gradio应用初始化完成
+2025-10-25 20:43:16 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 5 个图像文件在 D:\Python\00雪橇打标\123456
+2025-10-25 20:43:16 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 5 个示例图像
+2025-10-25 20:43:16 | [32mINFO[0m | yolo_detector.ui.gradio_app:create_interface:390 - Gradio界面创建完成
+2025-10-25 20:43:16 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: GET http://127.0.0.1:7861/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-10-25 20:43:16 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: HEAD http://127.0.0.1:7861/ "HTTP/1.1 200 OK"
+2025-10-25 20:43:23 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 5 个图像文件在 D:\Python\00雪橇打标\123456
+2025-10-25 20:43:23 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 5 个示例图像
+2025-10-25 20:43:23 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:199 - 使用示例图像: 1.png
+2025-10-25 20:43:23 | [32mINFO[0m | yolo_detector.models.model_loader:load_model:81 - 开始加载pose模型: D:/00deeplearn/yolo11/【2】训练模型/pose/yolo11s-pose.pt
+2025-10-25 20:43:23 | [32mINFO[0m | yolo_detector.models.model_loader:load_model:92 - 成功加载pose模型: D:/00deeplearn/yolo11/【2】训练模型/pose/yolo11s-pose.pt
+2025-10-25 20:43:23 | [32mINFO[0m | yolo_detector.core.detector:load_model:669 - 姿态检测模型加载成功
+2025-10-25 20:43:23 | [32mINFO[0m | yolo_detector.ui.gradio_app:switch_detector:92 - 切换到姿态检测模式
+2025-10-25 20:43:25 | [32mINFO[0m | yolo_detector.core.detector:detect:736 - 姿态检测完成
+2025-10-25 20:43:25 | [31mERROR[0m | yolo_detector.core.detector:_create_visualization:427 - 创建可视化失败: Results.plot() got an unexpected keyword argument 'show_labels'
+2025-10-25 20:43:25 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:138 - 检测完成: 4 个对象
+2025-10-25 20:43:30 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 5 个图像文件在 D:\Python\00雪橇打标\123456
+2025-10-25 20:43:30 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 5 个示例图像
+2025-10-25 20:43:30 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:199 - 使用示例图像: 3.jpg
+2025-10-25 20:43:30 | [32mINFO[0m | yolo_detector.core.detector:detect:736 - 姿态检测完成
+2025-10-25 20:43:30 | [31mERROR[0m | yolo_detector.core.detector:_create_visualization:427 - 创建可视化失败: Results.plot() got an unexpected keyword argument 'show_labels'
+2025-10-25 20:43:30 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:138 - 检测完成: 1 个对象
+2025-10-25 20:43:44 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 5 个图像文件在 D:\Python\00雪橇打标\123456
+2025-10-25 20:43:44 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 5 个示例图像
+2025-10-25 20:43:44 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:199 - 使用示例图像: 4.jpg
+2025-10-25 20:43:45 | [32mINFO[0m | yolo_detector.core.detector:detect:736 - 姿态检测完成
+2025-10-25 20:43:45 | [31mERROR[0m | yolo_detector.core.detector:_create_visualization:427 - 创建可视化失败: Results.plot() got an unexpected keyword argument 'show_labels'
+2025-10-25 20:43:45 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:138 - 检测完成: 4 个对象
+2025-10-25 20:47:39 | [32mINFO[0m | src.yolo_detector.config.settings:_load_config:58 - 成功加载配置文件: D:\00deeplearn\yolo11\gradio_web_yolo\configs\default.yaml
+2025-10-25 20:47:39 | [32mINFO[0m | src.yolo_detector.config.settings:_validate_config:135 - 配置验证完成
+2025-10-25 20:47:39 | [32mINFO[0m | src.yolo_detector.models.model_loader:load_model:81 - 开始加载pose模型: D:/00deeplearn/yolo11/【2】训练模型/pose/yolo11s-pose.pt
+2025-10-25 20:47:39 | [32mINFO[0m | src.yolo_detector.models.model_loader:load_model:92 - 成功加载pose模型: D:/00deeplearn/yolo11/【2】训练模型/pose/yolo11s-pose.pt
+2025-10-25 20:47:39 | [32mINFO[0m | src.yolo_detector.core.detector:load_model:669 - 姿态检测模型加载成功
+2025-10-25 20:47:41 | [32mINFO[0m | src.yolo_detector.core.detector:detect:736 - 姿态检测完成
+2025-10-25 20:47:41 | [32mINFO[0m | src.yolo_detector.models.model_loader:unload_model:186 - 成功卸载pose模型
+2025-10-25 20:47:41 | [32mINFO[0m | src.yolo_detector.models.model_loader:unload_all_models:202 - 所有模型已卸载
+2025-10-25 20:48:01 | [32mINFO[0m | src.yolo_detector.config.settings:_load_config:58 - 成功加载配置文件: D:\00deeplearn\yolo11\gradio_web_yolo\configs\default.yaml
+2025-10-25 20:48:01 | [32mINFO[0m | src.yolo_detector.config.settings:_validate_config:135 - 配置验证完成
+2025-10-25 20:48:01 | [32mINFO[0m | src.yolo_detector.models.model_loader:load_model:81 - 开始加载pose模型: D:/00deeplearn/yolo11/【2】训练模型/pose/yolo11s-pose.pt
+2025-10-25 20:48:01 | [32mINFO[0m | src.yolo_detector.models.model_loader:load_model:92 - 成功加载pose模型: D:/00deeplearn/yolo11/【2】训练模型/pose/yolo11s-pose.pt
+2025-10-25 20:48:01 | [32mINFO[0m | src.yolo_detector.core.detector:load_model:669 - 姿态检测模型加载成功
+2025-10-25 20:48:03 | [32mINFO[0m | src.yolo_detector.core.detector:detect:736 - 姿态检测完成
+2025-10-25 20:48:03 | [32mINFO[0m | src.yolo_detector.models.model_loader:unload_model:186 - 成功卸载pose模型
+2025-10-25 20:48:03 | [32mINFO[0m | src.yolo_detector.models.model_loader:unload_all_models:202 - 所有模型已卸载
+2025-10-25 20:48:04 | [32mINFO[0m | yolo_detector.models.model_loader:unload_model:186 - 成功卸载pose模型
+2025-10-25 20:48:04 | [32mINFO[0m | yolo_detector.models.model_loader:unload_all_models:202 - 所有模型已卸载
+2025-10-25 20:48:12 | [32mINFO[0m | yolo_detector.config.settings:_load_config:58 - 成功加载配置文件: D:\00deeplearn\yolo11\gradio_web_yolo\configs\default.yaml
+2025-10-25 20:48:12 | [32mINFO[0m | yolo_detector.config.settings:_validate_config:135 - 配置验证完成
+2025-10-25 20:48:12 | [32mINFO[0m | __main__:setup_environment:54 - 环境设置完成
+2025-10-25 20:48:12 | [32mINFO[0m | __main__:run_web_interface:67 - 启动Web界面...
+2025-10-25 20:48:12 | [32mINFO[0m | yolo_detector.ui.gradio_app:__init__:56 - Gradio应用初始化完成
+2025-10-25 20:48:12 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 5 个图像文件在 D:\Python\00雪橇打标\123456
+2025-10-25 20:48:12 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 5 个示例图像
+2025-10-25 20:48:12 | [32mINFO[0m | yolo_detector.ui.gradio_app:create_interface:390 - Gradio界面创建完成
+2025-10-25 20:48:12 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: GET http://127.0.0.1:7861/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-10-25 20:48:13 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: HEAD http://127.0.0.1:7861/ "HTTP/1.1 200 OK"
+2025-10-25 20:48:21 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 5 个图像文件在 D:\Python\00雪橇打标\123456
+2025-10-25 20:48:21 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 5 个示例图像
+2025-10-25 20:48:21 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:199 - 使用示例图像: 1.png
+2025-10-25 20:48:21 | [32mINFO[0m | yolo_detector.models.model_loader:load_model:81 - 开始加载pose模型: D:/00deeplearn/yolo11/【2】训练模型/pose/yolo11s-pose.pt
+2025-10-25 20:48:21 | [32mINFO[0m | yolo_detector.models.model_loader:load_model:92 - 成功加载pose模型: D:/00deeplearn/yolo11/【2】训练模型/pose/yolo11s-pose.pt
+2025-10-25 20:48:21 | [32mINFO[0m | yolo_detector.core.detector:load_model:669 - 姿态检测模型加载成功
+2025-10-25 20:48:21 | [32mINFO[0m | yolo_detector.ui.gradio_app:switch_detector:92 - 切换到姿态检测模式
+2025-10-25 20:48:23 | [32mINFO[0m | yolo_detector.core.detector:detect:736 - 姿态检测完成
+2025-10-25 20:48:23 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:138 - 检测完成: 4 个对象
+2025-10-25 20:48:26 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 5 个图像文件在 D:\Python\00雪橇打标\123456
+2025-10-25 20:48:26 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 5 个示例图像
+2025-10-25 20:48:26 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:199 - 使用示例图像: 5.webp
+2025-10-25 20:48:26 | [32mINFO[0m | yolo_detector.core.detector:detect:736 - 姿态检测完成
+2025-10-25 20:48:26 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:138 - 检测完成: 7 个对象
+2025-10-25 20:48:31 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 5 个图像文件在 D:\Python\00雪橇打标\123456
+2025-10-25 20:48:31 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 5 个示例图像
+2025-10-25 20:48:31 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:199 - 使用示例图像: 4.jpg
+2025-10-25 20:48:31 | [32mINFO[0m | yolo_detector.core.detector:detect:736 - 姿态检测完成
+2025-10-25 20:48:32 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:138 - 检测完成: 4 个对象
+2025-10-25 20:51:11 | [32mINFO[0m | src.yolo_detector.config.settings:_load_config:58 - 成功加载配置文件: D:\00deeplearn\yolo11\gradio_web_yolo\configs\default.yaml
+2025-10-25 20:51:11 | [32mINFO[0m | src.yolo_detector.config.settings:_validate_config:135 - 配置验证完成
+2025-10-25 20:51:11 | [32mINFO[0m | src.yolo_detector.models.model_loader:load_model:81 - 开始加载detection模型: D:/00deeplearn/yolo11/【2】训练模型/cls/train_new/weights/best.pt
+2025-10-25 20:51:11 | [32mINFO[0m | src.yolo_detector.models.model_loader:load_model:92 - 成功加载detection模型: D:/00deeplearn/yolo11/【2】训练模型/cls/train_new/weights/best.pt
+2025-10-25 20:51:11 | [32mINFO[0m | src.yolo_detector.core.detector:load_model:516 - 目标检测模型加载成功
+2025-10-25 20:51:13 | [32mINFO[0m | src.yolo_detector.core.detector:detect:567 - 目标检测完成
+2025-10-25 20:51:13 | [31mERROR[0m | src.yolo_detector.core.detector:_create_visualization:427 - 创建可视化失败: Results.plot() got an unexpected keyword argument 'show_labels'
+2025-10-25 20:51:13 | [32mINFO[0m | src.yolo_detector.models.model_loader:unload_model:186 - 成功卸载detection模型
+2025-10-25 20:51:13 | [32mINFO[0m | src.yolo_detector.models.model_loader:unload_all_models:202 - 所有模型已卸载
+2025-10-25 20:51:13 | [32mINFO[0m | src.yolo_detector.config.settings:_load_config:58 - 成功加载配置文件: D:\00deeplearn\yolo11\gradio_web_yolo\configs\default.yaml
+2025-10-25 20:51:13 | [32mINFO[0m | src.yolo_detector.config.settings:_validate_config:135 - 配置验证完成
+2025-10-25 20:51:13 | [32mINFO[0m | src.yolo_detector.models.model_loader:load_model:81 - 开始加载segmentation模型: D:/00deeplearn/yolo11/【2】训练模型/seg/train2_new/weights/best.pt
+2025-10-25 20:51:13 | [32mINFO[0m | src.yolo_detector.models.model_loader:load_model:92 - 成功加载segmentation模型: D:/00deeplearn/yolo11/【2】训练模型/seg/train2_new/weights/best.pt
+2025-10-25 20:51:13 | [32mINFO[0m | src.yolo_detector.core.detector:load_model:590 - 图像分割模型加载成功
+2025-10-25 20:51:13 | [31mERROR[0m | src.yolo_detector.core.detector:detect:653 - 图像分割失败: 'Config' object has no attribute 'get_segmentation_config'
+2025-10-25 20:51:13 | [32mINFO[0m | src.yolo_detector.models.model_loader:unload_model:186 - 成功卸载segmentation模型
+2025-10-25 20:51:13 | [32mINFO[0m | src.yolo_detector.models.model_loader:unload_all_models:202 - 所有模型已卸载
+2025-10-25 20:51:13 | [32mINFO[0m | src.yolo_detector.config.settings:_load_config:58 - 成功加载配置文件: D:\00deeplearn\yolo11\gradio_web_yolo\configs\default.yaml
+2025-10-25 20:51:13 | [32mINFO[0m | src.yolo_detector.config.settings:_validate_config:135 - 配置验证完成
+2025-10-25 20:51:13 | [32mINFO[0m | src.yolo_detector.models.model_loader:load_model:81 - 开始加载pose模型: D:/00deeplearn/yolo11/【2】训练模型/pose/yolo11s-pose.pt
+2025-10-25 20:51:13 | [32mINFO[0m | src.yolo_detector.models.model_loader:load_model:92 - 成功加载pose模型: D:/00deeplearn/yolo11/【2】训练模型/pose/yolo11s-pose.pt
+2025-10-25 20:51:13 | [32mINFO[0m | src.yolo_detector.core.detector:load_model:669 - 姿态检测模型加载成功
+2025-10-25 20:51:14 | [32mINFO[0m | src.yolo_detector.core.detector:detect:736 - 姿态检测完成
+2025-10-25 20:51:14 | [32mINFO[0m | src.yolo_detector.models.model_loader:unload_model:186 - 成功卸载pose模型
+2025-10-25 20:51:14 | [32mINFO[0m | src.yolo_detector.models.model_loader:unload_all_models:202 - 所有模型已卸载
+2025-10-25 20:52:40 | [32mINFO[0m | src.yolo_detector.config.settings:_load_config:58 - 成功加载配置文件: D:\00deeplearn\yolo11\gradio_web_yolo\configs\default.yaml
+2025-10-25 20:52:40 | [32mINFO[0m | src.yolo_detector.config.settings:_validate_config:135 - 配置验证完成
+2025-10-25 20:52:40 | [32mINFO[0m | src.yolo_detector.models.model_loader:load_model:81 - 开始加载detection模型: D:/00deeplearn/yolo11/【2】训练模型/cls/train_new/weights/best.pt
+2025-10-25 20:52:40 | [32mINFO[0m | src.yolo_detector.models.model_loader:load_model:92 - 成功加载detection模型: D:/00deeplearn/yolo11/【2】训练模型/cls/train_new/weights/best.pt
+2025-10-25 20:52:40 | [32mINFO[0m | src.yolo_detector.core.detector:load_model:516 - 目标检测模型加载成功
+2025-10-25 20:52:42 | [32mINFO[0m | src.yolo_detector.core.detector:detect:567 - 目标检测完成
+2025-10-25 20:52:42 | [32mINFO[0m | src.yolo_detector.models.model_loader:unload_model:186 - 成功卸载detection模型
+2025-10-25 20:52:42 | [32mINFO[0m | src.yolo_detector.models.model_loader:unload_all_models:202 - 所有模型已卸载
+2025-10-25 20:52:42 | [32mINFO[0m | src.yolo_detector.config.settings:_load_config:58 - 成功加载配置文件: D:\00deeplearn\yolo11\gradio_web_yolo\configs\default.yaml
+2025-10-25 20:52:42 | [32mINFO[0m | src.yolo_detector.config.settings:_validate_config:135 - 配置验证完成
+2025-10-25 20:52:42 | [32mINFO[0m | src.yolo_detector.models.model_loader:load_model:81 - 开始加载segmentation模型: D:/00deeplearn/yolo11/【2】训练模型/seg/train2_new/weights/best.pt
+2025-10-25 20:52:43 | [32mINFO[0m | src.yolo_detector.models.model_loader:load_model:92 - 成功加载segmentation模型: D:/00deeplearn/yolo11/【2】训练模型/seg/train2_new/weights/best.pt
+2025-10-25 20:52:43 | [32mINFO[0m | src.yolo_detector.core.detector:load_model:590 - 图像分割模型加载成功
+2025-10-25 20:52:43 | [32mINFO[0m | src.yolo_detector.core.detector:detect:646 - 图像分割完成
+2025-10-25 20:52:43 | [32mINFO[0m | src.yolo_detector.models.model_loader:unload_model:186 - 成功卸载segmentation模型
+2025-10-25 20:52:43 | [32mINFO[0m | src.yolo_detector.models.model_loader:unload_all_models:202 - 所有模型已卸载
+2025-10-25 20:52:43 | [32mINFO[0m | src.yolo_detector.config.settings:_load_config:58 - 成功加载配置文件: D:\00deeplearn\yolo11\gradio_web_yolo\configs\default.yaml
+2025-10-25 20:52:43 | [32mINFO[0m | src.yolo_detector.config.settings:_validate_config:135 - 配置验证完成
+2025-10-25 20:52:43 | [32mINFO[0m | src.yolo_detector.models.model_loader:load_model:81 - 开始加载pose模型: D:/00deeplearn/yolo11/【2】训练模型/pose/yolo11s-pose.pt
+2025-10-25 20:52:43 | [32mINFO[0m | src.yolo_detector.models.model_loader:load_model:92 - 成功加载pose模型: D:/00deeplearn/yolo11/【2】训练模型/pose/yolo11s-pose.pt
+2025-10-25 20:52:43 | [32mINFO[0m | src.yolo_detector.core.detector:load_model:669 - 姿态检测模型加载成功
+2025-10-25 20:52:43 | [32mINFO[0m | src.yolo_detector.core.detector:detect:736 - 姿态检测完成
+2025-10-25 20:52:43 | [32mINFO[0m | src.yolo_detector.models.model_loader:unload_model:186 - 成功卸载pose模型
+2025-10-25 20:52:43 | [32mINFO[0m | src.yolo_detector.models.model_loader:unload_all_models:202 - 所有模型已卸载
+2025-10-25 20:54:10 | [32mINFO[0m | src.yolo_detector.config.settings:_load_config:58 - 成功加载配置文件: D:\00deeplearn\yolo11\gradio_web_yolo\configs\default.yaml
+2025-10-25 20:54:10 | [32mINFO[0m | src.yolo_detector.config.settings:_validate_config:135 - 配置验证完成
+2025-10-25 20:54:10 | [32mINFO[0m | src.yolo_detector.models.model_loader:load_model:81 - 开始加载detection模型: D:/00deeplearn/yolo11/【2】训练模型/cls/train_new/weights/best.pt
+2025-10-25 20:54:10 | [32mINFO[0m | src.yolo_detector.models.model_loader:load_model:92 - 成功加载detection模型: D:/00deeplearn/yolo11/【2】训练模型/cls/train_new/weights/best.pt
+2025-10-25 20:54:10 | [32mINFO[0m | src.yolo_detector.core.detector:load_model:516 - 目标检测模型加载成功
+2025-10-25 20:54:12 | [32mINFO[0m | src.yolo_detector.core.detector:detect:567 - 目标检测完成
+2025-10-25 20:54:12 | [32mINFO[0m | src.yolo_detector.models.model_loader:unload_model:186 - 成功卸载detection模型
+2025-10-25 20:54:12 | [32mINFO[0m | src.yolo_detector.models.model_loader:unload_all_models:202 - 所有模型已卸载
+2025-10-25 20:54:12 | [32mINFO[0m | src.yolo_detector.config.settings:_load_config:58 - 成功加载配置文件: D:\00deeplearn\yolo11\gradio_web_yolo\configs\default.yaml
+2025-10-25 20:54:12 | [32mINFO[0m | src.yolo_detector.config.settings:_validate_config:135 - 配置验证完成
+2025-10-25 20:54:12 | [32mINFO[0m | src.yolo_detector.models.model_loader:load_model:81 - 开始加载segmentation模型: D:/00deeplearn/yolo11/【2】训练模型/seg/train2_new/weights/best.pt
+2025-10-25 20:54:13 | [32mINFO[0m | src.yolo_detector.models.model_loader:load_model:92 - 成功加载segmentation模型: D:/00deeplearn/yolo11/【2】训练模型/seg/train2_new/weights/best.pt
+2025-10-25 20:54:13 | [32mINFO[0m | src.yolo_detector.core.detector:load_model:590 - 图像分割模型加载成功
+2025-10-25 20:54:13 | [32mINFO[0m | src.yolo_detector.core.detector:detect:646 - 图像分割完成
+2025-10-25 20:54:13 | [32mINFO[0m | src.yolo_detector.models.model_loader:unload_model:186 - 成功卸载segmentation模型
+2025-10-25 20:54:13 | [32mINFO[0m | src.yolo_detector.models.model_loader:unload_all_models:202 - 所有模型已卸载
+2025-10-25 20:54:13 | [32mINFO[0m | src.yolo_detector.config.settings:_load_config:58 - 成功加载配置文件: D:\00deeplearn\yolo11\gradio_web_yolo\configs\default.yaml
+2025-10-25 20:54:13 | [32mINFO[0m | src.yolo_detector.config.settings:_validate_config:135 - 配置验证完成
+2025-10-25 20:54:13 | [32mINFO[0m | src.yolo_detector.models.model_loader:load_model:81 - 开始加载pose模型: D:/00deeplearn/yolo11/【2】训练模型/pose/yolo11s-pose.pt
+2025-10-25 20:54:13 | [32mINFO[0m | src.yolo_detector.models.model_loader:load_model:92 - 成功加载pose模型: D:/00deeplearn/yolo11/【2】训练模型/pose/yolo11s-pose.pt
+2025-10-25 20:54:13 | [32mINFO[0m | src.yolo_detector.core.detector:load_model:669 - 姿态检测模型加载成功
+2025-10-25 20:54:14 | [32mINFO[0m | src.yolo_detector.core.detector:detect:736 - 姿态检测完成
+2025-10-25 20:54:14 | [32mINFO[0m | src.yolo_detector.models.model_loader:unload_model:186 - 成功卸载pose模型
+2025-10-25 20:54:14 | [32mINFO[0m | src.yolo_detector.models.model_loader:unload_all_models:202 - 所有模型已卸载
+2025-10-25 20:54:14 | [32mINFO[0m | src.yolo_detector.config.settings:_load_config:58 - 成功加载配置文件: D:\00deeplearn\yolo11\gradio_web_yolo\configs\default.yaml
+2025-10-25 20:54:14 | [32mINFO[0m | src.yolo_detector.config.settings:_validate_config:135 - 配置验证完成
+2025-10-25 20:54:14 | [31mERROR[0m | src.yolo_detector.models.model_loader:_validate_model_path:105 - 模型文件不存在: E:/00learning/00test/cls_train/train12/weights/best.pt
+2025-10-25 20:54:14 | [31mERROR[0m | src.yolo_detector.core.detector:load_model:762 - 图像分类模型加载失败
+2025-10-25 20:54:14 | [32mINFO[0m | src.yolo_detector.models.model_loader:unload_all_models:202 - 所有模型已卸载
+2025-10-25 20:54:28 | [32mINFO[0m | src.yolo_detector.config.settings:_load_config:58 - 成功加载配置文件: D:\00deeplearn\yolo11\gradio_web_yolo\configs\default.yaml
+2025-10-25 20:54:28 | [32mINFO[0m | src.yolo_detector.config.settings:_validate_config:135 - 配置验证完成
+2025-10-25 20:54:28 | [32mINFO[0m | src.yolo_detector.models.model_loader:load_model:81 - 开始加载detection模型: D:/00deeplearn/yolo11/【2】训练模型/cls/train_new/weights/best.pt
+2025-10-25 20:54:28 | [32mINFO[0m | src.yolo_detector.models.model_loader:load_model:92 - 成功加载detection模型: D:/00deeplearn/yolo11/【2】训练模型/cls/train_new/weights/best.pt
+2025-10-25 20:54:28 | [32mINFO[0m | src.yolo_detector.core.detector:load_model:516 - 目标检测模型加载成功
+2025-10-25 20:54:31 | [32mINFO[0m | src.yolo_detector.core.detector:detect:567 - 目标检测完成
+2025-10-25 20:54:31 | [32mINFO[0m | src.yolo_detector.models.model_loader:unload_model:186 - 成功卸载detection模型
+2025-10-25 20:54:31 | [32mINFO[0m | src.yolo_detector.models.model_loader:unload_all_models:202 - 所有模型已卸载
+2025-10-25 20:54:31 | [32mINFO[0m | src.yolo_detector.config.settings:_load_config:58 - 成功加载配置文件: D:\00deeplearn\yolo11\gradio_web_yolo\configs\default.yaml
+2025-10-25 20:54:31 | [32mINFO[0m | src.yolo_detector.config.settings:_validate_config:135 - 配置验证完成
+2025-10-25 20:54:31 | [32mINFO[0m | src.yolo_detector.models.model_loader:load_model:81 - 开始加载segmentation模型: D:/00deeplearn/yolo11/【2】训练模型/seg/train2_new/weights/best.pt
+2025-10-25 20:54:31 | [32mINFO[0m | src.yolo_detector.models.model_loader:load_model:92 - 成功加载segmentation模型: D:/00deeplearn/yolo11/【2】训练模型/seg/train2_new/weights/best.pt
+2025-10-25 20:54:31 | [32mINFO[0m | src.yolo_detector.core.detector:load_model:590 - 图像分割模型加载成功
+2025-10-25 20:54:32 | [32mINFO[0m | src.yolo_detector.core.detector:detect:646 - 图像分割完成
+2025-10-25 20:54:32 | [32mINFO[0m | src.yolo_detector.models.model_loader:unload_model:186 - 成功卸载segmentation模型
+2025-10-25 20:54:32 | [32mINFO[0m | src.yolo_detector.models.model_loader:unload_all_models:202 - 所有模型已卸载
+2025-10-25 20:54:32 | [32mINFO[0m | src.yolo_detector.config.settings:_load_config:58 - 成功加载配置文件: D:\00deeplearn\yolo11\gradio_web_yolo\configs\default.yaml
+2025-10-25 20:54:32 | [32mINFO[0m | src.yolo_detector.config.settings:_validate_config:135 - 配置验证完成
+2025-10-25 20:54:32 | [32mINFO[0m | src.yolo_detector.models.model_loader:load_model:81 - 开始加载pose模型: D:/00deeplearn/yolo11/【2】训练模型/pose/yolo11s-pose.pt
+2025-10-25 20:54:32 | [32mINFO[0m | src.yolo_detector.models.model_loader:load_model:92 - 成功加载pose模型: D:/00deeplearn/yolo11/【2】训练模型/pose/yolo11s-pose.pt
+2025-10-25 20:54:32 | [32mINFO[0m | src.yolo_detector.core.detector:load_model:669 - 姿态检测模型加载成功
+2025-10-25 20:54:32 | [32mINFO[0m | src.yolo_detector.core.detector:detect:736 - 姿态检测完成
+2025-10-25 20:54:32 | [32mINFO[0m | src.yolo_detector.models.model_loader:unload_model:186 - 成功卸载pose模型
+2025-10-25 20:54:32 | [32mINFO[0m | src.yolo_detector.models.model_loader:unload_all_models:202 - 所有模型已卸载
+2025-10-25 20:54:32 | [32mINFO[0m | src.yolo_detector.config.settings:_load_config:58 - 成功加载配置文件: D:\00deeplearn\yolo11\gradio_web_yolo\configs\default.yaml
+2025-10-25 20:54:32 | [32mINFO[0m | src.yolo_detector.config.settings:_validate_config:135 - 配置验证完成
+2025-10-25 20:54:32 | [32mINFO[0m | src.yolo_detector.models.model_loader:load_model:81 - 开始加载classification模型: D:/00deeplearn/yolo11/【2】训练模型/cls/train_new/weights/best.pt
+2025-10-25 20:54:32 | [33mWARNING[0m | src.yolo_detector.models.model_loader:_validate_model_type:148 - 模型类型不匹配: 期望 classification, 实际 detect
+2025-10-25 20:54:32 | [32mINFO[0m | src.yolo_detector.models.model_loader:load_model:92 - 成功加载classification模型: D:/00deeplearn/yolo11/【2】训练模型/cls/train_new/weights/best.pt
+2025-10-25 20:54:32 | [32mINFO[0m | src.yolo_detector.core.detector:load_model:759 - 图像分类模型加载成功
+2025-10-25 20:54:33 | [32mINFO[0m | src.yolo_detector.core.detector:detect:822 - 图像分类完成
+2025-10-25 20:54:33 | [32mINFO[0m | src.yolo_detector.models.model_loader:unload_model:186 - 成功卸载classification模型
+2025-10-25 20:54:33 | [32mINFO[0m | src.yolo_detector.models.model_loader:unload_all_models:202 - 所有模型已卸载
+2025-10-25 20:56:00 | [32mINFO[0m | yolo_detector.models.model_loader:unload_model:186 - 成功卸载pose模型
+2025-10-25 20:56:00 | [32mINFO[0m | yolo_detector.models.model_loader:unload_all_models:202 - 所有模型已卸载
+2025-10-25 20:56:31 | [32mINFO[0m | yolo_detector.config.settings:_load_config:58 - 成功加载配置文件: D:\00deeplearn\yolo11\gradio_web_yolo\configs\default.yaml
+2025-10-25 20:56:31 | [32mINFO[0m | yolo_detector.config.settings:_validate_config:135 - 配置验证完成
+2025-10-25 20:56:31 | [32mINFO[0m | __main__:setup_environment:54 - 环境设置完成
+2025-10-25 20:56:31 | [32mINFO[0m | __main__:run_web_interface:67 - 启动Web界面...
+2025-10-25 20:56:31 | [32mINFO[0m | yolo_detector.ui.gradio_app:__init__:56 - Gradio应用初始化完成
+2025-10-25 20:56:31 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 6 个图像文件在 D:\Python\00雪橇打标\123456
+2025-10-25 20:56:31 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 6 个示例图像
+2025-10-25 20:56:31 | [32mINFO[0m | yolo_detector.ui.gradio_app:create_interface:390 - Gradio界面创建完成
+2025-10-25 20:56:31 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: GET http://127.0.0.1:7861/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-10-25 20:56:31 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: HEAD http://127.0.0.1:7861/ "HTTP/1.1 200 OK"
+2025-10-25 20:56:55 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 6 个图像文件在 D:\Python\00雪橇打标\123456
+2025-10-25 20:56:55 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 6 个示例图像
+2025-10-25 20:56:55 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:199 - 使用示例图像: 1.png
+2025-10-25 20:56:55 | [32mINFO[0m | yolo_detector.models.model_loader:load_model:81 - 开始加载pose模型: D:/00deeplearn/yolo11/【2】训练模型/pose/yolo11s-pose.pt
+2025-10-25 20:56:55 | [32mINFO[0m | yolo_detector.models.model_loader:load_model:92 - 成功加载pose模型: D:/00deeplearn/yolo11/【2】训练模型/pose/yolo11s-pose.pt
+2025-10-25 20:56:55 | [32mINFO[0m | yolo_detector.core.detector:load_model:669 - 姿态检测模型加载成功
+2025-10-25 20:56:55 | [32mINFO[0m | yolo_detector.ui.gradio_app:switch_detector:92 - 切换到姿态检测模式
+2025-10-25 20:56:57 | [32mINFO[0m | yolo_detector.core.detector:detect:736 - 姿态检测完成
+2025-10-25 20:56:57 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:138 - 检测完成: 4 个对象
+2025-10-25 20:57:11 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 6 个图像文件在 D:\Python\00雪橇打标\123456
+2025-10-25 20:57:11 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 6 个示例图像
+2025-10-25 20:57:11 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:199 - 使用示例图像: 2.jpeg
+2025-10-25 20:57:12 | [32mINFO[0m | yolo_detector.core.detector:detect:736 - 姿态检测完成
+2025-10-25 20:57:12 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:138 - 检测完成: 1 个对象
+2025-10-25 20:57:12 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 6 个图像文件在 D:\Python\00雪橇打标\123456
+2025-10-25 20:57:12 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 6 个示例图像
+2025-10-25 20:57:12 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:199 - 使用示例图像: 2318_20250604_012927.jpg
+2025-10-25 20:57:12 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 6 个图像文件在 D:\Python\00雪橇打标\123456
+2025-10-25 20:57:12 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 6 个示例图像
+2025-10-25 20:57:12 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:199 - 使用示例图像: 3.jpg
+2025-10-25 20:57:12 | [32mINFO[0m | yolo_detector.core.detector:detect:736 - 姿态检测完成
+2025-10-25 20:57:12 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:138 - 检测完成: 1 个对象
+2025-10-25 20:57:13 | [32mINFO[0m | yolo_detector.core.detector:detect:736 - 姿态检测完成
+2025-10-25 20:57:13 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:138 - 检测完成: 1 个对象
+2025-10-25 20:57:14 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 6 个图像文件在 D:\Python\00雪橇打标\123456
+2025-10-25 20:57:14 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 6 个示例图像
+2025-10-25 20:57:14 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:199 - 使用示例图像: 2318_20250604_012927.jpg
+2025-10-25 20:57:14 | [32mINFO[0m | yolo_detector.core.detector:detect:736 - 姿态检测完成
+2025-10-25 20:57:14 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:138 - 检测完成: 1 个对象
+2025-10-25 20:57:21 | [32mINFO[0m | yolo_detector.models.model_loader:load_model:81 - 开始加载detection模型: D:/00deeplearn/yolo11/【2】训练模型/cls/train_new/weights/best.pt
+2025-10-25 20:57:21 | [32mINFO[0m | yolo_detector.models.model_loader:load_model:92 - 成功加载detection模型: D:/00deeplearn/yolo11/【2】训练模型/cls/train_new/weights/best.pt
+2025-10-25 20:57:21 | [32mINFO[0m | yolo_detector.core.detector:load_model:516 - 目标检测模型加载成功
+2025-10-25 20:57:21 | [32mINFO[0m | yolo_detector.ui.gradio_app:switch_detector:92 - 切换到目标检测模式
+2025-10-25 20:57:21 | [32mINFO[0m | yolo_detector.core.detector:detect:567 - 目标检测完成
+2025-10-25 20:57:21 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:138 - 检测完成: 1 个对象
+2025-10-25 20:57:24 | [32mINFO[0m | yolo_detector.models.model_loader:load_model:81 - 开始加载segmentation模型: D:/00deeplearn/yolo11/【2】训练模型/seg/train2_new/weights/best.pt
+2025-10-25 20:57:24 | [32mINFO[0m | yolo_detector.models.model_loader:load_model:92 - 成功加载segmentation模型: D:/00deeplearn/yolo11/【2】训练模型/seg/train2_new/weights/best.pt
+2025-10-25 20:57:24 | [32mINFO[0m | yolo_detector.core.detector:load_model:590 - 图像分割模型加载成功
+2025-10-25 20:57:24 | [32mINFO[0m | yolo_detector.ui.gradio_app:switch_detector:92 - 切换到图像分割模式
+2025-10-25 20:57:25 | [32mINFO[0m | yolo_detector.core.detector:detect:646 - 图像分割完成
+2025-10-25 20:57:25 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:138 - 检测完成: 3 个对象
+2025-10-25 20:57:36 | [32mINFO[0m | yolo_detector.ui.gradio_app:switch_detector:92 - 切换到目标检测模式
+2025-10-25 20:57:36 | [32mINFO[0m | yolo_detector.core.detector:detect:567 - 目标检测完成
+2025-10-25 20:57:36 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:138 - 检测完成: 1 个对象
+2025-10-25 20:57:39 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 6 个图像文件在 D:\Python\00雪橇打标\123456
+2025-10-25 20:57:39 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 6 个示例图像
+2025-10-25 20:57:39 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:199 - 使用示例图像: 4.jpg
+2025-10-25 20:57:39 | [32mINFO[0m | yolo_detector.ui.gradio_app:switch_detector:92 - 切换到姿态检测模式
+2025-10-25 20:57:39 | [32mINFO[0m | yolo_detector.core.detector:detect:736 - 姿态检测完成
+2025-10-25 20:57:39 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:138 - 检测完成: 4 个对象
+2025-10-25 20:58:49 | [32mINFO[0m | yolo_detector.models.model_loader:unload_model:186 - 成功卸载pose模型
+2025-10-25 20:58:49 | [32mINFO[0m | yolo_detector.models.model_loader:unload_model:186 - 成功卸载detection模型
+2025-10-25 20:58:49 | [32mINFO[0m | yolo_detector.models.model_loader:unload_model:186 - 成功卸载segmentation模型
+2025-10-25 20:58:49 | [32mINFO[0m | yolo_detector.models.model_loader:unload_all_models:202 - 所有模型已卸载
+2025-10-25 20:58:57 | [32mINFO[0m | yolo_detector.config.settings:_load_config:58 - 成功加载配置文件: D:\00deeplearn\yolo11\gradio_web_yolo\configs\default.yaml
+2025-10-25 20:58:57 | [32mINFO[0m | yolo_detector.config.settings:_validate_config:135 - 配置验证完成
+2025-10-25 20:58:57 | [32mINFO[0m | __main__:setup_environment:54 - 环境设置完成
+2025-10-25 20:58:57 | [32mINFO[0m | __main__:run_web_interface:67 - 启动Web界面...
+2025-10-25 20:58:57 | [32mINFO[0m | yolo_detector.ui.gradio_app:__init__:56 - Gradio应用初始化完成
+2025-10-25 20:58:57 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 6 个图像文件在 D:\Python\00雪橇打标\123456
+2025-10-25 20:58:57 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 6 个示例图像
+2025-10-25 20:58:57 | [32mINFO[0m | yolo_detector.ui.gradio_app:create_interface:390 - Gradio界面创建完成
+2025-10-25 20:58:57 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: GET http://127.0.0.1:7861/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-10-25 20:58:57 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: HEAD http://127.0.0.1:7861/ "HTTP/1.1 200 OK"
+2025-10-25 20:59:03 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 6 个图像文件在 D:\Python\00雪橇打标\123456
+2025-10-25 20:59:03 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 6 个示例图像
+2025-10-25 20:59:03 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:199 - 使用示例图像: 2.jpeg
+2025-10-25 20:59:04 | [32mINFO[0m | yolo_detector.models.model_loader:load_model:81 - 开始加载detection模型: D:/00deeplearn/yolo11/【2】训练模型/cls/train_new/weights/best.pt
+2025-10-25 20:59:04 | [32mINFO[0m | yolo_detector.models.model_loader:load_model:92 - 成功加载detection模型: D:/00deeplearn/yolo11/【2】训练模型/cls/train_new/weights/best.pt
+2025-10-25 20:59:04 | [32mINFO[0m | yolo_detector.core.detector:load_model:516 - 目标检测模型加载成功
+2025-10-25 20:59:06 | [32mINFO[0m | yolo_detector.core.detector:detect:567 - 目标检测完成
+2025-10-25 20:59:06 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:138 - 检测完成: 0 个对象
+2025-10-25 20:59:08 | [32mINFO[0m | yolo_detector.models.model_loader:load_model:81 - 开始加载pose模型: D:/00deeplearn/yolo11/【2】训练模型/pose/yolo11s-pose.pt
+2025-10-25 20:59:08 | [32mINFO[0m | yolo_detector.models.model_loader:load_model:92 - 成功加载pose模型: D:/00deeplearn/yolo11/【2】训练模型/pose/yolo11s-pose.pt
+2025-10-25 20:59:08 | [32mINFO[0m | yolo_detector.core.detector:load_model:669 - 姿态检测模型加载成功
+2025-10-25 20:59:08 | [32mINFO[0m | yolo_detector.ui.gradio_app:switch_detector:92 - 切换到姿态检测模式
+2025-10-25 20:59:08 | [32mINFO[0m | yolo_detector.core.detector:detect:736 - 姿态检测完成
+2025-10-25 20:59:08 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:138 - 检测完成: 1 个对象
+2025-10-25 21:10:29 | [32mINFO[0m | src.yolo_detector.core.detector:validate_pose_config:121 - 姿态配置验证通过
+2025-10-25 21:10:29 | [32mINFO[0m | src.yolo_detector.core.detector:validate_pose_config:121 - 姿态配置验证通过
+2025-10-25 21:10:29 | [31mERROR[0m | src.yolo_detector.core.detector:validate_pose_config:124 - 姿态配置验证失败: 关键点名称必须是包含17个元素的列表，当前: 2
+2025-10-25 21:10:29 | [31mERROR[0m | src.yolo_detector.core.detector:validate_pose_config:124 - 姿态配置验证失败: 分组 '头部' 包含无效索引: 20

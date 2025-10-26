@@ -1,0 +1,6 @@
+# 机器学习依赖 - 分步安装调试用（严格按照指定版本）
+torch==2.7.1
+torchvision==0.22.1
+ultralytics==8.3.161
+opencv-python==4.11.0.86
+pandas==2.3.0

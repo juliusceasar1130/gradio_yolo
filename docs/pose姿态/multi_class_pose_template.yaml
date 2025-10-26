@@ -1,0 +1,203 @@
+# 创建者/修改者: chenliang
+# 修改时间：2025年1月27日
+# 主要修改内容：多类别关键点检测YAML配置模板
+
+# =============================================================================
+# 多类别关键点检测数据集配置文件模板
+# =============================================================================
+
+# 数据集路径配置
+path: ./triangle_quad_dataset
+train: images/train
+val: images/val
+
+# 关键点配置
+# kpt_shape: [最大关键点数量, 维度]
+# 维度: 2 = (x, y), 3 = (x, y, visibility)
+kpt_shape: [4, 3]  # 最大4个关键点，3个维度
+
+# 类别配置
+# nc: 类别数量
+# names: 类别名称映射
+nc: 2
+names:
+  0: triangle
+  1: quadrilateral
+
+# 关键点名称配置
+# 为每个类别定义关键点名称
+kpt_names:
+  0:  # triangle (3个关键点)
+    - top
+    - bottom_left
+    - bottom_right
+  1:  # quadrilateral (4个关键点)
+    - top_left
+    - top_right
+    - bottom_right
+    - bottom_left
+
+# 骨架连接配置
+# 定义关键点之间的连接关系
+skeleton:
+  # triangle的骨架连接 (3个关键点)
+  - [0, 1]  # top -> bottom_left
+  - [1, 2]  # bottom_left -> bottom_right
+  - [2, 0]  # bottom_right -> top
+  
+  # quadrilateral的骨架连接 (4个关键点)
+  - [0, 1]  # top_left -> top_right
+  - [1, 2]  # top_right -> bottom_right
+  - [2, 3]  # bottom_right -> bottom_left
+  - [3, 0]  # bottom_left -> top_left
+
+# =============================================================================
+# 扩展配置示例
+# =============================================================================
+
+# 示例1: 添加更多形状类别
+# nc: 4
+# names:
+#   0: triangle
+#   1: quadrilateral
+#   2: pentagon
+#   3: hexagon
+#
+# kpt_names:
+#   0:  # triangle
+#     - top
+#     - bottom_left
+#     - bottom_right
+#   1:  # quadrilateral
+#     - top_left
+#     - top_right
+#     - bottom_right
+#     - bottom_left
+#   2:  # pentagon
+#     - top
+#     - top_right
+#     - bottom_right
+#     - bottom_left
+#     - top_left
+#   3:  # hexagon
+#     - top
+#     - top_right
+#     - bottom_right
+#     - bottom_left
+#     - top_left
+#     - center
+
+# 示例2: 人体姿态检测
+# nc: 1
+# names:
+#   0: person
+#
+# kpt_shape: [17, 3]
+# kpt_names:
+#   0:
+#     - nose
+#     - left_eye
+#     - right_eye
+#     - left_ear
+#     - right_ear
+#     - left_shoulder
+#     - right_shoulder
+#     - left_elbow
+#     - right_elbow
+#     - left_wrist
+#     - right_wrist
+#     - left_hip
+#     - right_hip
+#     - left_knee
+#     - right_knee
+#     - left_ankle
+#     - right_ankle
+#
+# skeleton:
+#   # 头部连接
+#   - [0, 1]  # nose -> left_eye
+#   - [0, 2]  # nose -> right_eye
+#   - [1, 3]  # left_eye -> left_ear
+#   - [2, 4]  # right_eye -> right_ear
+#   # 躯干连接
+#   - [5, 6]  # left_shoulder -> right_shoulder
+#   - [5, 7]  # left_shoulder -> left_elbow
+#   - [6, 8]  # right_shoulder -> right_elbow
+#   - [7, 9]  # left_elbow -> left_wrist
+#   - [8, 10] # right_elbow -> right_wrist
+#   - [5, 11] # left_shoulder -> left_hip
+#   - [6, 12] # right_shoulder -> right_hip
+#   - [11, 12] # left_hip -> right_hip
+#   - [11, 13] # left_hip -> left_knee
+#   - [12, 14] # right_hip -> right_knee
+#   - [13, 15] # left_knee -> left_ankle
+#   - [14, 16] # right_knee -> right_ankle
+
+# 示例3: 车辆关键点检测
+# nc: 2
+# names:
+#   0: car
+#   1: truck
+#
+# kpt_shape: [8, 3]
+# kpt_names:
+#   0:  # car
+#     - front_left
+#     - front_right
+#     - rear_left
+#     - rear_right
+#     - center_front
+#     - center_rear
+#   1:  # truck
+#     - front_left
+#     - front_right
+#     - rear_left
+#     - rear_right
+#     - cab_front
+#     - cab_rear
+#     - trailer_front
+#     - trailer_rear
+#
+# skeleton:
+#   # car的骨架连接
+#   - [0, 1]  # front_left -> front_right
+#   - [1, 2]  # front_right -> rear_right
+#   - [2, 3]  # rear_right -> rear_left
+#   - [3, 0]  # rear_left -> front_left
+#   - [4, 5]  # center_front -> center_rear
+#   # truck的骨架连接
+#   - [0, 1]  # front_left -> front_right
+#   - [1, 2]  # front_right -> rear_right
+#   - [2, 3]  # rear_right -> rear_left
+#   - [3, 0]  # rear_left -> front_left
+#   - [4, 5]  # cab_front -> cab_rear
+#   - [6, 7]  # trailer_front -> trailer_rear
+
+# =============================================================================
+# 配置说明
+# =============================================================================
+
+# 1. 关键点形状 (kpt_shape)
+#    - 第一个数字: 最大关键点数量（所有类别中关键点最多的）
+#    - 第二个数字: 每个关键点的维度
+#      * 2: (x, y) 坐标
+#      * 3: (x, y, visibility) 坐标和可见性
+
+# 2. 类别配置 (nc, names)
+#    - nc: 总类别数量
+#    - names: 类别ID到名称的映射
+
+# 3. 关键点名称 (kpt_names)
+#    - 为每个类别定义关键点名称
+#    - 关键点数量可以不同，但总数不能超过kpt_shape[0]
+
+# 4. 骨架连接 (skeleton)
+#    - 定义关键点之间的连接关系
+#    - 用于可视化时绘制骨架
+#    - 连接索引基于关键点在kpt_names中的位置
+
+# 5. 注意事项
+#    - 关键点坐标需要归一化到[0,1]范围
+#    - 可见性值: 0=不可见, 1=部分可见, 2=完全可见
+#    - 不同类别的关键点数量可以不同，训练时会自动处理
+#    - 骨架连接主要用于可视化，不影响训练过程

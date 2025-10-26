@@ -1,0 +1,10 @@
+---
+alwaysApply: true
+---
+
+
+-修改文件后，在头部做注释，方便后续查看修改记录。
+    1.  主要修改内容
+    2.  修改时间
+
+- Bash 运行环境：conda activate gradioflask 

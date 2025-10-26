@@ -135,7 +135,8 @@ class ModelLoader:
             task_mapping = {
                 'detection': ['detect', 'detection'],
                 'segmentation': ['segment', 'segmentation'],
-                'classification': ['classify', 'classification', 'cls']
+                'classification': ['classify', 'classification', 'cls'],
+                'pose': ['pose']  # 新增
             }
             
             expected_tasks = task_mapping.get(expected_type, [])

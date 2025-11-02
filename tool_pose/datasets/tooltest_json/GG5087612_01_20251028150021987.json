@@ -1,0 +1,126 @@
+{
+  "version": "5.5.0",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "tool1",
+      "points": [
+        [
+          976.6666666666666,
+          658.6666666666666
+        ],
+        [
+          1611.3333333333333,
+          1336.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "t1_1",
+      "points": [
+        [
+          1016.0,
+          664.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "t1_2",
+      "points": [
+        [
+          1275.3333333333333,
+          699.3333333333334
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "t1_3",
+      "points": [
+        [
+          1392.0,
+          1091.3333333333333
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "t1_4",
+      "points": [
+        [
+          1472.0,
+          1132.6666666666667
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "t1_5",
+      "points": [
+        [
+          1467.3333333333333,
+          1268.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "t1_6",
+      "points": [
+        [
+          1570.6666666666667,
+          1258.6666666666667
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "t1_7",
+      "points": [
+        [
+          1592.6666666666667,
+          1304.6666666666667
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "GG5087612_01_20251028150021987.jpg",
+  "imageData": null,
+  "imageHeight": 1440,
+  "imageWidth": 2560
+}

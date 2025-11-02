@@ -1,0 +1,126 @@
+{
+  "version": "5.5.0",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "tool1",
+      "points": [
+        [
+          831.3698630136987,
+          874.7945205479452
+        ],
+        [
+          1734.109589041096,
+          1195.3424657534247
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "rectangle",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "t1_1",
+      "points": [
+        [
+          872.9729729729729,
+          1030.5855855855855
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "t1_2",
+      "points": [
+        [
+          1109.4594594594594,
+          1186.4414414414414
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "t1_3",
+      "points": [
+        [
+          1441.8918918918919,
+          961.2162162162163
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "t1_4",
+      "points": [
+        [
+          1520.2702702702702,
+          986.4414414414415
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "t1_5",
+      "points": [
+        [
+          1596.2790697674418,
+          886.0465116279069
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "t1_6",
+      "points": [
+        [
+          1674.6843853820596,
+          961.7940199335548
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null
+    },
+    {
+      "label": "t1_7",
+      "points": [
+        [
+          1696.9435215946842,
+          946.8438538205979
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "point",
+      "flags": {},
+      "mask": null
+    }
+  ],
+  "imagePath": "GG5087612_01_20251028145950514.jpg",
+  "imageData": null,
+  "imageHeight": 1440,
+  "imageWidth": 2560
+}

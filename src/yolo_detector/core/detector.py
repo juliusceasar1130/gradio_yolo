@@ -6,8 +6,19 @@
 # 3. 修改PoseDetector类正确处理分离的参数
 # 4. 确保预测参数只包含model.predict()方法的有效参数
 # 5. 将硬编码的姿态配置移到配置文件中，提高可维护性
+# 6. 2025-01-27: 重构为工具关键点检测，支持从configs/default.yaml读取配置
+#     - 修改get_pose_config()从default.yaml读取工具关键点配置
+#     - 添加validate_tool_pose_config()验证工具关键点配置
+#     - 修改关键点统计函数支持多类别工具检测（tool1/tool2）
+#     - 添加get_keypoint_names_for_class()根据类别动态获取关键点名称
+#     - 统计信息改为按工具对象和类别分组
+#     - 统一配置管理：所有配置都在configs/default.yaml中
+#     - 清理无用代码：删除未使用的全局变量和兼容函数
 # 
-# 历史修改：2025年7月28日 - 增加分割掩码统计功能
+# 历史修改：
+# - 2025年7月28日 - 增加分割掩码统计功能
+# - 2025年1月27日 - 清理pose相关无用代码（删除KEYPOINT_GROUPS等未使用变量）
+# - 2025年1月27日 - 优化plot()方法参数，只传入支持的参数，避免关键点坐标映射问题
 
 """
 YOLO检测器核心模块
@@ -28,107 +39,158 @@ from ..config.settings import get_config
 
 logger = logging.getLogger(__name__)
 
-# 从配置文件获取姿态检测相关配置
+# 从配置文件获取工具关键点检测配置
 def get_pose_config():
-    """获取姿态检测配置"""
+    """
+    获取工具关键点检测配置（从configs/default.yaml读取）
+    
+    返回工具关键点配置，支持多类别（tool1, tool2）
+    """
     try:
         config = get_config()
-        pose_config = config.get('pose', {})
-        keypoints_config = pose_config.get('keypoints', {})
+        # 从default.yaml的pose.keypoints读取工具关键点配置
+        tool_config = config.get_tool_pose_config()
         
-        # 获取配置值，如果不存在则使用默认值
-        names = keypoints_config.get('names', [
-            "鼻子", "左眼", "右眼", "左耳", "右耳",
-            "左肩", "右肩", "左肘", "右肘", "左腕", "右腕",
-            "左髋", "右髋", "左膝", "右膝", "左踝", "右踝"
-        ])
+        # 构建返回格式（保持向后兼容）
+        kpt_names_dict = tool_config.get('kpt_names', {})
+        # 默认使用tool1的关键点名称（如果无法确定类别）
+        default_kpt_names = kpt_names_dict.get(0, [])
         
-        groups = keypoints_config.get('groups', {
-            "头部": [0, 1, 2, 3, 4],
-            "躯干": [5, 6, 11, 12],
-            "上肢": [5, 6, 7, 8, 9, 10],
-            "下肢": [11, 12, 13, 14, 15, 16]
-        })
+        # 骨架连接（全局配置，适用于所有类别）
+        skeleton = tool_config.get('skeleton', [])
         
-        skeleton = keypoints_config.get('skeleton', [
-            [0, 1], [0, 2], [1, 3], [2, 4],  # 头部
-            [5, 6], [5, 7], [7, 9], [6, 8], [8, 10],  # 上肢
-            [5, 11], [6, 12], [11, 12],  # 躯干
-            [11, 13], [13, 15], [12, 14], [14, 16]  # 下肢
-        ])
+        # 构建完整的配置字典
+        result = {
+            'kpt_shape': tool_config.get('kpt_shape', [7, 3]),
+            'num_classes': tool_config.get('num_classes', 2),
+            'class_names': tool_config.get('class_names', {}),
+            'kpt_names': kpt_names_dict,
+            'default_kpt_names': default_kpt_names,
+            'skeleton': skeleton,
+            'flip_idx': tool_config.get('flip_idx', []),
+            'pose_weights': tool_config.get('pose_weights', [1.0] * 7),
+            # 向后兼容：保留names字段（使用默认关键点名称）
+            'names': default_kpt_names
+        }
         
         # 验证配置
-        validate_pose_config(names, groups, skeleton)
+        validate_tool_pose_config(result)
         
-        return {
-            'names': names,
-            'groups': groups,
-            'skeleton': skeleton
-        }
+        return result
         
     except Exception as e:
-        logger.warning(f"无法从配置文件读取姿态配置，使用默认配置: {e}")
-        # 返回默认配置
+        logger.warning(f"无法从配置文件读取工具关键点配置，使用默认配置: {e}")
+        # 返回默认配置（tool1）
+        default_names = ['t1_1', 't1_2', 't1_3', 't1_4', 't1_5', 't1_6', 't1_7']
         return {
-            'names': [
-                "鼻子", "左眼", "右眼", "左耳", "右耳",
-                "左肩", "右肩", "左肘", "右肘", "左腕", "右腕",
-                "左髋", "右髋", "左膝", "右膝", "左踝", "右踝"
-            ],
-            'groups': {
-                "头部": [0, 1, 2, 3, 4],
-                "躯干": [5, 6, 11, 12],
-                "上肢": [5, 6, 7, 8, 9, 10],
-                "下肢": [11, 12, 13, 14, 15, 16]
+            'kpt_shape': [7, 3],
+            'num_classes': 2,
+            'class_names': {0: 'tool1', 1: 'tool2'},
+            'kpt_names': {
+                0: default_names,
+                1: ['t2_1', 't2_2', 't2_3', 't2_4', 't2_5', 't2_6', 't2_7']
             },
-            'skeleton': [
-                [0, 1], [0, 2], [1, 3], [2, 4],  # 头部
-                [5, 6], [5, 7], [7, 9], [6, 8], [8, 10],  # 上肢
-                [5, 11], [6, 12], [11, 12],  # 躯干
-                [11, 13], [13, 15], [12, 14], [14, 16]  # 下肢
-            ]
+            'default_kpt_names': default_names,
+            'skeleton': [[0, 1], [1, 2], [2, 3], [3, 4], [4, 5], [5, 6], [6, 0]],
+            'flip_idx': [0, 2, 1, 4, 3, 5, 6],
+            'pose_weights': [1.0] * 7,
+            'names': default_names
         }
 
-def validate_pose_config(names, groups, skeleton):
-    """验证姿态配置的有效性"""
+def validate_tool_pose_config(config: Dict[str, Any]):
+    """验证工具关键点配置的有效性"""
     try:
+        kpt_shape = config.get('kpt_shape', [7, 3])
+        
+        # 验证关键点形状
+        if not isinstance(kpt_shape, list) or len(kpt_shape) != 2:
+            raise ValueError(f"kpt_shape必须是[数量, 维度]格式，当前: {kpt_shape}")
+        
+        num_kpts = kpt_shape[0]
+        num_dims = kpt_shape[1]
+        
+        if not isinstance(num_kpts, int) or num_kpts <= 0:
+            raise ValueError(f"关键点数量必须是正整数，当前: {num_kpts}")
+        if num_dims not in [2, 3]:
+            raise ValueError(f"关键点维度必须是2或3，当前: {num_dims}")
+        
         # 验证关键点名称
-        if not isinstance(names, list) or len(names) != 17:
-            raise ValueError(f"关键点名称必须是包含17个元素的列表，当前: {len(names)}")
+        default_names = config.get('default_kpt_names', [])
+        if not isinstance(default_names, list) or len(default_names) != num_kpts:
+            raise ValueError(f"默认关键点名称数量({len(default_names)})与kpt_shape({num_kpts})不匹配")
         
-        # 验证关键点分组
-        if not isinstance(groups, dict):
-            raise ValueError("关键点分组必须是字典类型")
-        
-        for group_name, indices in groups.items():
-            if not isinstance(indices, list):
-                raise ValueError(f"分组 '{group_name}' 的索引必须是列表")
-            for idx in indices:
-                if not isinstance(idx, int) or idx < 0 or idx >= len(names):
-                    raise ValueError(f"分组 '{group_name}' 包含无效索引: {idx}")
+        kpt_names = config.get('kpt_names', {})
+        for class_id, names in kpt_names.items():
+            if not isinstance(names, list) or len(names) != num_kpts:
+                raise ValueError(f"类别{class_id}的关键点数量({len(names)})与kpt_shape({num_kpts})不匹配")
         
         # 验证骨架连接
+        skeleton = config.get('skeleton', [])
         if not isinstance(skeleton, list):
             raise ValueError("骨架连接必须是列表类型")
         
         for connection in skeleton:
             if not isinstance(connection, list) or len(connection) != 2:
-                raise ValueError(f"骨架连接必须是包含2个元素的列表: {connection}")
+                raise ValueError(f"骨架连接格式错误，必须是[索引1, 索引2]: {connection}")
             for idx in connection:
-                if not isinstance(idx, int) or idx < 0 or idx >= len(names):
-                    raise ValueError(f"骨架连接包含无效索引: {idx}")
+                if not isinstance(idx, int) or idx < 0 or idx >= num_kpts:
+                    raise ValueError(f"骨架连接索引超出范围: {connection}，有效范围: 0-{num_kpts-1}")
         
-        logger.info("姿态配置验证通过")
+        # 验证flip_idx（可选）
+        flip_idx = config.get('flip_idx', [])
+        if flip_idx:
+            if not isinstance(flip_idx, list) or len(flip_idx) != num_kpts:
+                raise ValueError(f"flip_idx长度({len(flip_idx)})与关键点数量({num_kpts})不匹配")
+            # 验证索引范围
+            for i, idx in enumerate(flip_idx):
+                if not isinstance(idx, int) or idx < 0 or idx >= num_kpts:
+                    raise ValueError(f"flip_idx索引{i}的值({idx})超出范围，有效范围: 0-{num_kpts-1}")
+            # 验证自反性（警告，不强制）
+            for i in range(len(flip_idx)):
+                if flip_idx[flip_idx[i]] != i:
+                    logger.warning(f"flip_idx在索引{i}处自反性验证失败: flip_idx[{i}]={flip_idx[i]}, flip_idx[{flip_idx[i]}]={flip_idx[flip_idx[i]]}")
+        
+        # 验证pose_weights（可选）
+        pose_weights = config.get('pose_weights', [])
+        if pose_weights:
+            if not isinstance(pose_weights, list) or len(pose_weights) != num_kpts:
+                raise ValueError(f"pose_weights长度({len(pose_weights)})与关键点数量({num_kpts})不匹配")
+            for i, weight in enumerate(pose_weights):
+                if not isinstance(weight, (int, float)) or weight < 0:
+                    raise ValueError(f"pose_weights索引{i}的值({weight})无效，必须是正数")
+        
+        logger.info(f"工具关键点配置验证通过: {num_kpts}个关键点, {config.get('num_classes', 0)}个类别")
         
     except Exception as e:
-        logger.error(f"姿态配置验证失败: {e}")
+        logger.error(f"工具关键点配置验证失败: {e}")
         raise
 
-# 获取姿态配置
-POSE_CONFIG = get_pose_config()
-KEYPOINT_NAMES = POSE_CONFIG['names']
-KEYPOINT_GROUPS = POSE_CONFIG['groups']
-SKELETON_CONNECTIONS = POSE_CONFIG['skeleton']
+
+# 工具关键点配置缓存（延迟初始化）
+_TOOL_POSE_CONFIG = None
+
+def get_tool_pose_config_cached() -> Dict[str, Any]:
+    """获取缓存的工具关键点配置（延迟初始化）"""
+    global _TOOL_POSE_CONFIG
+    if _TOOL_POSE_CONFIG is None:
+        _TOOL_POSE_CONFIG = get_pose_config()
+    return _TOOL_POSE_CONFIG
+
+def get_keypoint_names_for_class(class_id: int = None) -> List[str]:
+    """
+    根据类别ID获取关键点名称
+    
+    Args:
+        class_id: 类别ID，如果为None则返回默认关键点名称（tool1）
+        
+    Returns:
+        关键点名称列表
+    """
+    config = get_tool_pose_config_cached()
+    kpt_names_dict = config.get('kpt_names', {})
+    if class_id is not None and class_id in kpt_names_dict:
+        return kpt_names_dict[class_id]
+    return config.get('default_kpt_names', [])
 
 
 class DetectionResult:
@@ -314,14 +376,33 @@ class DetectionResult:
             logger.error(f"计算掩码统计失败: {e}")
             return mask_stats
 
+    def _get_object_class_id(self, obj_idx: int) -> int:
+        """
+        从检测结果中获取对象的类别ID
+        
+        Args:
+            obj_idx: 对象索引（与keypoints索引对应）
+            
+        Returns:
+            类别ID，如果无法获取则返回0（默认tool1）
+        """
+        try:
+            if self.boxes is not None and len(self.boxes) > obj_idx:
+                cls_data = self.boxes.cls
+                if cls_data is not None and len(cls_data) > obj_idx:
+                    return int(cls_data[obj_idx].cpu().item())
+        except Exception as e:
+            logger.debug(f"获取对象类别ID失败: {e}")
+        return 0  # 默认返回tool1
+
     def _calculate_keypoint_statistics(self) -> Dict[str, Any]:
-        """计算关键点统计信息"""
+        """计算工具关键点统计信息（支持多类别）"""
         keypoint_stats = {
-            'total_persons': 0,
+            'total_objects': 0,  # 改为objects
             'total_keypoints': 0,
             'visible_keypoints': 0,
-            'keypoint_groups': {},
-            'person_keypoints': [],
+            'objects_by_class': {},  # 按类别统计
+            'object_keypoints': [],  # 改为object_keypoints
             'avg_keypoint_confidence': 0.0,
             'keypoint_details': []
         }
@@ -330,90 +411,107 @@ class DetectionResult:
             if self.keypoints is None or len(self.keypoints) == 0:
                 return keypoint_stats
 
-            keypoint_stats['total_persons'] = len(self.keypoints)
-            all_keypoint_confidences = []
-            person_keypoint_counts = []
+            # 获取工具配置
+            tool_config = get_tool_pose_config_cached()
+            num_classes = tool_config.get('num_classes', 2)
+            class_names = tool_config.get('class_names', {})
 
-            # 初始化关键点分组统计
-            for group_name in KEYPOINT_GROUPS.keys():
-                keypoint_stats['keypoint_groups'][group_name] = {
-                    'total': 0,
-                    'visible': 0,
+            # 初始化按类别统计
+            for class_id in range(num_classes):
+                class_name = class_names.get(class_id, f'class_{class_id}')
+                keypoint_stats['objects_by_class'][class_name] = {
+                    'count': 0,
+                    'total_keypoints': 0,
+                    'visible_keypoints': 0,
                     'avg_confidence': 0.0
                 }
 
-            # 处理每个人的关键点
-            for person_idx, person_keypoints in enumerate(self.keypoints):
+            keypoint_stats['total_objects'] = len(self.keypoints)
+            all_keypoint_confidences = []
+            object_keypoint_counts = []
+
+            # 处理每个工具对象的关键点
+            for obj_idx, obj_keypoints in enumerate(self.keypoints):
                 try:
+                    # 获取该对象的类别ID
+                    class_id = self._get_object_class_id(obj_idx)
+                    class_name = class_names.get(class_id, f'class_{class_id}')
+                    
+                    # 根据类别获取关键点名称
+                    kpt_names = get_keypoint_names_for_class(class_id)
+                    
                     # 获取关键点数据
-                    keypoint_data = person_keypoints.data.cpu().numpy()
+                    keypoint_data = obj_keypoints.data.cpu().numpy()
                     if len(keypoint_data.shape) == 3:
                         keypoint_data = keypoint_data[0]  # 去除batch维度
 
-                    person_visible_count = 0
-                    person_confidences = []
-                    person_details = []
+                    obj_visible_count = 0
+                    obj_confidences = []
+                    obj_details = []
 
                     # 处理每个关键点
                     for kpt_idx, (x, y, conf) in enumerate(keypoint_data):
-                        if kpt_idx >= len(KEYPOINT_NAMES):
+                        # 确保不超出关键点名称列表长度
+                        if kpt_idx >= len(kpt_names):
                             break
                             
                         keypoint_stats['total_keypoints'] += 1
-                        person_confidences.append(conf)
+                        keypoint_stats['objects_by_class'][class_name]['total_keypoints'] += 1
+                        obj_confidences.append(conf)
                         all_keypoint_confidences.append(conf)
 
                         # 判断关键点是否可见（置信度阈值）
                         is_visible = conf > 0.5  # 使用配置的阈值
                         if is_visible:
                             keypoint_stats['visible_keypoints'] += 1
-                            person_visible_count += 1
+                            keypoint_stats['objects_by_class'][class_name]['visible_keypoints'] += 1
+                            obj_visible_count += 1
 
                         # 记录关键点详细信息
-                        person_details.append({
-                            'name': KEYPOINT_NAMES[kpt_idx],
+                        obj_details.append({
+                            'name': kpt_names[kpt_idx],
                             'x': float(x),
                             'y': float(y),
                             'confidence': float(conf),
                             'visible': is_visible
                         })
 
-                        # 更新分组统计
-                        for group_name, group_indices in KEYPOINT_GROUPS.items():
-                            if kpt_idx in group_indices:
-                                keypoint_stats['keypoint_groups'][group_name]['total'] += 1
-                                if is_visible:
-                                    keypoint_stats['keypoint_groups'][group_name]['visible'] += 1
+                    # 更新类别统计
+                    keypoint_stats['objects_by_class'][class_name]['count'] += 1
+                    if obj_confidences:
+                        obj_avg_conf = np.mean(obj_confidences)
+                        # 更新类别平均置信度
+                        class_stats = keypoint_stats['objects_by_class'][class_name]
+                        existing_count = class_stats['count'] - 1
+                        if existing_count > 0:
+                            # 加权平均
+                            class_stats['avg_confidence'] = (
+                                (class_stats['avg_confidence'] * existing_count + obj_avg_conf) / 
+                                class_stats['count']
+                            )
+                        else:
+                            class_stats['avg_confidence'] = obj_avg_conf
 
-                    person_keypoint_counts.append(person_visible_count)
-                    keypoint_stats['person_keypoints'].append({
-                        'person_id': person_idx,
-                        'visible_count': person_visible_count,
+                    object_keypoint_counts.append(obj_visible_count)
+                    keypoint_stats['object_keypoints'].append({
+                        'object_id': obj_idx,
+                        'class_id': class_id,
+                        'class_name': class_name,
+                        'visible_count': obj_visible_count,
                         'total_count': len(keypoint_data),
-                        'avg_confidence': np.mean(person_confidences) if person_confidences else 0.0,
-                        'details': person_details
+                        'avg_confidence': np.mean(obj_confidences) if obj_confidences else 0.0,
+                        'details': obj_details
                     })
 
                 except Exception as e:
-                    logger.warning(f"处理第{person_idx}个人的关键点时出错: {e}")
+                    logger.warning(f"处理第{obj_idx}个工具对象的关键点时出错: {e}")
                     continue
 
             # 计算平均置信度
             if all_keypoint_confidences:
                 keypoint_stats['avg_keypoint_confidence'] = np.mean(all_keypoint_confidences)
 
-            # 计算各分组的平均置信度
-            for group_name, group_indices in KEYPOINT_GROUPS.items():
-                group_confidences = []
-                for person_kpts in keypoint_stats['person_keypoints']:
-                    for detail in person_kpts['details']:
-                        if detail['name'] in [KEYPOINT_NAMES[i] for i in group_indices]:
-                            group_confidences.append(detail['confidence'])
-                
-                if group_confidences:
-                    keypoint_stats['keypoint_groups'][group_name]['avg_confidence'] = np.mean(group_confidences)
-
-            logger.debug(f"关键点统计: {keypoint_stats['total_persons']} 人, {keypoint_stats['visible_keypoints']} 个可见关键点")
+            logger.debug(f"关键点统计: {keypoint_stats['total_objects']} 个工具对象, {keypoint_stats['visible_keypoints']} 个可见关键点")
             return keypoint_stats
 
         except Exception as e:
@@ -456,23 +554,35 @@ class DetectionResult:
                 text_parts.append(f"- 覆盖率: {stats['mask_coverage_ratio']:.1%}")
 
         # 添加关键点统计信息（如果有）
-        if stats.get('total_persons', 0) > 0:
-            text_parts.append("\n**姿态检测统计:**")
-            text_parts.append(f"- 检测到人数: {stats['total_persons']}")
+        # 向后兼容：同时检查total_persons和total_objects
+        total_objects = stats.get('total_objects', stats.get('total_persons', 0))
+        if total_objects > 0:
+            text_parts.append("\n**工具关键点检测统计:**")
+            text_parts.append(f"- 检测到工具数: {total_objects}")
             text_parts.append(f"- 总关键点数: {stats['total_keypoints']}")
             text_parts.append(f"- 可见关键点: {stats['visible_keypoints']}")
             text_parts.append(f"- 关键点平均置信度: {stats['avg_keypoint_confidence']:.2f}")
             
-            # 关键点分组统计
-            text_parts.append("\n**关键点分组统计:**")
-            for group_name, group_stats in stats['keypoint_groups'].items():
-                visible_ratio = group_stats['visible'] / group_stats['total'] if group_stats['total'] > 0 else 0
-                text_parts.append(f"- {group_name}: {group_stats['visible']}/{group_stats['total']} 可见 ({visible_ratio:.1%})")
+            # 按类别统计
+            if stats.get('objects_by_class'):
+                text_parts.append("\n**按类别统计:**")
+                for class_name, class_stats in stats['objects_by_class'].items():
+                    if class_stats['count'] > 0:
+                        visible_ratio = class_stats['visible_keypoints'] / class_stats['total_keypoints'] if class_stats['total_keypoints'] > 0 else 0
+                        text_parts.append(f"  - {class_name}: {class_stats['count']} 个对象, "
+                                        f"{class_stats['visible_keypoints']}/{class_stats['total_keypoints']} 关键点可见 "
+                                        f"({visible_ratio:.1%}), 平均置信度: {class_stats['avg_confidence']:.2f}")
             
-            # 个人关键点详情
-            text_parts.append("\n**个人关键点详情:**")
-            for person_kpts in stats['person_keypoints']:
-                text_parts.append(f"- 人员{person_kpts['person_id']+1}: {person_kpts['visible_count']}/{person_kpts['total_count']} 关键点可见")
+            # 每个工具对象关键点详情
+            object_keypoints = stats.get('object_keypoints', stats.get('person_keypoints', []))
+            if object_keypoints:
+                text_parts.append("\n**工具对象关键点详情:**")
+                for obj_kpts in object_keypoints:
+                    class_name = obj_kpts.get('class_name', f"类别{obj_kpts.get('class_id', '?')}")
+                    obj_id = obj_kpts.get('object_id', obj_kpts.get('person_id', 0))
+                    text_parts.append(f"  - {class_name} #{obj_id + 1}: "
+                                    f"{obj_kpts['visible_count']}/{obj_kpts['total_count']} 关键点可见, "
+                                    f"平均置信度: {obj_kpts['avg_confidence']:.2f}")
 
         text_parts.append("\n**类别统计:**")
         for cls_name, cls_info in stats['classes'].items():
@@ -497,17 +607,65 @@ class DetectionResult:
         return self._visualization
     
     def _create_visualization(self) -> Optional[np.ndarray]:
-        """创建可视化图像"""
+        """
+        创建可视化图像
+        
+        根据Ultralytics YOLO官方文档，plot()方法支持的参数：
+        - kpt_radius: 关键点绘制半径
+        - kpt_line: 是否绘制骨架连线
+        - labels: 是否显示标签
+        - boxes: 是否显示边界框
+        - masks: 是否显示掩码
+        - probs: 是否显示置信度
+        - line_width: 边界框线条宽度
+        
+        注意：只传入plot()支持的参数，避免传入不支持的参数导致坐标映射问题
+        参考：https://docs.ultralytics.com/zh/modes/predict/#plot-method-parameters
+        """
         try:
             # 这里判断self.raw_result对象是否有'plot'方法，用于确定是否支持可视化绘制
             if hasattr(self.raw_result, 'plot'):
-                # 使用可视化参数调用plot方法
-                return self.raw_result.plot(**self.visualization_params)
+                # 只传入plot()方法明确支持的参数
+                # 根据Ultralytics文档，过滤掉可能不支持的参数
+                plot_params = {}
+                
+                # 关键点相关参数
+                if 'kpt_radius' in self.visualization_params:
+                    plot_params['kpt_radius'] = self.visualization_params['kpt_radius']
+                if 'kpt_line' in self.visualization_params:
+                    plot_params['kpt_line'] = self.visualization_params['kpt_line']
+                
+                # 显示控制参数
+                if 'labels' in self.visualization_params:
+                    plot_params['labels'] = self.visualization_params['labels']
+                if 'boxes' in self.visualization_params:
+                    plot_params['boxes'] = self.visualization_params['boxes']
+                if 'masks' in self.visualization_params:
+                    plot_params['masks'] = self.visualization_params['masks']
+                if 'probs' in self.visualization_params:
+                    plot_params['probs'] = self.visualization_params['probs']
+                
+                # 样式参数
+                if 'line_width' in self.visualization_params:
+                    plot_params['line_width'] = self.visualization_params['line_width']
+                
+                # 注意：不传入 font_size 和 color_mode 等可能不支持的参数
+                # 确保不传入None值
+                plot_params = {k: v for k, v in plot_params.items() if v is not None}
+                
+                # 使用plot()方法，它会自动处理坐标映射到原始图像尺寸
+                # YOLO的Results对象内部已保存原始图像信息，坐标会自动映射
+                annotated_image = self.raw_result.plot(**plot_params)
+                
+                logger.debug(f"plot()可视化完成，参数: {plot_params}")
+                return annotated_image
             else:
                 logger.warning("检测结果不支持可视化")
                 return None
         except Exception as e:
             logger.error(f"创建可视化失败: {e}")
+            import traceback
+            logger.debug(traceback.format_exc())
             return None
 
 

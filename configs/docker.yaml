@@ -16,6 +16,11 @@ models:
     path: "/app/models/classification_best.pt"
     type: "classification"
     description: "图像分类模型"
+  
+  pose:
+    path: "/app/models/tool_pose_best.pt"
+    type: "pose"
+    description: "工具关键点检测模型"
 
 # 数据路径配置 - Docker环境路径
 data:
@@ -36,6 +41,74 @@ segmentation:
   confidence_threshold: 0.25
   retina_masks: true
   show_boxes: false
+
+# 姿态检测参数配置 - 工具关键点检测（tool1/tool2，各7个关键点）
+pose:
+  # 预测参数
+  confidence_threshold: 0.25
+  max_det: 1000              # 最大检测数量
+  iou: 0.45                  # IoU阈值
+  imgsz: 640                 # 图像尺寸
+  device: ""                 # 设备选择 (空字符串表示自动选择)
+  half: false                # 半精度推理
+  
+  # 关键点配置
+  keypoints:
+    # 关键点形状 [数量, 维度]
+    kpt_shape: [7, 3]        # 7个关键点，3个维度 (x, y, confidence)
+    
+    # 类别配置
+    num_classes: 2
+    class_names:
+      0: tool1
+      1: tool2
+    
+    # 每个类别的关键点名称
+    kpt_names:
+      0:  # tool1的关键点
+        - t1_1
+        - t1_2
+        - t1_3
+        - t1_4
+        - t1_5
+        - t1_6
+        - t1_7
+      1:  # tool2的关键点
+        - t2_1
+        - t2_2
+        - t2_3
+        - t2_4
+        - t2_5
+        - t2_6
+        - t2_7
+    
+    # 骨架连接（适用于所有类别）
+    skeleton:
+      - [0, 1]
+      - [1, 2]
+      - [2, 3]
+      - [3, 4]
+      - [4, 5]
+      - [5, 6]
+      - [6, 0]
+    
+    # 水平翻转索引（用于数据增强时正确映射关键点）
+    flip_idx: [0, 2, 1, 4, 3, 5, 6]
+    
+    # 关键点可见性权重（用于训练时优化重要关键点）
+    pose_weights: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]
+  
+  # 可视化参数 - 用于plot()方法
+  visualization:
+    kpt_radius: 5            # 关键点绘制半径
+    kpt_line: false           # 是否绘制骨架连线
+    labels: true             # 显示标签
+    boxes: true              # 是否显示边界框
+    masks: true              # 是否显示掩码
+    probs: true              # 显示置信度
+    line_width: 3            # 边界框线条宽度
+    font_size: 12            # 文本字体大小
+    color_mode: "class"      # 颜色模式
 
 # 批量处理配置
 batch_processing:

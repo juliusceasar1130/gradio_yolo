@@ -4,7 +4,8 @@
       "WebFetch(domain:docs.ultralytics.com)",
       "WebFetch(domain:github.com)",
       "WebSearch",
-      "WebFetch(domain:cocodataset.org)"
+      "WebFetch(domain:cocodataset.org)",
+      "WebFetch(domain:labelstud.io)"
     ],
     "deny": [],
     "ask": []

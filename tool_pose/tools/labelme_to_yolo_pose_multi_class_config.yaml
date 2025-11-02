@@ -1,0 +1,86 @@
+# 创建者/修改者: chenliang
+# 修改时间：2025年1月27日
+# 最后更新：2025年11月2日
+# 主要修改内容：多类别关键点检测转换工具配置文件
+
+# ==================== 路径配置 ====================
+# 输入目录（包含Labelme JSON文件）
+# 注意：路径需要使用/而不是\ input_dir:  D:/00deeplearn/yolo11/gradio_web_yolo/datasets/datasets/tooltest_json
+input_dir:  C:/Users/julius/Desktop/data00/val/labels
+
+# 输出目录（YOLO格式标签文件将保存在这里）
+output_dir:  D:/00deeplearn/yolo11/gradio_web_yolo/datasets/datasets/tooltest_yolo
+
+# ==================== 转换参数 ====================
+# 关键点维度 (2: x,y坐标; 3: x,y坐标+可见性)
+dim: 3
+
+# ==================== 输出选项 ====================
+# 是否创建数据集YAML配置文件
+create_yaml: true
+
+# 数据集名称（用于生成YAML文件名）
+dataset_name: tool_dataset
+
+# 是否创建示例标签文件（用于Labelme标注）
+create_labels: true
+
+# 标签文件输出路径（如果为空，将使用output_dir/multi_class_labels.txt）
+labels_file: 
+
+# ==================== 类别映射配置 ====================
+# 定义每个类别及其关键点
+# 格式:
+#   类别名:
+#     class_id: 类别ID（从0开始）
+#     keypoints: 关键点名称列表（顺序很重要）
+class_mapping:
+  # 工具1类别
+  tool1:
+    class_id: 0
+    keypoints:
+      - t1_1           # 顶点
+      - t1_2           # 左下角
+      - t1_3           # 右下角
+      - t1_4           # 左上角
+      - t1_5           # 右上角 
+      - t1_6           # 中心点
+      - t1_7           # 底部
+  
+  # 工具2类别
+  tool2:
+    class_id: 1
+    keypoints:
+      - t2_1           # 顶点
+      - t2_2           # 左下角
+      - t2_3           # 右下角
+      - t2_4           # 左上角
+      - t2_5           # 右上角 
+      - t2_6           # 中心点
+      - t2_7           # 底部
+
+# ==================== 使用说明 ====================
+# 
+# 1. 修改上述配置参数
+# 2. 运行脚本:
+#    python labelme_to_yolo_pose_multi_class_config.py [配置文件路径]
+# 
+#    如果不提供配置文件路径，将使用脚本目录下的
+#    labelme_to_yolo_pose_multi_class_config.yaml
+#
+# 3. 关键点标注规则:
+#    - 在Labelme中，边界框的label使用类别名（如: triangle, quadrilateral）
+#    - 关键点的label使用完整格式: 类别名_关键点名（如: triangle_top, quadrilateral_top_left）
+#    - 关键点的顺序必须与配置文件中keypoints列表的顺序一致
+#
+# 4. 添加新类别:
+#    在class_mapping下添加新条目，例如:
+#    pentagon:
+#      class_id: 2
+#      keypoints:
+#        - top
+#        - top_right
+#        - bottom_right
+#        - bottom_left
+#        - top_left
+

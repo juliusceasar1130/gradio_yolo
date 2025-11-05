@@ -14,7 +14,7 @@ paths:
   model: "D:\\00deeplearn\\yolo11\\gradio_web_yolo\\tool_pose\\tools\\train2\\weights\\best.pt"
   
   # 输入图片路径
-  image: "C:\\Users\\julius\\Desktop\\张春亮\\zcl\\GG5087612_01_20251028152549437.jpg"
+  image: "C:\\Users\\julius\\Desktop\\AXIS\\image (4).jpg"
   
   # 输出目录（自动创建）
   output: "outputs"

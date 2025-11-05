@@ -6477,3 +6477,1402 @@ found unknown escape character 'y'
 2025-10-31 15:12:30 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:199 - 使用示例图像: GG5087612_01_20251028145730282.jpg
 2025-10-31 15:12:31 | [32mINFO[0m | yolo_detector.core.detector:detect:977 - 姿态检测完成
 2025-10-31 15:12:31 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:138 - 检测完成: 1 个对象
+2025-11-02 14:45:15 | [32mINFO[0m | yolo_detector.config.settings:_load_config:63 - 成功加载配置文件: D:\00deeplearn\yolo11\gradio_tool\configs\default.yaml
+2025-11-02 14:45:15 | [32mINFO[0m | yolo_detector.config.settings:_validate_config:140 - 配置验证完成
+2025-11-02 14:45:15 | [32mINFO[0m | __main__:setup_environment:54 - 环境设置完成
+2025-11-02 14:45:15 | [32mINFO[0m | __main__:run_web_interface:67 - 启动Web界面...
+2025-11-02 14:45:15 | [32mINFO[0m | yolo_detector.ui.gradio_app:__init__:56 - Gradio应用初始化完成
+2025-11-02 14:45:15 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 45 个图像文件在 D:\Python\00雪橇打标\123456
+2025-11-02 14:45:15 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 12 个示例图像
+2025-11-02 14:45:16 | [32mINFO[0m | yolo_detector.ui.gradio_app:create_interface:390 - Gradio界面创建完成
+2025-11-02 14:45:16 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: GET http://127.0.0.1:7861/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-11-02 14:45:16 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: HEAD http://127.0.0.1:7861/ "HTTP/1.1 200 OK"
+2025-11-02 14:45:26 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 45 个图像文件在 D:\Python\00雪橇打标\123456
+2025-11-02 14:45:26 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 12 个示例图像
+2025-11-02 14:45:26 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:199 - 使用示例图像: GG5087612_01_20251028145654202.jpg
+2025-11-02 14:45:27 | [32mINFO[0m | yolo_detector.models.model_loader:load_model:81 - 开始加载detection模型: D:/00deeplearn/yolo11/【2】训练模型/cls/train_new/weights/best.pt
+2025-11-02 14:45:27 | [32mINFO[0m | yolo_detector.models.model_loader:load_model:92 - 成功加载detection模型: D:/00deeplearn/yolo11/【2】训练模型/cls/train_new/weights/best.pt
+2025-11-02 14:45:27 | [32mINFO[0m | yolo_detector.core.detector:load_model:757 - 目标检测模型加载成功
+2025-11-02 14:45:29 | [32mINFO[0m | yolo_detector.models.model_loader:load_model:81 - 开始加载pose模型: D:/00deeplearn/yolo11/gradio_web_yolo/tool_pose/tools/train2/weights/best.pt
+2025-11-02 14:45:30 | [32mINFO[0m | yolo_detector.models.model_loader:load_model:92 - 成功加载pose模型: D:/00deeplearn/yolo11/gradio_web_yolo/tool_pose/tools/train2/weights/best.pt
+2025-11-02 14:45:30 | [32mINFO[0m | yolo_detector.core.detector:load_model:910 - 姿态检测模型加载成功
+2025-11-02 14:45:30 | [32mINFO[0m | yolo_detector.ui.gradio_app:switch_detector:92 - 切换到姿态检测模式
+2025-11-02 14:45:30 | [32mINFO[0m | yolo_detector.core.detector:detect:808 - 目标检测完成
+2025-11-02 14:45:30 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:138 - 检测完成: 0 个对象
+2025-11-02 14:45:30 | [32mINFO[0m | yolo_detector.core.detector:detect:977 - 姿态检测完成
+2025-11-02 14:45:30 | [32mINFO[0m | yolo_detector.config.settings:_load_config:63 - 成功加载配置文件: D:\00deeplearn\yolo11\gradio_tool\configs\default.yaml
+2025-11-02 14:45:30 | [32mINFO[0m | yolo_detector.config.settings:_validate_config:140 - 配置验证完成
+2025-11-02 14:45:30 | [32mINFO[0m | yolo_detector.config.settings:get_tool_pose_config:262 - 成功加载工具关键点配置: 2个类别, 7个关键点
+2025-11-02 14:45:30 | [32mINFO[0m | yolo_detector.core.detector:validate_tool_pose_config:162 - 工具关键点配置验证通过: 7个关键点, 2个类别
+2025-11-02 14:45:30 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:138 - 检测完成: 1 个对象
+2025-11-02 14:45:42 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 45 个图像文件在 D:\Python\00雪橇打标\123456
+2025-11-02 14:45:42 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 12 个示例图像
+2025-11-02 14:45:42 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:199 - 使用示例图像: GG5087612_01_20251028145722510.jpg
+2025-11-02 14:45:43 | [32mINFO[0m | yolo_detector.core.detector:detect:977 - 姿态检测完成
+2025-11-02 14:45:43 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:138 - 检测完成: 1 个对象
+2025-11-02 14:45:43 | [32mINFO[0m | yolo_detector.utils.file_utils:get_image_files:68 - 找到 45 个图像文件在 D:\Python\00雪橇打标\123456
+2025-11-02 14:45:43 | [32mINFO[0m | yolo_detector.utils.file_utils:get_example_images:164 - 获取 12 个示例图像
+2025-11-02 14:45:43 | [32mINFO[0m | yolo_detector.ui.gradio_app:use_example_image:199 - 使用示例图像: GG5087612_01_20251028145726588.jpg
+2025-11-02 14:45:44 | [32mINFO[0m | yolo_detector.core.detector:detect:977 - 姿态检测完成
+2025-11-02 14:45:44 | [32mINFO[0m | yolo_detector.ui.gradio_app:detect_image:138 - 检测完成: 1 个对象
+2025-11-02 17:45:08 | [32mINFO[0m | yolo_detector.models.model_loader:unload_model:186 - 成功卸载detection模型
+2025-11-02 17:45:08 | [32mINFO[0m | yolo_detector.models.model_loader:unload_model:186 - 成功卸载pose模型
+2025-11-02 17:45:08 | [32mINFO[0m | yolo_detector.models.model_loader:unload_all_models:202 - 所有模型已卸载
+2025-11-02 17:53:16 | [32mINFO[0m | __main__:setup_environment:35 - 环境设置完成
+2025-11-02 17:53:16 | [32mINFO[0m | __main__:run_web_interface:65 - 启动工具关键点检测Web界面...
+2025-11-02 17:53:17 | [32mINFO[0m | yolo_detector.utils.tool_pose_utils:__init__:92 - 工具关键点检测器初始化完成，配置文件: D:\00deeplearn\yolo11\gradio_tool\tool_pose\demo\angle_config.yaml
+2025-11-02 17:53:17 | [32mINFO[0m | yolo_detector.utils.tool_pose_utils:_load_angle_config:131 - 角度配置文件加载完成: D:\00deeplearn\yolo11\gradio_tool\tool_pose\demo\angle_config.yaml
+2025-11-02 17:53:17 | [32mINFO[0m | yolo_detector.ui.gradio_app:__init__:61 - 工具关键点检测应用初始化完成，输出目录: outputs\tool_pose
+2025-11-02 17:53:17 | [31mERROR[0m | yolo_detector.ui.gradio_app:create_interface:476 - 创建Gradio界面失败: EventListener._setup.<locals>.event_trigger() got an unexpected keyword argument 'every'
+Traceback (most recent call last):
+  File "D:\00deeplearn\yolo11\gradio_tool\src\yolo_detector\ui\gradio_app.py", line 466, in create_interface
+    demo.load(
+TypeError: EventListener._setup.<locals>.event_trigger() got an unexpected keyword argument 'every'
+2025-11-02 17:53:17 | [31mERROR[0m | __main__:run_web_interface:83 - 启动Web界面失败: EventListener._setup.<locals>.event_trigger() got an unexpected keyword argument 'every'
+Traceback (most recent call last):
+  File "D:\00deeplearn\yolo11\gradio_tool\main.py", line 68, in run_web_interface
+    demo = create_gradio_interface(
+  File "D:\00deeplearn\yolo11\gradio_tool\src\yolo_detector\ui\gradio_app.py", line 503, in create_gradio_interface
+    return app.create_interface()
+  File "D:\00deeplearn\yolo11\gradio_tool\src\yolo_detector\ui\gradio_app.py", line 466, in create_interface
+    demo.load(
+TypeError: EventListener._setup.<locals>.event_trigger() got an unexpected keyword argument 'every'
+2025-11-02 17:53:44 | [32mINFO[0m | __main__:setup_environment:35 - 环境设置完成
+2025-11-02 17:53:44 | [32mINFO[0m | __main__:run_web_interface:65 - 启动工具关键点检测Web界面...
+2025-11-02 17:53:44 | [32mINFO[0m | yolo_detector.utils.tool_pose_utils:__init__:92 - 工具关键点检测器初始化完成，配置文件: D:\00deeplearn\yolo11\gradio_tool\tool_pose\demo\angle_config.yaml
+2025-11-02 17:53:44 | [32mINFO[0m | yolo_detector.utils.tool_pose_utils:_load_angle_config:131 - 角度配置文件加载完成: D:\00deeplearn\yolo11\gradio_tool\tool_pose\demo\angle_config.yaml
+2025-11-02 17:53:44 | [32mINFO[0m | yolo_detector.ui.gradio_app:__init__:61 - 工具关键点检测应用初始化完成，输出目录: outputs\tool_pose
+2025-11-02 17:53:44 | [31mERROR[0m | yolo_detector.ui.gradio_app:create_interface:476 - 创建Gradio界面失败: 'Image' object has no attribute 'load'
+Traceback (most recent call last):
+  File "D:\00deeplearn\yolo11\gradio_tool\src\yolo_detector\ui\gradio_app.py", line 466, in create_interface
+    preview_image.load(
+AttributeError: 'Image' object has no attribute 'load'
+2025-11-02 17:53:44 | [31mERROR[0m | __main__:run_web_interface:83 - 启动Web界面失败: 'Image' object has no attribute 'load'
+Traceback (most recent call last):
+  File "D:\00deeplearn\yolo11\gradio_tool\main.py", line 68, in run_web_interface
+    demo = create_gradio_interface(
+  File "D:\00deeplearn\yolo11\gradio_tool\src\yolo_detector\ui\gradio_app.py", line 503, in create_gradio_interface
+    return app.create_interface()
+  File "D:\00deeplearn\yolo11\gradio_tool\src\yolo_detector\ui\gradio_app.py", line 466, in create_interface
+    preview_image.load(
+AttributeError: 'Image' object has no attribute 'load'
+2025-11-02 17:54:02 | [32mINFO[0m | __main__:setup_environment:35 - 环境设置完成
+2025-11-02 17:54:02 | [32mINFO[0m | __main__:run_web_interface:65 - 启动工具关键点检测Web界面...
+2025-11-02 17:54:02 | [32mINFO[0m | yolo_detector.utils.tool_pose_utils:__init__:92 - 工具关键点检测器初始化完成，配置文件: D:\00deeplearn\yolo11\gradio_tool\tool_pose\demo\angle_config.yaml
+2025-11-02 17:54:02 | [32mINFO[0m | yolo_detector.utils.tool_pose_utils:_load_angle_config:131 - 角度配置文件加载完成: D:\00deeplearn\yolo11\gradio_tool\tool_pose\demo\angle_config.yaml
+2025-11-02 17:54:02 | [32mINFO[0m | yolo_detector.ui.gradio_app:__init__:61 - 工具关键点检测应用初始化完成，输出目录: outputs\tool_pose
+2025-11-02 17:54:02 | [31mERROR[0m | yolo_detector.ui.gradio_app:create_interface:478 - 创建Gradio界面失败: 'Image' object has no attribute 'load'
+Traceback (most recent call last):
+  File "D:\00deeplearn\yolo11\gradio_tool\src\yolo_detector\ui\gradio_app.py", line 469, in create_interface
+    preview_image.load(
+AttributeError: 'Image' object has no attribute 'load'
+2025-11-02 17:54:02 | [31mERROR[0m | __main__:run_web_interface:83 - 启动Web界面失败: 'Image' object has no attribute 'load'
+Traceback (most recent call last):
+  File "D:\00deeplearn\yolo11\gradio_tool\main.py", line 68, in run_web_interface
+    demo = create_gradio_interface(
+  File "D:\00deeplearn\yolo11\gradio_tool\src\yolo_detector\ui\gradio_app.py", line 505, in create_gradio_interface
+    return app.create_interface()
+  File "D:\00deeplearn\yolo11\gradio_tool\src\yolo_detector\ui\gradio_app.py", line 469, in create_interface
+    preview_image.load(
+AttributeError: 'Image' object has no attribute 'load'
+2025-11-02 17:54:19 | [32mINFO[0m | __main__:setup_environment:35 - 环境设置完成
+2025-11-02 17:54:19 | [32mINFO[0m | __main__:run_web_interface:65 - 启动工具关键点检测Web界面...
+2025-11-02 17:54:20 | [32mINFO[0m | yolo_detector.utils.tool_pose_utils:__init__:92 - 工具关键点检测器初始化完成，配置文件: D:\00deeplearn\yolo11\gradio_tool\tool_pose\demo\angle_config.yaml
+2025-11-02 17:54:20 | [32mINFO[0m | yolo_detector.utils.tool_pose_utils:_load_angle_config:131 - 角度配置文件加载完成: D:\00deeplearn\yolo11\gradio_tool\tool_pose\demo\angle_config.yaml
+2025-11-02 17:54:20 | [32mINFO[0m | yolo_detector.ui.gradio_app:__init__:61 - 工具关键点检测应用初始化完成，输出目录: outputs\tool_pose
+2025-11-02 17:54:20 | [32mINFO[0m | yolo_detector.ui.gradio_app:create_interface:474 - Gradio界面创建完成
+2025-11-02 17:54:20 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: GET http://127.0.0.1:7861/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-11-02 17:54:20 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: HEAD http://127.0.0.1:7861/ "HTTP/1.1 200 OK"
+2025-11-02 18:16:21 | [32mINFO[0m | __main__:setup_environment:35 - 环境设置完成
+2025-11-02 18:16:21 | [32mINFO[0m | __main__:run_web_interface:65 - 启动工具关键点检测Web界面...
+2025-11-02 18:16:21 | [32mINFO[0m | yolo_detector.utils.tool_pose_utils:__init__:92 - 工具关键点检测器初始化完成，配置文件: D:\00deeplearn\yolo11\gradio_tool\tool_pose\demo\angle_config.yaml
+2025-11-02 18:16:21 | [32mINFO[0m | yolo_detector.utils.tool_pose_utils:_load_angle_config:131 - 角度配置文件加载完成: D:\00deeplearn\yolo11\gradio_tool\tool_pose\demo\angle_config.yaml
+2025-11-02 18:16:21 | [32mINFO[0m | yolo_detector.ui.gradio_app:__init__:61 - 工具关键点检测应用初始化完成，输出目录: outputs\tool_pose
+2025-11-02 18:16:21 | [32mINFO[0m | yolo_detector.ui.gradio_app:create_interface:511 - Gradio界面创建完成
+2025-11-02 18:16:21 | [31mERROR[0m | __main__:run_web_interface:83 - 启动Web界面失败: Cannot find empty port in range: 7861-7861. You can specify a different port by setting the GRADIO_SERVER_PORT environment variable or passing the `server_port` parameter to `launch()`.
+Traceback (most recent call last):
+  File "D:\00deeplearn\yolo11\gradio_tool\main.py", line 74, in run_web_interface
+    demo.launch(
+  File "C:\develops_tools\anaconda\envs\gradioflask\lib\site-packages\gradio\blocks.py", line 2724, in launch
+    ) = http_server.start_server(
+  File "C:\develops_tools\anaconda\envs\gradioflask\lib\site-packages\gradio\http_server.py", line 156, in start_server
+    raise OSError(
+OSError: Cannot find empty port in range: 7861-7861. You can specify a different port by setting the GRADIO_SERVER_PORT environment variable or passing the `server_port` parameter to `launch()`.
+2025-11-02 18:17:12 | [32mINFO[0m | __main__:setup_environment:35 - 环境设置完成
+2025-11-02 18:17:12 | [32mINFO[0m | __main__:run_web_interface:65 - 启动工具关键点检测Web界面...
+2025-11-02 18:17:12 | [32mINFO[0m | yolo_detector.utils.tool_pose_utils:__init__:92 - 工具关键点检测器初始化完成，配置文件: D:\00deeplearn\yolo11\gradio_tool\tool_pose\demo\angle_config.yaml
+2025-11-02 18:17:12 | [32mINFO[0m | yolo_detector.utils.tool_pose_utils:_load_angle_config:131 - 角度配置文件加载完成: D:\00deeplearn\yolo11\gradio_tool\tool_pose\demo\angle_config.yaml
+2025-11-02 18:17:12 | [32mINFO[0m | yolo_detector.ui.gradio_app:__init__:61 - 工具关键点检测应用初始化完成，输出目录: outputs\tool_pose
+2025-11-02 18:17:12 | [32mINFO[0m | yolo_detector.ui.gradio_app:create_interface:511 - Gradio界面创建完成
+2025-11-02 18:17:12 | [31mERROR[0m | __main__:run_web_interface:83 - 启动Web界面失败: Cannot find empty port in range: 7861-7861. You can specify a different port by setting the GRADIO_SERVER_PORT environment variable or passing the `server_port` parameter to `launch()`.
+Traceback (most recent call last):
+  File "D:\00deeplearn\yolo11\gradio_tool\main.py", line 74, in run_web_interface
+    demo.launch(
+  File "C:\develops_tools\anaconda\envs\gradioflask\lib\site-packages\gradio\blocks.py", line 2724, in launch
+    ) = http_server.start_server(
+  File "C:\develops_tools\anaconda\envs\gradioflask\lib\site-packages\gradio\http_server.py", line 156, in start_server
+    raise OSError(
+OSError: Cannot find empty port in range: 7861-7861. You can specify a different port by setting the GRADIO_SERVER_PORT environment variable or passing the `server_port` parameter to `launch()`.
+2025-11-02 18:19:02 | [32mINFO[0m | __main__:setup_environment:35 - 环境设置完成
+2025-11-02 18:19:02 | [32mINFO[0m | __main__:run_web_interface:65 - 启动工具关键点检测Web界面...
+2025-11-02 18:19:02 | [32mINFO[0m | yolo_detector.utils.tool_pose_utils:__init__:92 - 工具关键点检测器初始化完成，配置文件: D:\00deeplearn\yolo11\gradio_tool\tool_pose\demo\angle_config.yaml
+2025-11-02 18:19:02 | [32mINFO[0m | yolo_detector.utils.tool_pose_utils:_load_angle_config:131 - 角度配置文件加载完成: D:\00deeplearn\yolo11\gradio_tool\tool_pose\demo\angle_config.yaml
+2025-11-02 18:19:02 | [32mINFO[0m | yolo_detector.ui.gradio_app:__init__:61 - 工具关键点检测应用初始化完成，输出目录: outputs\tool_pose
+2025-11-02 18:19:02 | [32mINFO[0m | yolo_detector.ui.gradio_app:create_interface:511 - Gradio界面创建完成
+2025-11-02 18:19:02 | [31mERROR[0m | __main__:run_web_interface:83 - 启动Web界面失败: Cannot find empty port in range: 7861-7861. You can specify a different port by setting the GRADIO_SERVER_PORT environment variable or passing the `server_port` parameter to `launch()`.
+Traceback (most recent call last):
+  File "D:\00deeplearn\yolo11\gradio_tool\main.py", line 74, in run_web_interface
+    demo.launch(
+  File "C:\develops_tools\anaconda\envs\gradioflask\lib\site-packages\gradio\blocks.py", line 2724, in launch
+    ) = http_server.start_server(
+  File "C:\develops_tools\anaconda\envs\gradioflask\lib\site-packages\gradio\http_server.py", line 156, in start_server
+    raise OSError(
+OSError: Cannot find empty port in range: 7861-7861. You can specify a different port by setting the GRADIO_SERVER_PORT environment variable or passing the `server_port` parameter to `launch()`.
+2025-11-02 18:21:05 | [32mINFO[0m | __main__:setup_environment:35 - 环境设置完成
+2025-11-02 18:21:05 | [32mINFO[0m | __main__:run_web_interface:65 - 启动工具关键点检测Web界面...
+2025-11-02 18:21:05 | [32mINFO[0m | yolo_detector.utils.tool_pose_utils:__init__:92 - 工具关键点检测器初始化完成，配置文件: D:\00deeplearn\yolo11\gradio_tool\tool_pose\demo\angle_config.yaml
+2025-11-02 18:21:05 | [32mINFO[0m | yolo_detector.utils.tool_pose_utils:_load_angle_config:131 - 角度配置文件加载完成: D:\00deeplearn\yolo11\gradio_tool\tool_pose\demo\angle_config.yaml
+2025-11-02 18:21:05 | [32mINFO[0m | yolo_detector.ui.gradio_app:__init__:61 - 工具关键点检测应用初始化完成，输出目录: outputs\tool_pose
+2025-11-02 18:21:05 | [32mINFO[0m | yolo_detector.ui.gradio_app:create_interface:511 - Gradio界面创建完成
+2025-11-02 18:21:06 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: GET http://127.0.0.1:7861/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-11-02 18:21:06 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: HEAD http://127.0.0.1:7861/ "HTTP/1.1 200 OK"
+2025-11-02 18:21:39 | [32mINFO[0m | __main__:setup_environment:35 - 环境设置完成
+2025-11-02 18:21:39 | [32mINFO[0m | __main__:run_web_interface:65 - 启动工具关键点检测Web界面...
+2025-11-02 18:21:39 | [32mINFO[0m | yolo_detector.utils.tool_pose_utils:__init__:92 - 工具关键点检测器初始化完成，配置文件: D:\00deeplearn\yolo11\gradio_tool\tool_pose\demo\angle_config.yaml
+2025-11-02 18:21:39 | [32mINFO[0m | yolo_detector.utils.tool_pose_utils:_load_angle_config:131 - 角度配置文件加载完成: D:\00deeplearn\yolo11\gradio_tool\tool_pose\demo\angle_config.yaml
+2025-11-02 18:21:39 | [32mINFO[0m | yolo_detector.ui.gradio_app:__init__:61 - 工具关键点检测应用初始化完成，输出目录: outputs\tool_pose
+2025-11-02 18:21:40 | [32mINFO[0m | yolo_detector.ui.gradio_app:create_interface:511 - Gradio界面创建完成
+2025-11-02 18:21:40 | [33mWARNING[0m | __main__:run_web_interface:87 - 端口 7861 被占用，尝试寻找可用端口...
+2025-11-02 18:21:40 | [32mINFO[0m | __main__:run_web_interface:91 - 找到可用端口: 7862
+2025-11-02 18:21:40 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: GET http://127.0.0.1:7862/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-11-02 18:21:40 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: HEAD http://127.0.0.1:7862/ "HTTP/1.1 200 OK"
+2025-11-02 18:21:49 | [32mINFO[0m | yolo_detector.core.camera_capture:__init__:66 - 摄像头采集器初始化完成，摄像头索引: 0
+2025-11-02 18:21:49 | [32mINFO[0m | yolo_detector.core.camera_capture:connect:80 - 正在连接摄像头（索引: 0）...
+2025-11-02 18:21:50 | [32mINFO[0m | yolo_detector.core.camera_capture:connect:106 - 摄像头连接成功（索引: 0）
+2025-11-02 18:21:50 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:262 - 开始摄像头采集循环
+2025-11-02 18:21:50 | [32mINFO[0m | yolo_detector.core.camera_capture:_start_capture_thread:237 - 摄像头采集线程已启动
+2025-11-02 18:21:50 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:80 - 摄像头连接成功
+2025-11-02 18:22:03 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:127 - 正在断开摄像头连接...
+2025-11-02 18:22:03 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:317 - 摄像头采集循环结束，总共采集 367 帧
+2025-11-02 18:22:03 | [32mINFO[0m | yolo_detector.core.camera_capture:_stop_capture_thread:252 - 摄像头采集线程已停止
+2025-11-02 18:22:03 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:136 - 摄像头已断开连接
+2025-11-02 18:22:03 | [32mINFO[0m | yolo_detector.ui.gradio_app:disconnect_camera:105 - 摄像头已断开
+2025-11-02 18:22:31 | [32mINFO[0m | yolo_detector.core.camera_capture:__init__:66 - 摄像头采集器初始化完成，摄像头索引: 0
+2025-11-02 18:22:31 | [32mINFO[0m | yolo_detector.core.camera_capture:connect:80 - 正在连接摄像头（索引: 0）...
+2025-11-02 18:22:32 | [32mINFO[0m | yolo_detector.core.camera_capture:connect:106 - 摄像头连接成功（索引: 0）
+2025-11-02 18:22:32 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:262 - 开始摄像头采集循环
+2025-11-02 18:22:32 | [32mINFO[0m | yolo_detector.core.camera_capture:_start_capture_thread:237 - 摄像头采集线程已启动
+2025-11-02 18:22:32 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:80 - 摄像头连接成功
+2025-11-02 18:23:18 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:127 - 正在断开摄像头连接...
+2025-11-02 18:23:18 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:317 - 摄像头采集循环结束，总共采集 1382 帧
+2025-11-02 18:23:18 | [32mINFO[0m | yolo_detector.core.camera_capture:_stop_capture_thread:252 - 摄像头采集线程已停止
+2025-11-02 18:23:19 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:136 - 摄像头已断开连接
+2025-11-02 18:23:19 | [32mINFO[0m | yolo_detector.ui.gradio_app:disconnect_camera:105 - 摄像头已断开
+2025-11-02 18:23:33 | [32mINFO[0m | yolo_detector.core.camera_capture:__init__:66 - 摄像头采集器初始化完成，摄像头索引: 0
+2025-11-02 18:23:33 | [32mINFO[0m | yolo_detector.core.camera_capture:connect:80 - 正在连接摄像头（索引: 0）...
+2025-11-02 18:23:33 | [32mINFO[0m | yolo_detector.core.camera_capture:connect:106 - 摄像头连接成功（索引: 0）
+2025-11-02 18:23:33 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:262 - 开始摄像头采集循环
+2025-11-02 18:23:33 | [32mINFO[0m | yolo_detector.core.camera_capture:_start_capture_thread:237 - 摄像头采集线程已启动
+2025-11-02 18:23:33 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:80 - 摄像头连接成功
+2025-11-02 18:23:36 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:182 - 原始图片已保存: outputs\tool_pose\raw_images\raw_20251102_182336.jpg
+2025-11-02 18:23:36 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:188 - 开始执行检测...
+2025-11-02 18:23:36 | [32mINFO[0m | yolo_detector.utils.tool_pose_utils:load_model:152 - 正在加载模型: D:\00deeplearn\yolo11\gradio_web_yolo\tool_pose\tools\train2\weights\best.pt
+2025-11-02 18:23:36 | [32mINFO[0m | yolo_detector.utils.tool_pose_utils:load_model:157 - 模型加载完成
+2025-11-02 18:23:40 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:215 - 结果图片已保存: outputs\tool_pose\result_images\result_20251102_182336.jpg
+2025-11-02 18:23:40 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:233 - JSON数据已保存: outputs\tool_pose\json_results\result_20251102_182336.json
+2025-11-02 18:23:40 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:248 - 检测完成
+2025-11-02 18:23:46 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:182 - 原始图片已保存: outputs\tool_pose\raw_images\raw_20251102_182346.jpg
+2025-11-02 18:23:46 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:188 - 开始执行检测...
+2025-11-02 18:23:46 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:215 - 结果图片已保存: outputs\tool_pose\result_images\result_20251102_182346.jpg
+2025-11-02 18:23:46 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:233 - JSON数据已保存: outputs\tool_pose\json_results\result_20251102_182346.json
+2025-11-02 18:23:46 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:248 - 检测完成
+2025-11-02 18:23:48 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:182 - 原始图片已保存: outputs\tool_pose\raw_images\raw_20251102_182348.jpg
+2025-11-02 18:23:48 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:188 - 开始执行检测...
+2025-11-02 18:23:48 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:215 - 结果图片已保存: outputs\tool_pose\result_images\result_20251102_182348.jpg
+2025-11-02 18:23:48 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:233 - JSON数据已保存: outputs\tool_pose\json_results\result_20251102_182348.json
+2025-11-02 18:23:48 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:248 - 检测完成
+2025-11-02 18:23:49 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:182 - 原始图片已保存: outputs\tool_pose\raw_images\raw_20251102_182349.jpg
+2025-11-02 18:23:49 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:188 - 开始执行检测...
+2025-11-02 18:23:49 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:215 - 结果图片已保存: outputs\tool_pose\result_images\result_20251102_182349.jpg
+2025-11-02 18:23:49 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:233 - JSON数据已保存: outputs\tool_pose\json_results\result_20251102_182349.json
+2025-11-02 18:23:49 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:248 - 检测完成
+2025-11-02 18:23:50 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:182 - 原始图片已保存: outputs\tool_pose\raw_images\raw_20251102_182350.jpg
+2025-11-02 18:23:50 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:188 - 开始执行检测...
+2025-11-02 18:23:51 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:215 - 结果图片已保存: outputs\tool_pose\result_images\result_20251102_182350.jpg
+2025-11-02 18:23:51 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:233 - JSON数据已保存: outputs\tool_pose\json_results\result_20251102_182350.json
+2025-11-02 18:23:51 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:248 - 检测完成
+2025-11-02 18:23:51 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:182 - 原始图片已保存: outputs\tool_pose\raw_images\raw_20251102_182351.jpg
+2025-11-02 18:23:51 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:188 - 开始执行检测...
+2025-11-02 18:23:52 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:215 - 结果图片已保存: outputs\tool_pose\result_images\result_20251102_182351.jpg
+2025-11-02 18:23:52 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:233 - JSON数据已保存: outputs\tool_pose\json_results\result_20251102_182351.json
+2025-11-02 18:23:52 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:248 - 检测完成
+2025-11-02 18:23:53 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:182 - 原始图片已保存: outputs\tool_pose\raw_images\raw_20251102_182353.jpg
+2025-11-02 18:23:53 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:188 - 开始执行检测...
+2025-11-02 18:23:53 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:215 - 结果图片已保存: outputs\tool_pose\result_images\result_20251102_182353.jpg
+2025-11-02 18:23:53 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:233 - JSON数据已保存: outputs\tool_pose\json_results\result_20251102_182353.json
+2025-11-02 18:23:53 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:248 - 检测完成
+2025-11-02 18:23:54 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:182 - 原始图片已保存: outputs\tool_pose\raw_images\raw_20251102_182354.jpg
+2025-11-02 18:23:54 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:188 - 开始执行检测...
+2025-11-02 18:23:54 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:215 - 结果图片已保存: outputs\tool_pose\result_images\result_20251102_182354.jpg
+2025-11-02 18:23:54 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:233 - JSON数据已保存: outputs\tool_pose\json_results\result_20251102_182354.json
+2025-11-02 18:23:54 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:248 - 检测完成
+2025-11-02 18:23:55 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:182 - 原始图片已保存: outputs\tool_pose\raw_images\raw_20251102_182355.jpg
+2025-11-02 18:23:55 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:188 - 开始执行检测...
+2025-11-02 18:23:55 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:215 - 结果图片已保存: outputs\tool_pose\result_images\result_20251102_182355.jpg
+2025-11-02 18:23:55 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:233 - JSON数据已保存: outputs\tool_pose\json_results\result_20251102_182355.json
+2025-11-02 18:23:55 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:248 - 检测完成
+2025-11-02 18:23:56 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:182 - 原始图片已保存: outputs\tool_pose\raw_images\raw_20251102_182356.jpg
+2025-11-02 18:23:56 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:188 - 开始执行检测...
+2025-11-02 18:23:56 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:215 - 结果图片已保存: outputs\tool_pose\result_images\result_20251102_182356.jpg
+2025-11-02 18:23:56 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:233 - JSON数据已保存: outputs\tool_pose\json_results\result_20251102_182356.json
+2025-11-02 18:23:56 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:248 - 检测完成
+2025-11-02 18:23:57 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:182 - 原始图片已保存: outputs\tool_pose\raw_images\raw_20251102_182357.jpg
+2025-11-02 18:23:57 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:188 - 开始执行检测...
+2025-11-02 18:23:57 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:215 - 结果图片已保存: outputs\tool_pose\result_images\result_20251102_182357.jpg
+2025-11-02 18:23:57 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:233 - JSON数据已保存: outputs\tool_pose\json_results\result_20251102_182357.json
+2025-11-02 18:23:57 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:248 - 检测完成
+2025-11-02 18:24:04 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:182 - 原始图片已保存: outputs\tool_pose\raw_images\raw_20251102_182404.jpg
+2025-11-02 18:24:04 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:188 - 开始执行检测...
+2025-11-02 18:24:04 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:215 - 结果图片已保存: outputs\tool_pose\result_images\result_20251102_182404.jpg
+2025-11-02 18:24:04 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:233 - JSON数据已保存: outputs\tool_pose\json_results\result_20251102_182404.json
+2025-11-02 18:24:04 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:248 - 检测完成
+2025-11-02 18:26:38 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:127 - 正在断开摄像头连接...
+2025-11-02 18:26:38 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:317 - 摄像头采集循环结束，总共采集 5543 帧
+2025-11-02 18:26:38 | [32mINFO[0m | yolo_detector.core.camera_capture:_stop_capture_thread:252 - 摄像头采集线程已停止
+2025-11-02 18:26:39 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:136 - 摄像头已断开连接
+2025-11-02 18:26:39 | [32mINFO[0m | yolo_detector.ui.gradio_app:disconnect_camera:105 - 摄像头已断开
+2025-11-04 08:57:59 | [32mINFO[0m | __main__:setup_environment:35 - 环境设置完成
+2025-11-04 08:57:59 | [32mINFO[0m | __main__:run_web_interface:65 - 启动工具关键点检测Web界面...
+2025-11-04 08:57:59 | [32mINFO[0m | yolo_detector.utils.tool_pose_utils:__init__:86 - 工具关键点检测器初始化完成，配置文件: D:\00deeplearn\yolo11\gradio_tool\src\yolo_detector\config\tool_pose_config.yaml
+2025-11-04 08:57:59 | [32mINFO[0m | yolo_detector.utils.tool_pose_angle_calculator:load_angle_config:53 - 角度配置文件加载成功: D:\00deeplearn\yolo11\gradio_tool\src\yolo_detector\config\tool_pose_config.yaml
+2025-11-04 08:57:59 | [32mINFO[0m | yolo_detector.utils.tool_pose_utils:_load_angle_config:125 - 角度配置文件加载完成: D:\00deeplearn\yolo11\gradio_tool\src\yolo_detector\config\tool_pose_config.yaml
+2025-11-04 08:57:59 | [32mINFO[0m | yolo_detector.ui.gradio_app:__init__:62 - 工具关键点检测应用初始化完成，输出目录: outputs\tool_pose
+2025-11-04 08:57:59 | [32mINFO[0m | yolo_detector.ui.gradio_app:create_interface:512 - Gradio界面创建完成
+2025-11-04 08:57:59 | [33mWARNING[0m | __main__:run_web_interface:87 - 端口 7861 被占用，尝试寻找可用端口...
+2025-11-04 08:57:59 | [32mINFO[0m | __main__:run_web_interface:91 - 找到可用端口: 7862
+2025-11-04 08:57:59 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: GET http://127.0.0.1:7862/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-11-04 08:57:59 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: HEAD http://127.0.0.1:7862/ "HTTP/1.1 200 OK"
+2025-11-04 08:58:07 | [32mINFO[0m | yolo_detector.core.camera_capture:__init__:66 - 摄像头采集器初始化完成，摄像头索引: 0
+2025-11-04 08:58:07 | [32mINFO[0m | yolo_detector.core.camera_capture:connect:80 - 正在连接摄像头（索引: 0）...
+2025-11-04 08:58:09 | [32mINFO[0m | yolo_detector.core.camera_capture:connect:106 - 摄像头连接成功（索引: 0）
+2025-11-04 08:58:09 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:262 - 开始摄像头采集循环
+2025-11-04 08:58:09 | [32mINFO[0m | yolo_detector.core.camera_capture:_start_capture_thread:237 - 摄像头采集线程已启动
+2025-11-04 08:58:09 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:81 - 摄像头连接成功
+2025-11-04 08:59:07 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:183 - 原始图片已保存: outputs\tool_pose\raw_images\raw_20251104_085907.jpg
+2025-11-04 08:59:07 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:189 - 开始执行检测...
+2025-11-04 08:59:07 | [32mINFO[0m | yolo_detector.utils.tool_pose_utils:load_model:146 - 正在加载模型: D:\00deeplearn\yolo11\gradio_web_yolo\tool_pose\tools\train2\weights\best.pt
+2025-11-04 08:59:07 | [32mINFO[0m | yolo_detector.core.tool_pose_model_loader:get_model:60 - 正在加载模型: D:\00deeplearn\yolo11\gradio_web_yolo\tool_pose\tools\train2\weights\best.pt
+2025-11-04 08:59:07 | [32mINFO[0m | yolo_detector.core.tool_pose_model_loader:get_model:63 - 模型加载完成: D:\00deeplearn\yolo11\gradio_web_yolo\tool_pose\tools\train2\weights\best.pt
+2025-11-04 08:59:07 | [32mINFO[0m | yolo_detector.utils.tool_pose_utils:load_model:152 - 模型加载完成
+2025-11-04 08:59:12 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:216 - 结果图片已保存: outputs\tool_pose\result_images\result_20251104_085907.jpg
+2025-11-04 08:59:12 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:234 - JSON数据已保存: outputs\tool_pose\json_results\result_20251104_085907.json
+2025-11-04 08:59:12 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:249 - 检测完成
+2025-11-04 08:59:52 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:183 - 原始图片已保存: outputs\tool_pose\raw_images\raw_20251104_085952.jpg
+2025-11-04 08:59:52 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:189 - 开始执行检测...
+2025-11-04 08:59:53 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:216 - 结果图片已保存: outputs\tool_pose\result_images\result_20251104_085952.jpg
+2025-11-04 08:59:53 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:234 - JSON数据已保存: outputs\tool_pose\json_results\result_20251104_085952.json
+2025-11-04 08:59:53 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:249 - 检测完成
+2025-11-04 09:00:36 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:127 - 正在断开摄像头连接...
+2025-11-04 09:00:36 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:317 - 摄像头采集循环结束，总共采集 4413 帧
+2025-11-04 09:00:36 | [32mINFO[0m | yolo_detector.core.camera_capture:_stop_capture_thread:252 - 摄像头采集线程已停止
+2025-11-04 09:00:36 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:136 - 摄像头已断开连接
+2025-11-04 09:00:36 | [32mINFO[0m | yolo_detector.ui.gradio_app:disconnect_camera:106 - 摄像头已断开
+2025-11-04 09:00:36 | [32mINFO[0m | yolo_detector.core.camera_capture:__init__:66 - 摄像头采集器初始化完成，摄像头索引: 0
+2025-11-04 09:00:36 | [32mINFO[0m | yolo_detector.core.camera_capture:connect:80 - 正在连接摄像头（索引: 0）...
+2025-11-04 09:00:37 | [32mINFO[0m | yolo_detector.core.camera_capture:connect:106 - 摄像头连接成功（索引: 0）
+2025-11-04 09:00:37 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:262 - 开始摄像头采集循环
+2025-11-04 09:00:37 | [32mINFO[0m | yolo_detector.core.camera_capture:_start_capture_thread:237 - 摄像头采集线程已启动
+2025-11-04 09:00:37 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:81 - 摄像头连接成功
+2025-11-04 09:00:38 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:127 - 正在断开摄像头连接...
+2025-11-04 09:00:38 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:317 - 摄像头采集循环结束，总共采集 38 帧
+2025-11-04 09:00:38 | [32mINFO[0m | yolo_detector.core.camera_capture:_stop_capture_thread:252 - 摄像头采集线程已停止
+2025-11-04 09:00:39 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:136 - 摄像头已断开连接
+2025-11-04 09:00:39 | [32mINFO[0m | yolo_detector.ui.gradio_app:disconnect_camera:106 - 摄像头已断开
+2025-11-04 09:00:39 | [32mINFO[0m | yolo_detector.core.camera_capture:__init__:66 - 摄像头采集器初始化完成，摄像头索引: 0
+2025-11-04 09:00:39 | [32mINFO[0m | yolo_detector.core.camera_capture:connect:80 - 正在连接摄像头（索引: 0）...
+2025-11-04 09:00:39 | [32mINFO[0m | yolo_detector.core.camera_capture:connect:106 - 摄像头连接成功（索引: 0）
+2025-11-04 09:00:39 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:262 - 开始摄像头采集循环
+2025-11-04 09:00:39 | [32mINFO[0m | yolo_detector.core.camera_capture:_start_capture_thread:237 - 摄像头采集线程已启动
+2025-11-04 09:00:39 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:81 - 摄像头连接成功
+2025-11-04 09:00:41 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:127 - 正在断开摄像头连接...
+2025-11-04 09:00:41 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:317 - 摄像头采集循环结束，总共采集 52 帧
+2025-11-04 09:00:41 | [32mINFO[0m | yolo_detector.core.camera_capture:_stop_capture_thread:252 - 摄像头采集线程已停止
+2025-11-04 09:00:41 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:136 - 摄像头已断开连接
+2025-11-04 09:00:41 | [32mINFO[0m | yolo_detector.ui.gradio_app:disconnect_camera:106 - 摄像头已断开
+2025-11-04 09:00:41 | [32mINFO[0m | yolo_detector.core.camera_capture:__init__:66 - 摄像头采集器初始化完成，摄像头索引: 0
+2025-11-04 09:00:41 | [32mINFO[0m | yolo_detector.core.camera_capture:connect:80 - 正在连接摄像头（索引: 0）...
+2025-11-04 09:00:42 | [32mINFO[0m | yolo_detector.core.camera_capture:connect:106 - 摄像头连接成功（索引: 0）
+2025-11-04 09:00:42 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:262 - 开始摄像头采集循环
+2025-11-04 09:00:42 | [32mINFO[0m | yolo_detector.core.camera_capture:_start_capture_thread:237 - 摄像头采集线程已启动
+2025-11-04 09:00:42 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:81 - 摄像头连接成功
+2025-11-04 09:00:44 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:127 - 正在断开摄像头连接...
+2025-11-04 09:00:44 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:317 - 摄像头采集循环结束，总共采集 43 帧
+2025-11-04 09:00:44 | [32mINFO[0m | yolo_detector.core.camera_capture:_stop_capture_thread:252 - 摄像头采集线程已停止
+2025-11-04 09:00:44 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:136 - 摄像头已断开连接
+2025-11-04 09:00:44 | [32mINFO[0m | yolo_detector.ui.gradio_app:disconnect_camera:106 - 摄像头已断开
+2025-11-04 09:00:44 | [32mINFO[0m | yolo_detector.core.camera_capture:__init__:66 - 摄像头采集器初始化完成，摄像头索引: 0
+2025-11-04 09:00:44 | [32mINFO[0m | yolo_detector.core.camera_capture:connect:80 - 正在连接摄像头（索引: 0）...
+2025-11-04 09:00:45 | [32mINFO[0m | yolo_detector.core.camera_capture:connect:106 - 摄像头连接成功（索引: 0）
+2025-11-04 09:00:45 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:262 - 开始摄像头采集循环
+2025-11-04 09:00:45 | [32mINFO[0m | yolo_detector.core.camera_capture:_start_capture_thread:237 - 摄像头采集线程已启动
+2025-11-04 09:00:45 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:81 - 摄像头连接成功
+2025-11-04 09:00:47 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:183 - 原始图片已保存: outputs\tool_pose\raw_images\raw_20251104_090047.jpg
+2025-11-04 09:00:47 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:189 - 开始执行检测...
+2025-11-04 09:00:47 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:216 - 结果图片已保存: outputs\tool_pose\result_images\result_20251104_090047.jpg
+2025-11-04 09:00:47 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:234 - JSON数据已保存: outputs\tool_pose\json_results\result_20251104_090047.json
+2025-11-04 09:00:47 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:249 - 检测完成
+2025-11-04 09:00:49 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:183 - 原始图片已保存: outputs\tool_pose\raw_images\raw_20251104_090049.jpg
+2025-11-04 09:00:49 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:189 - 开始执行检测...
+2025-11-04 09:00:50 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:216 - 结果图片已保存: outputs\tool_pose\result_images\result_20251104_090049.jpg
+2025-11-04 09:00:50 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:234 - JSON数据已保存: outputs\tool_pose\json_results\result_20251104_090049.json
+2025-11-04 09:00:50 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:249 - 检测完成
+2025-11-04 09:00:53 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:183 - 原始图片已保存: outputs\tool_pose\raw_images\raw_20251104_090053.jpg
+2025-11-04 09:00:53 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:189 - 开始执行检测...
+2025-11-04 09:00:54 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:216 - 结果图片已保存: outputs\tool_pose\result_images\result_20251104_090053.jpg
+2025-11-04 09:00:54 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:234 - JSON数据已保存: outputs\tool_pose\json_results\result_20251104_090053.json
+2025-11-04 09:00:54 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:249 - 检测完成
+2025-11-04 09:00:55 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:183 - 原始图片已保存: outputs\tool_pose\raw_images\raw_20251104_090055.jpg
+2025-11-04 09:00:55 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:189 - 开始执行检测...
+2025-11-04 09:00:56 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:216 - 结果图片已保存: outputs\tool_pose\result_images\result_20251104_090055.jpg
+2025-11-04 09:00:56 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:234 - JSON数据已保存: outputs\tool_pose\json_results\result_20251104_090055.json
+2025-11-04 09:00:56 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:249 - 检测完成
+2025-11-04 09:00:58 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:183 - 原始图片已保存: outputs\tool_pose\raw_images\raw_20251104_090058.jpg
+2025-11-04 09:00:58 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:189 - 开始执行检测...
+2025-11-04 09:00:58 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:216 - 结果图片已保存: outputs\tool_pose\result_images\result_20251104_090058.jpg
+2025-11-04 09:00:58 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:234 - JSON数据已保存: outputs\tool_pose\json_results\result_20251104_090058.json
+2025-11-04 09:00:58 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:249 - 检测完成
+2025-11-04 09:00:59 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:183 - 原始图片已保存: outputs\tool_pose\raw_images\raw_20251104_090059.jpg
+2025-11-04 09:00:59 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:189 - 开始执行检测...
+2025-11-04 09:01:00 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:216 - 结果图片已保存: outputs\tool_pose\result_images\result_20251104_090059.jpg
+2025-11-04 09:01:00 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:234 - JSON数据已保存: outputs\tool_pose\json_results\result_20251104_090059.json
+2025-11-04 09:01:00 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:249 - 检测完成
+2025-11-04 09:01:03 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:183 - 原始图片已保存: outputs\tool_pose\raw_images\raw_20251104_090103.jpg
+2025-11-04 09:01:03 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:189 - 开始执行检测...
+2025-11-04 09:01:03 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:216 - 结果图片已保存: outputs\tool_pose\result_images\result_20251104_090103.jpg
+2025-11-04 09:01:03 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:234 - JSON数据已保存: outputs\tool_pose\json_results\result_20251104_090103.json
+2025-11-04 09:01:03 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:249 - 检测完成
+2025-11-04 09:01:05 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:183 - 原始图片已保存: outputs\tool_pose\raw_images\raw_20251104_090105.jpg
+2025-11-04 09:01:05 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:189 - 开始执行检测...
+2025-11-04 09:01:05 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:216 - 结果图片已保存: outputs\tool_pose\result_images\result_20251104_090105.jpg
+2025-11-04 09:01:05 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:234 - JSON数据已保存: outputs\tool_pose\json_results\result_20251104_090105.json
+2025-11-04 09:01:05 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:249 - 检测完成
+2025-11-04 09:01:07 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:183 - 原始图片已保存: outputs\tool_pose\raw_images\raw_20251104_090107.jpg
+2025-11-04 09:01:07 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:189 - 开始执行检测...
+2025-11-04 09:01:07 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:216 - 结果图片已保存: outputs\tool_pose\result_images\result_20251104_090107.jpg
+2025-11-04 09:01:07 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:234 - JSON数据已保存: outputs\tool_pose\json_results\result_20251104_090107.json
+2025-11-04 09:01:07 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:249 - 检测完成
+2025-11-04 09:01:09 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:183 - 原始图片已保存: outputs\tool_pose\raw_images\raw_20251104_090109.jpg
+2025-11-04 09:01:09 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:189 - 开始执行检测...
+2025-11-04 09:01:09 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:216 - 结果图片已保存: outputs\tool_pose\result_images\result_20251104_090109.jpg
+2025-11-04 09:01:09 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:234 - JSON数据已保存: outputs\tool_pose\json_results\result_20251104_090109.json
+2025-11-04 09:01:09 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:249 - 检测完成
+2025-11-04 09:01:12 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:183 - 原始图片已保存: outputs\tool_pose\raw_images\raw_20251104_090112.jpg
+2025-11-04 09:01:12 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:189 - 开始执行检测...
+2025-11-04 09:01:12 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:216 - 结果图片已保存: outputs\tool_pose\result_images\result_20251104_090112.jpg
+2025-11-04 09:01:12 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:234 - JSON数据已保存: outputs\tool_pose\json_results\result_20251104_090112.json
+2025-11-04 09:01:12 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:249 - 检测完成
+2025-11-04 09:34:03 | [31mERROR[0m | yolo_detector.core.camera_capture:_capture_loop:294 - 连续 10 次读取帧失败，停止采集
+2025-11-04 09:34:03 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:317 - 摄像头采集循环结束，总共采集 55478 帧
+2025-11-04 15:41:38 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:127 - 正在断开摄像头连接...
+2025-11-04 15:41:38 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:136 - 摄像头已断开连接
+2025-11-04 15:41:50 | [32mINFO[0m | __main__:setup_environment:35 - 环境设置完成
+2025-11-04 15:41:50 | [32mINFO[0m | __main__:run_web_interface:65 - 启动工具关键点检测Web界面...
+2025-11-04 15:41:50 | [32mINFO[0m | yolo_detector.utils.tool_pose_utils:__init__:86 - 工具关键点检测器初始化完成，配置文件: D:\00deeplearn\yolo11\gradio_tool\src\yolo_detector\config\tool_pose_config.yaml
+2025-11-04 15:41:50 | [32mINFO[0m | yolo_detector.utils.tool_pose_angle_calculator:load_angle_config:53 - 角度配置文件加载成功: D:\00deeplearn\yolo11\gradio_tool\src\yolo_detector\config\tool_pose_config.yaml
+2025-11-04 15:41:50 | [32mINFO[0m | yolo_detector.utils.tool_pose_utils:_load_angle_config:125 - 角度配置文件加载完成: D:\00deeplearn\yolo11\gradio_tool\src\yolo_detector\config\tool_pose_config.yaml
+2025-11-04 15:41:50 | [32mINFO[0m | yolo_detector.ui.gradio_app:__init__:62 - 工具关键点检测应用初始化完成，输出目录: outputs\tool_pose
+2025-11-04 15:41:50 | [32mINFO[0m | yolo_detector.ui.gradio_app:create_interface:512 - Gradio界面创建完成
+2025-11-04 15:41:50 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: GET http://127.0.0.1:7861/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-11-04 15:41:50 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: HEAD http://127.0.0.1:7861/ "HTTP/1.1 200 OK"
+2025-11-04 15:41:51 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-11-04 15:43:17 | [32mINFO[0m | yolo_detector.core.camera_capture:__init__:66 - 摄像头采集器初始化完成，摄像头索引: 0
+2025-11-04 15:43:17 | [32mINFO[0m | yolo_detector.core.camera_capture:connect:80 - 正在连接摄像头（索引: 0）...
+2025-11-04 15:43:18 | [32mINFO[0m | yolo_detector.core.camera_capture:connect:106 - 摄像头连接成功（索引: 0）
+2025-11-04 15:43:18 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:262 - 开始摄像头采集循环
+2025-11-04 15:43:18 | [32mINFO[0m | yolo_detector.core.camera_capture:_start_capture_thread:237 - 摄像头采集线程已启动
+2025-11-04 15:43:18 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:81 - 摄像头连接成功
+2025-11-04 15:44:02 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:127 - 正在断开摄像头连接...
+2025-11-04 15:44:02 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:317 - 摄像头采集循环结束，总共采集 1324 帧
+2025-11-04 15:44:02 | [32mINFO[0m | yolo_detector.core.camera_capture:_stop_capture_thread:252 - 摄像头采集线程已停止
+2025-11-04 15:44:02 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:136 - 摄像头已断开连接
+2025-11-04 15:44:02 | [32mINFO[0m | yolo_detector.ui.gradio_app:disconnect_camera:106 - 摄像头已断开
+2025-11-04 16:57:36 | [32mINFO[0m | __main__:setup_environment:35 - 环境设置完成
+2025-11-04 16:57:36 | [32mINFO[0m | __main__:run_web_interface:65 - 启动工具关键点检测Web界面...
+2025-11-04 16:57:36 | [32mINFO[0m | yolo_detector.utils.tool_pose_utils:__init__:86 - 工具关键点检测器初始化完成，配置文件: D:\00deeplearn\yolo11\gradio_tool\src\yolo_detector\config\tool_pose_config.yaml
+2025-11-04 16:57:36 | [32mINFO[0m | yolo_detector.utils.tool_pose_angle_calculator:load_angle_config:53 - 角度配置文件加载成功: D:\00deeplearn\yolo11\gradio_tool\src\yolo_detector\config\tool_pose_config.yaml
+2025-11-04 16:57:36 | [32mINFO[0m | yolo_detector.utils.tool_pose_utils:_load_angle_config:125 - 角度配置文件加载完成: D:\00deeplearn\yolo11\gradio_tool\src\yolo_detector\config\tool_pose_config.yaml
+2025-11-04 16:57:36 | [32mINFO[0m | yolo_detector.ui.gradio_app:__init__:64 - 工具关键点检测应用初始化完成，输出目录: outputs\tool_pose
+2025-11-04 16:57:36 | [32mINFO[0m | yolo_detector.ui.gradio_app:create_interface:630 - Gradio界面创建完成
+2025-11-04 16:57:36 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: GET http://127.0.0.1:7861/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-11-04 16:57:36 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: HEAD http://127.0.0.1:7861/ "HTTP/1.1 200 OK"
+2025-11-04 16:57:59 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:94 - 连接本机摄像头（索引: 0）
+2025-11-04 16:57:59 | [32mINFO[0m | yolo_detector.core.camera_capture:__init__:98 - 摄像头采集器初始化完成，类型: local, 索引: 0
+2025-11-04 16:57:59 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_local:129 - 正在连接本机摄像头（索引: 0）...
+2025-11-04 16:58:00 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_local:156 - 本机摄像头连接成功（索引: 0）
+2025-11-04 16:58:00 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:425 - 开始摄像头采集循环（OpenCV方式）
+2025-11-04 16:58:00 | [32mINFO[0m | yolo_detector.core.camera_capture:_start_capture_thread:400 - 摄像头采集线程已启动
+2025-11-04 16:58:00 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:124 - 摄像头连接成功: 本机摄像头连接成功（索引: 0）
+2025-11-04 16:58:06 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:274 - 正在断开摄像头连接...
+2025-11-04 16:58:06 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:480 - 摄像头采集循环结束，总共采集 180 帧
+2025-11-04 16:58:06 | [32mINFO[0m | yolo_detector.core.camera_capture:_stop_capture_thread:415 - 摄像头采集线程已停止
+2025-11-04 16:58:06 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:288 - 摄像头已断开连接
+2025-11-04 16:58:06 | [32mINFO[0m | yolo_detector.ui.gradio_app:disconnect_camera:149 - 摄像头已断开
+2025-11-04 16:58:06 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:106 - 连接 Axis 摄像头（IP: 192.168.39.253）
+2025-11-04 16:58:06 | [32mINFO[0m | yolo_detector.core.camera_capture:__init__:98 - 摄像头采集器初始化完成，类型: axis, 索引: 0
+2025-11-04 16:58:06 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis:170 - 正在连接 Axis 摄像头（IP: 192.168.39.253）...
+2025-11-04 16:58:29 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:274 - 正在断开摄像头连接...
+2025-11-04 16:58:29 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:288 - 摄像头已断开连接
+2025-11-04 16:58:29 | [32mINFO[0m | yolo_detector.ui.gradio_app:disconnect_camera:149 - 摄像头已断开
+2025-11-04 16:59:40 | [32mINFO[0m | __main__:setup_environment:35 - 环境设置完成
+2025-11-04 16:59:40 | [32mINFO[0m | __main__:run_web_interface:65 - 启动工具关键点检测Web界面...
+2025-11-04 16:59:40 | [32mINFO[0m | yolo_detector.utils.tool_pose_utils:__init__:86 - 工具关键点检测器初始化完成，配置文件: D:\00deeplearn\yolo11\gradio_tool\src\yolo_detector\config\tool_pose_config.yaml
+2025-11-04 16:59:40 | [32mINFO[0m | yolo_detector.utils.tool_pose_angle_calculator:load_angle_config:53 - 角度配置文件加载成功: D:\00deeplearn\yolo11\gradio_tool\src\yolo_detector\config\tool_pose_config.yaml
+2025-11-04 16:59:40 | [32mINFO[0m | yolo_detector.utils.tool_pose_utils:_load_angle_config:125 - 角度配置文件加载完成: D:\00deeplearn\yolo11\gradio_tool\src\yolo_detector\config\tool_pose_config.yaml
+2025-11-04 16:59:40 | [32mINFO[0m | yolo_detector.ui.gradio_app:__init__:64 - 工具关键点检测应用初始化完成，输出目录: outputs\tool_pose
+2025-11-04 16:59:40 | [32mINFO[0m | yolo_detector.ui.gradio_app:create_interface:630 - Gradio界面创建完成
+2025-11-04 16:59:40 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: GET http://127.0.0.1:7861/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-11-04 16:59:40 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: HEAD http://127.0.0.1:7861/ "HTTP/1.1 200 OK"
+2025-11-04 16:59:52 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-11-04 16:59:53 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:94 - 连接本机摄像头（索引: 0）
+2025-11-04 16:59:53 | [32mINFO[0m | yolo_detector.core.camera_capture:__init__:98 - 摄像头采集器初始化完成，类型: local, 索引: 0
+2025-11-04 16:59:53 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_local:129 - 正在连接本机摄像头（索引: 0）...
+2025-11-04 16:59:54 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_local:156 - 本机摄像头连接成功（索引: 0）
+2025-11-04 16:59:54 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:425 - 开始摄像头采集循环（OpenCV方式）
+2025-11-04 16:59:54 | [32mINFO[0m | yolo_detector.core.camera_capture:_start_capture_thread:400 - 摄像头采集线程已启动
+2025-11-04 16:59:54 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:124 - 摄像头连接成功: 本机摄像头连接成功（索引: 0）
+2025-11-04 17:00:10 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:274 - 正在断开摄像头连接...
+2025-11-04 17:00:10 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:480 - 摄像头采集循环结束，总共采集 479 帧
+2025-11-04 17:00:10 | [32mINFO[0m | yolo_detector.core.camera_capture:_stop_capture_thread:415 - 摄像头采集线程已停止
+2025-11-04 17:00:10 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:288 - 摄像头已断开连接
+2025-11-04 17:00:10 | [32mINFO[0m | yolo_detector.ui.gradio_app:disconnect_camera:149 - 摄像头已断开
+2025-11-04 17:00:14 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:94 - 连接本机摄像头（索引: 0）
+2025-11-04 17:00:14 | [32mINFO[0m | yolo_detector.core.camera_capture:__init__:98 - 摄像头采集器初始化完成，类型: local, 索引: 0
+2025-11-04 17:00:14 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_local:129 - 正在连接本机摄像头（索引: 0）...
+2025-11-04 17:00:15 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_local:156 - 本机摄像头连接成功（索引: 0）
+2025-11-04 17:00:15 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:425 - 开始摄像头采集循环（OpenCV方式）
+2025-11-04 17:00:15 | [32mINFO[0m | yolo_detector.core.camera_capture:_start_capture_thread:400 - 摄像头采集线程已启动
+2025-11-04 17:00:15 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:124 - 摄像头连接成功: 本机摄像头连接成功（索引: 0）
+2025-11-04 17:00:36 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:274 - 正在断开摄像头连接...
+2025-11-04 17:00:36 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:480 - 摄像头采集循环结束，总共采集 633 帧
+2025-11-04 17:00:36 | [32mINFO[0m | yolo_detector.core.camera_capture:_stop_capture_thread:415 - 摄像头采集线程已停止
+2025-11-04 17:00:36 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:288 - 摄像头已断开连接
+2025-11-04 17:00:36 | [32mINFO[0m | yolo_detector.ui.gradio_app:disconnect_camera:149 - 摄像头已断开
+2025-11-04 17:01:21 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:106 - 连接 Axis 摄像头（IP: 192.168.39.253）
+2025-11-04 17:01:21 | [32mINFO[0m | yolo_detector.core.camera_capture:__init__:98 - 摄像头采集器初始化完成，类型: axis, 索引: 0
+2025-11-04 17:01:21 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis:170 - 正在连接 Axis 摄像头（IP: 192.168.39.253）...
+2025-11-04 17:03:49 | [33mWARNING[0m | yolo_detector.core.camera_capture:_connect_axis:179 - OpenCV 连接失败: OpenCV 无法打开 MJPEG 流，尝试手动解析方式...
+2025-11-04 17:03:59 | [31mERROR[0m | yolo_detector.core.camera_capture:_connect_axis_manual:260 - 手动解析连接失败: HTTPConnectionPool(host='192.168.39.253', port=80): Max retries exceeded with url: /axis-cgi/mjpg/video.cgi (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000002F735B9A0B0>, 'Connection to 192.168.39.253 timed out. (connect timeout=10)'))
+2025-11-04 17:03:59 | [31mERROR[0m | yolo_detector.core.camera_capture:_connect_axis:189 - Axis 摄像头连接失败（OpenCV 和手动解析都失败）
+2025-11-04 17:03:59 | [31mERROR[0m | yolo_detector.ui.gradio_app:connect_camera:128 - 摄像头连接失败: Axis 摄像头连接失败（OpenCV 和手动解析都失败）
+2025-11-04 17:07:31 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:274 - 正在断开摄像头连接...
+2025-11-04 17:07:31 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:288 - 摄像头已断开连接
+2025-11-04 17:07:54 | [32mINFO[0m | __main__:setup_environment:35 - 环境设置完成
+2025-11-04 17:07:55 | [32mINFO[0m | __main__:run_web_interface:65 - 启动工具关键点检测Web界面...
+2025-11-04 17:07:55 | [32mINFO[0m | yolo_detector.utils.tool_pose_utils:__init__:86 - 工具关键点检测器初始化完成，配置文件: D:\00deeplearn\yolo11\gradio_tool\src\yolo_detector\config\tool_pose_config.yaml
+2025-11-04 17:07:55 | [32mINFO[0m | yolo_detector.utils.tool_pose_angle_calculator:load_angle_config:53 - 角度配置文件加载成功: D:\00deeplearn\yolo11\gradio_tool\src\yolo_detector\config\tool_pose_config.yaml
+2025-11-04 17:07:55 | [32mINFO[0m | yolo_detector.utils.tool_pose_utils:_load_angle_config:125 - 角度配置文件加载完成: D:\00deeplearn\yolo11\gradio_tool\src\yolo_detector\config\tool_pose_config.yaml
+2025-11-04 17:07:55 | [32mINFO[0m | yolo_detector.ui.gradio_app:__init__:64 - 工具关键点检测应用初始化完成，输出目录: outputs\tool_pose
+2025-11-04 17:07:55 | [32mINFO[0m | yolo_detector.ui.gradio_app:create_interface:630 - Gradio界面创建完成
+2025-11-04 17:07:55 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: GET http://127.0.0.1:7861/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-11-04 17:07:55 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: HEAD http://127.0.0.1:7861/ "HTTP/1.1 200 OK"
+2025-11-04 17:08:06 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:106 - 连接 Axis 摄像头（IP: 192.168.39.253）
+2025-11-04 17:08:06 | [32mINFO[0m | yolo_detector.core.camera_capture:__init__:98 - 摄像头采集器初始化完成，类型: axis, 索引: 0
+2025-11-04 17:08:06 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis:170 - 正在连接 Axis 摄像头（IP: 192.168.39.253）...
+2025-11-04 17:08:07 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-11-04 17:10:34 | [33mWARNING[0m | yolo_detector.core.camera_capture:_connect_axis:179 - OpenCV 连接失败: OpenCV 无法打开 MJPEG 流，尝试手动解析方式...
+2025-11-04 17:10:44 | [31mERROR[0m | yolo_detector.core.camera_capture:_connect_axis_manual:260 - 手动解析连接失败: HTTPConnectionPool(host='192.168.39.253', port=80): Max retries exceeded with url: /axis-cgi/mjpg/video.cgi (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000002DF73CF9B40>, 'Connection to 192.168.39.253 timed out. (connect timeout=10)'))
+2025-11-04 17:10:44 | [31mERROR[0m | yolo_detector.core.camera_capture:_connect_axis:189 - Axis 摄像头连接失败（OpenCV 和手动解析都失败）
+2025-11-04 17:10:44 | [31mERROR[0m | yolo_detector.ui.gradio_app:connect_camera:128 - 摄像头连接失败: Axis 摄像头连接失败（OpenCV 和手动解析都失败）
+2025-11-04 17:18:02 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:274 - 正在断开摄像头连接...
+2025-11-04 17:18:02 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:288 - 摄像头已断开连接
+2025-11-04 17:18:09 | [32mINFO[0m | __main__:setup_environment:35 - 环境设置完成
+2025-11-04 17:18:09 | [32mINFO[0m | __main__:run_web_interface:65 - 启动工具关键点检测Web界面...
+2025-11-04 17:18:10 | [32mINFO[0m | yolo_detector.utils.tool_pose_utils:__init__:86 - 工具关键点检测器初始化完成，配置文件: D:\00deeplearn\yolo11\gradio_tool\src\yolo_detector\config\tool_pose_config.yaml
+2025-11-04 17:18:10 | [32mINFO[0m | yolo_detector.utils.tool_pose_angle_calculator:load_angle_config:53 - 角度配置文件加载成功: D:\00deeplearn\yolo11\gradio_tool\src\yolo_detector\config\tool_pose_config.yaml
+2025-11-04 17:18:10 | [32mINFO[0m | yolo_detector.utils.tool_pose_utils:_load_angle_config:125 - 角度配置文件加载完成: D:\00deeplearn\yolo11\gradio_tool\src\yolo_detector\config\tool_pose_config.yaml
+2025-11-04 17:18:10 | [32mINFO[0m | yolo_detector.ui.gradio_app:__init__:64 - 工具关键点检测应用初始化完成，输出目录: outputs\tool_pose
+2025-11-04 17:18:10 | [32mINFO[0m | yolo_detector.ui.gradio_app:create_interface:630 - Gradio界面创建完成
+2025-11-04 17:18:10 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: GET http://127.0.0.1:7861/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-11-04 17:18:10 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: HEAD http://127.0.0.1:7861/ "HTTP/1.1 200 OK"
+2025-11-04 17:18:11 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-11-04 17:18:43 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:94 - 连接本机摄像头（索引: 0）
+2025-11-04 17:18:43 | [32mINFO[0m | yolo_detector.core.camera_capture:__init__:98 - 摄像头采集器初始化完成，类型: local, 索引: 0
+2025-11-04 17:18:43 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_local:129 - 正在连接本机摄像头（索引: 0）...
+2025-11-04 17:18:44 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_local:156 - 本机摄像头连接成功（索引: 0）
+2025-11-04 17:18:44 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:642 - 开始摄像头采集循环（OpenCV方式）
+2025-11-04 17:18:44 | [32mINFO[0m | yolo_detector.core.camera_capture:_start_capture_thread:617 - 摄像头采集线程已启动
+2025-11-04 17:18:44 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:124 - 摄像头连接成功: 本机摄像头连接成功（索引: 0）
+2025-11-04 17:18:48 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:335 - 正在断开摄像头连接...
+2025-11-04 17:18:48 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:697 - 摄像头采集循环结束，总共采集 114 帧
+2025-11-04 17:18:48 | [32mINFO[0m | yolo_detector.core.camera_capture:_stop_capture_thread:632 - 摄像头采集线程已停止
+2025-11-04 17:18:48 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:349 - 摄像头已断开连接
+2025-11-04 17:18:48 | [32mINFO[0m | yolo_detector.ui.gradio_app:disconnect_camera:149 - 摄像头已断开
+2025-11-04 17:18:56 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:106 - 连接 Axis 摄像头（IP: 192.168.39.253）
+2025-11-04 17:18:56 | [32mINFO[0m | yolo_detector.core.camera_capture:__init__:98 - 摄像头采集器初始化完成，类型: axis, 索引: 0
+2025-11-04 17:18:56 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis:170 - 正在连接 Axis 摄像头（IP: 192.168.39.253）...
+2025-11-04 17:18:56 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:212 - 尝试 OpenCV URL 格式 1/6: http://192.168.39.253/axis-cgi/mjpg/video.cgi?resolution=640x480&fps=25
+2025-11-04 17:20:10 | [33mWARNING[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:230 - URL 格式 1 失败，尝试下一个...
+2025-11-04 17:20:10 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:212 - 尝试 OpenCV URL 格式 2/6: http://192.168.39.253/axis-cgi/mjpg/video.cgi
+2025-11-04 17:21:23 | [33mWARNING[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:230 - URL 格式 2 失败，尝试下一个...
+2025-11-04 17:21:23 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:212 - 尝试 OpenCV URL 格式 3/6: http://192.168.39.253/mjpg/video.mjpg
+2025-11-04 17:22:37 | [33mWARNING[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:230 - URL 格式 3 失败，尝试下一个...
+2025-11-04 17:22:37 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:212 - 尝试 OpenCV URL 格式 4/6: http://192.168.39.253/mjpg/video.cgi
+2025-11-04 17:23:51 | [33mWARNING[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:230 - URL 格式 4 失败，尝试下一个...
+2025-11-04 17:23:51 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:212 - 尝试 OpenCV URL 格式 5/6: http://***:***@192.168.39.253/axis-cgi/mjpg/video.cgi?resolution=640x480&fps=25
+2025-11-04 17:25:05 | [33mWARNING[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:230 - URL 格式 5 失败，尝试下一个...
+2025-11-04 17:25:05 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:212 - 尝试 OpenCV URL 格式 6/6: http://***:***@192.168.39.253/axis-cgi/mjpg/video.cgi
+2025-11-04 17:26:18 | [33mWARNING[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:230 - URL 格式 6 失败，尝试下一个...
+2025-11-04 17:26:18 | [33mWARNING[0m | yolo_detector.core.camera_capture:_connect_axis:179 - OpenCV 连接失败: 所有 OpenCV URL 格式都尝试失败，尝试手动解析方式...
+2025-11-04 17:26:18 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_manual:284 - 尝试手动解析 URL 1/5: http://***.***.***.***/axis-cgi/mjpg/video.cgi?resolution=640x480&fps=25
+2025-11-04 17:26:28 | [33mWARNING[0m | yolo_detector.core.camera_capture:_connect_axis_manual:313 -   Digest Auth (root) 失败: HTTPConnectionPool(host='192.168.39.253', port=80): Max retries exceeded with url: /axis-cgi/mjpg/video.cgi?resolution=640x480&fps=25 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001FD20721B40>, 'Connection to 192.168.39.253 timed out. (connect timeout=10)'))
+2025-11-04 17:26:38 | [33mWARNING[0m | yolo_detector.core.camera_capture:_connect_axis_manual:313 -   Basic Auth (root) 失败: HTTPConnectionPool(host='192.168.39.253', port=80): Max retries exceeded with url: /axis-cgi/mjpg/video.cgi?resolution=640x480&fps=25 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001FD20722530>, 'Connection to 192.168.39.253 timed out. (connect timeout=10)'))
+2025-11-04 17:26:48 | [33mWARNING[0m | yolo_detector.core.camera_capture:_connect_axis_manual:313 -   No Auth (Anonymous) 失败: HTTPConnectionPool(host='192.168.39.253', port=80): Max retries exceeded with url: /axis-cgi/mjpg/video.cgi?resolution=640x480&fps=25 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001FD20722530>, 'Connection to 192.168.39.253 timed out. (connect timeout=10)'))
+2025-11-04 17:26:48 | [33mWARNING[0m | yolo_detector.core.camera_capture:_connect_axis_manual:319 - URL 格式 1 所有认证方式都失败，尝试下一个...
+2025-11-04 17:26:48 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_manual:284 - 尝试手动解析 URL 2/5: http://***.***.***.***/axis-cgi/mjpg/video.cgi?fps=25
+2025-11-04 17:26:58 | [33mWARNING[0m | yolo_detector.core.camera_capture:_connect_axis_manual:313 -   Digest Auth (root) 失败: HTTPConnectionPool(host='192.168.39.253', port=80): Max retries exceeded with url: /axis-cgi/mjpg/video.cgi?fps=25 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001FD20721DB0>, 'Connection to 192.168.39.253 timed out. (connect timeout=10)'))
+2025-11-04 17:27:09 | [33mWARNING[0m | yolo_detector.core.camera_capture:_connect_axis_manual:313 -   Basic Auth (root) 失败: HTTPConnectionPool(host='192.168.39.253', port=80): Max retries exceeded with url: /axis-cgi/mjpg/video.cgi?fps=25 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001FD20722BF0>, 'Connection to 192.168.39.253 timed out. (connect timeout=10)'))
+2025-11-04 17:27:19 | [33mWARNING[0m | yolo_detector.core.camera_capture:_connect_axis_manual:313 -   No Auth (Anonymous) 失败: HTTPConnectionPool(host='192.168.39.253', port=80): Max retries exceeded with url: /axis-cgi/mjpg/video.cgi?fps=25 (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001FD20723430>, 'Connection to 192.168.39.253 timed out. (connect timeout=10)'))
+2025-11-04 17:27:19 | [33mWARNING[0m | yolo_detector.core.camera_capture:_connect_axis_manual:319 - URL 格式 2 所有认证方式都失败，尝试下一个...
+2025-11-04 17:27:19 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_manual:284 - 尝试手动解析 URL 3/5: http://***.***.***.***/axis-cgi/mjpg/video.cgi
+2025-11-04 17:27:29 | [33mWARNING[0m | yolo_detector.core.camera_capture:_connect_axis_manual:313 -   Digest Auth (root) 失败: HTTPConnectionPool(host='192.168.39.253', port=80): Max retries exceeded with url: /axis-cgi/mjpg/video.cgi (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001FD20723CD0>, 'Connection to 192.168.39.253 timed out. (connect timeout=10)'))
+2025-11-04 17:27:39 | [33mWARNING[0m | yolo_detector.core.camera_capture:_connect_axis_manual:313 -   Basic Auth (root) 失败: HTTPConnectionPool(host='192.168.39.253', port=80): Max retries exceeded with url: /axis-cgi/mjpg/video.cgi (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001FD20723D30>, 'Connection to 192.168.39.253 timed out. (connect timeout=10)'))
+2025-11-04 17:27:49 | [33mWARNING[0m | yolo_detector.core.camera_capture:_connect_axis_manual:313 -   No Auth (Anonymous) 失败: HTTPConnectionPool(host='192.168.39.253', port=80): Max retries exceeded with url: /axis-cgi/mjpg/video.cgi (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001FD207233D0>, 'Connection to 192.168.39.253 timed out. (connect timeout=10)'))
+2025-11-04 17:27:49 | [33mWARNING[0m | yolo_detector.core.camera_capture:_connect_axis_manual:319 - URL 格式 3 所有认证方式都失败，尝试下一个...
+2025-11-04 17:27:49 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_manual:284 - 尝试手动解析 URL 4/5: http://***.***.***.***/mjpg/video.mjpg
+2025-11-04 17:27:59 | [33mWARNING[0m | yolo_detector.core.camera_capture:_connect_axis_manual:313 -   Digest Auth (root) 失败: HTTPConnectionPool(host='192.168.39.253', port=80): Max retries exceeded with url: /mjpg/video.mjpg (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001FD20722CB0>, 'Connection to 192.168.39.253 timed out. (connect timeout=10)'))
+2025-11-04 17:28:09 | [33mWARNING[0m | yolo_detector.core.camera_capture:_connect_axis_manual:313 -   Basic Auth (root) 失败: HTTPConnectionPool(host='192.168.39.253', port=80): Max retries exceeded with url: /mjpg/video.mjpg (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001FD20721270>, 'Connection to 192.168.39.253 timed out. (connect timeout=10)'))
+2025-11-04 17:28:19 | [33mWARNING[0m | yolo_detector.core.camera_capture:_connect_axis_manual:313 -   No Auth (Anonymous) 失败: HTTPConnectionPool(host='192.168.39.253', port=80): Max retries exceeded with url: /mjpg/video.mjpg (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001FD20722650>, 'Connection to 192.168.39.253 timed out. (connect timeout=10)'))
+2025-11-04 17:28:19 | [33mWARNING[0m | yolo_detector.core.camera_capture:_connect_axis_manual:319 - URL 格式 4 所有认证方式都失败，尝试下一个...
+2025-11-04 17:28:19 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_manual:284 - 尝试手动解析 URL 5/5: http://***.***.***.***/mjpg/video.cgi
+2025-11-04 17:28:29 | [33mWARNING[0m | yolo_detector.core.camera_capture:_connect_axis_manual:313 -   Digest Auth (root) 失败: HTTPConnectionPool(host='192.168.39.253', port=80): Max retries exceeded with url: /mjpg/video.cgi (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001FD20721CC0>, 'Connection to 192.168.39.253 timed out. (connect timeout=10)'))
+2025-11-04 17:28:39 | [33mWARNING[0m | yolo_detector.core.camera_capture:_connect_axis_manual:313 -   Basic Auth (root) 失败: HTTPConnectionPool(host='192.168.39.253', port=80): Max retries exceeded with url: /mjpg/video.cgi (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001FD207228C0>, 'Connection to 192.168.39.253 timed out. (connect timeout=10)'))
+2025-11-04 17:28:49 | [33mWARNING[0m | yolo_detector.core.camera_capture:_connect_axis_manual:313 -   No Auth (Anonymous) 失败: HTTPConnectionPool(host='192.168.39.253', port=80): Max retries exceeded with url: /mjpg/video.cgi (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001FD20723370>, 'Connection to 192.168.39.253 timed out. (connect timeout=10)'))
+2025-11-04 17:28:49 | [33mWARNING[0m | yolo_detector.core.camera_capture:_connect_axis_manual:319 - URL 格式 5 所有认证方式都失败，尝试下一个...
+2025-11-04 17:28:49 | [31mERROR[0m | yolo_detector.core.camera_capture:_connect_axis:189 - Axis 摄像头连接失败（OpenCV 和手动解析都失败）
+2025-11-04 17:28:49 | [31mERROR[0m | yolo_detector.ui.gradio_app:connect_camera:128 - 摄像头连接失败: Axis 摄像头连接失败（OpenCV 和手动解析都失败）
+2025-11-05 08:53:25 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:335 - 正在断开摄像头连接...
+2025-11-05 08:53:25 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:349 - 摄像头已断开连接
+2025-11-05 08:54:10 | [32mINFO[0m | __main__:setup_environment:35 - 环境设置完成
+2025-11-05 08:54:10 | [32mINFO[0m | __main__:run_web_interface:65 - 启动工具关键点检测Web界面...
+2025-11-05 08:54:10 | [32mINFO[0m | yolo_detector.utils.tool_pose_utils:__init__:86 - 工具关键点检测器初始化完成，配置文件: D:\00deeplearn\yolo11\gradio_tool\src\yolo_detector\config\tool_pose_config.yaml
+2025-11-05 08:54:10 | [32mINFO[0m | yolo_detector.utils.tool_pose_angle_calculator:load_angle_config:53 - 角度配置文件加载成功: D:\00deeplearn\yolo11\gradio_tool\src\yolo_detector\config\tool_pose_config.yaml
+2025-11-05 08:54:10 | [32mINFO[0m | yolo_detector.utils.tool_pose_utils:_load_angle_config:125 - 角度配置文件加载完成: D:\00deeplearn\yolo11\gradio_tool\src\yolo_detector\config\tool_pose_config.yaml
+2025-11-05 08:54:10 | [32mINFO[0m | yolo_detector.ui.gradio_app:__init__:64 - 工具关键点检测应用初始化完成，输出目录: outputs\tool_pose
+2025-11-05 08:54:10 | [32mINFO[0m | yolo_detector.ui.gradio_app:create_interface:630 - Gradio界面创建完成
+2025-11-05 08:54:10 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: GET http://127.0.0.1:7861/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-11-05 08:54:10 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: HEAD http://127.0.0.1:7861/ "HTTP/1.1 200 OK"
+2025-11-05 08:54:43 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:106 - 连接 Axis 摄像头（IP: 192.22.39.253）
+2025-11-05 08:54:43 | [32mINFO[0m | yolo_detector.core.camera_capture:__init__:98 - 摄像头采集器初始化完成，类型: axis, 索引: 0
+2025-11-05 08:54:43 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis:170 - 正在连接 Axis 摄像头（IP: 192.22.39.253）...
+2025-11-05 08:54:43 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:212 - 尝试 OpenCV URL 格式 1/6: http://192.22.39.253/axis-cgi/mjpg/video.cgi?resolution=640x480&fps=25
+2025-11-05 08:54:43 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:222 - OpenCV 连接成功，使用 URL 格式 1
+2025-11-05 08:54:43 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:223 - 图像尺寸: 640x480, 通道数: 3
+2025-11-05 08:54:43 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:642 - 开始摄像头采集循环（OpenCV方式）
+2025-11-05 08:54:43 | [32mINFO[0m | yolo_detector.core.camera_capture:_start_capture_thread:617 - 摄像头采集线程已启动
+2025-11-05 08:54:43 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis:176 - Axis 摄像头通过 OpenCV 连接成功: OpenCV 连接成功（URL格式 1）
+2025-11-05 08:54:43 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:124 - 摄像头连接成功: Axis 摄像头连接成功（OpenCV方式）: OpenCV 连接成功（URL格式 1）
+2025-11-05 08:54:55 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:335 - 正在断开摄像头连接...
+2025-11-05 08:54:56 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:697 - 摄像头采集循环结束，总共采集 318 帧
+2025-11-05 08:54:56 | [32mINFO[0m | yolo_detector.core.camera_capture:_stop_capture_thread:632 - 摄像头采集线程已停止
+2025-11-05 08:54:56 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:349 - 摄像头已断开连接
+2025-11-05 08:54:56 | [32mINFO[0m | yolo_detector.ui.gradio_app:disconnect_camera:149 - 摄像头已断开
+2025-11-05 08:54:56 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:106 - 连接 Axis 摄像头（IP: 192.22.39.253）
+2025-11-05 08:54:56 | [32mINFO[0m | yolo_detector.core.camera_capture:__init__:98 - 摄像头采集器初始化完成，类型: axis, 索引: 0
+2025-11-05 08:54:56 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis:170 - 正在连接 Axis 摄像头（IP: 192.22.39.253）...
+2025-11-05 08:54:56 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:212 - 尝试 OpenCV URL 格式 1/6: http://192.22.39.253/axis-cgi/mjpg/video.cgi?resolution=640x480&fps=25
+2025-11-05 08:54:56 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:222 - OpenCV 连接成功，使用 URL 格式 1
+2025-11-05 08:54:56 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:223 - 图像尺寸: 640x480, 通道数: 3
+2025-11-05 08:54:56 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:642 - 开始摄像头采集循环（OpenCV方式）
+2025-11-05 08:54:56 | [32mINFO[0m | yolo_detector.core.camera_capture:_start_capture_thread:617 - 摄像头采集线程已启动
+2025-11-05 08:54:56 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis:176 - Axis 摄像头通过 OpenCV 连接成功: OpenCV 连接成功（URL格式 1）
+2025-11-05 08:54:56 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:124 - 摄像头连接成功: Axis 摄像头连接成功（OpenCV方式）: OpenCV 连接成功（URL格式 1）
+2025-11-05 08:54:57 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:335 - 正在断开摄像头连接...
+2025-11-05 08:54:57 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:697 - 摄像头采集循环结束，总共采集 24 帧
+2025-11-05 08:54:57 | [32mINFO[0m | yolo_detector.core.camera_capture:_stop_capture_thread:632 - 摄像头采集线程已停止
+2025-11-05 08:54:57 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:349 - 摄像头已断开连接
+2025-11-05 08:54:57 | [32mINFO[0m | yolo_detector.ui.gradio_app:disconnect_camera:149 - 摄像头已断开
+2025-11-05 08:54:57 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:106 - 连接 Axis 摄像头（IP: 192.22.39.253）
+2025-11-05 08:54:57 | [32mINFO[0m | yolo_detector.core.camera_capture:__init__:98 - 摄像头采集器初始化完成，类型: axis, 索引: 0
+2025-11-05 08:54:57 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis:170 - 正在连接 Axis 摄像头（IP: 192.22.39.253）...
+2025-11-05 08:54:57 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:212 - 尝试 OpenCV URL 格式 1/6: http://192.22.39.253/axis-cgi/mjpg/video.cgi?resolution=640x480&fps=25
+2025-11-05 08:54:57 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:222 - OpenCV 连接成功，使用 URL 格式 1
+2025-11-05 08:54:57 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:223 - 图像尺寸: 640x480, 通道数: 3
+2025-11-05 08:54:57 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:642 - 开始摄像头采集循环（OpenCV方式）
+2025-11-05 08:54:57 | [32mINFO[0m | yolo_detector.core.camera_capture:_start_capture_thread:617 - 摄像头采集线程已启动
+2025-11-05 08:54:57 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis:176 - Axis 摄像头通过 OpenCV 连接成功: OpenCV 连接成功（URL格式 1）
+2025-11-05 08:54:57 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:124 - 摄像头连接成功: Axis 摄像头连接成功（OpenCV方式）: OpenCV 连接成功（URL格式 1）
+2025-11-05 08:54:59 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:335 - 正在断开摄像头连接...
+2025-11-05 08:54:59 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:697 - 摄像头采集循环结束，总共采集 50 帧
+2025-11-05 08:54:59 | [32mINFO[0m | yolo_detector.core.camera_capture:_stop_capture_thread:632 - 摄像头采集线程已停止
+2025-11-05 08:54:59 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:349 - 摄像头已断开连接
+2025-11-05 08:54:59 | [32mINFO[0m | yolo_detector.ui.gradio_app:disconnect_camera:149 - 摄像头已断开
+2025-11-05 08:54:59 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:106 - 连接 Axis 摄像头（IP: 192.22.39.253）
+2025-11-05 08:54:59 | [32mINFO[0m | yolo_detector.core.camera_capture:__init__:98 - 摄像头采集器初始化完成，类型: axis, 索引: 0
+2025-11-05 08:54:59 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis:170 - 正在连接 Axis 摄像头（IP: 192.22.39.253）...
+2025-11-05 08:54:59 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:212 - 尝试 OpenCV URL 格式 1/6: http://192.22.39.253/axis-cgi/mjpg/video.cgi?resolution=640x480&fps=25
+2025-11-05 08:54:59 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:222 - OpenCV 连接成功，使用 URL 格式 1
+2025-11-05 08:54:59 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:223 - 图像尺寸: 640x480, 通道数: 3
+2025-11-05 08:54:59 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:642 - 开始摄像头采集循环（OpenCV方式）
+2025-11-05 08:54:59 | [32mINFO[0m | yolo_detector.core.camera_capture:_start_capture_thread:617 - 摄像头采集线程已启动
+2025-11-05 08:54:59 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis:176 - Axis 摄像头通过 OpenCV 连接成功: OpenCV 连接成功（URL格式 1）
+2025-11-05 08:54:59 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:124 - 摄像头连接成功: Axis 摄像头连接成功（OpenCV方式）: OpenCV 连接成功（URL格式 1）
+2025-11-05 08:55:00 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:335 - 正在断开摄像头连接...
+2025-11-05 08:55:00 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:697 - 摄像头采集循环结束，总共采集 18 帧
+2025-11-05 08:55:00 | [32mINFO[0m | yolo_detector.core.camera_capture:_stop_capture_thread:632 - 摄像头采集线程已停止
+2025-11-05 08:55:00 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:349 - 摄像头已断开连接
+2025-11-05 08:55:00 | [32mINFO[0m | yolo_detector.ui.gradio_app:disconnect_camera:149 - 摄像头已断开
+2025-11-05 08:55:00 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:106 - 连接 Axis 摄像头（IP: 192.22.39.253）
+2025-11-05 08:55:00 | [32mINFO[0m | yolo_detector.core.camera_capture:__init__:98 - 摄像头采集器初始化完成，类型: axis, 索引: 0
+2025-11-05 08:55:00 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis:170 - 正在连接 Axis 摄像头（IP: 192.22.39.253）...
+2025-11-05 08:55:00 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:212 - 尝试 OpenCV URL 格式 1/6: http://192.22.39.253/axis-cgi/mjpg/video.cgi?resolution=640x480&fps=25
+2025-11-05 08:55:00 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:222 - OpenCV 连接成功，使用 URL 格式 1
+2025-11-05 08:55:00 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:223 - 图像尺寸: 640x480, 通道数: 3
+2025-11-05 08:55:00 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:642 - 开始摄像头采集循环（OpenCV方式）
+2025-11-05 08:55:00 | [32mINFO[0m | yolo_detector.core.camera_capture:_start_capture_thread:617 - 摄像头采集线程已启动
+2025-11-05 08:55:00 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis:176 - Axis 摄像头通过 OpenCV 连接成功: OpenCV 连接成功（URL格式 1）
+2025-11-05 08:55:00 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:124 - 摄像头连接成功: Axis 摄像头连接成功（OpenCV方式）: OpenCV 连接成功（URL格式 1）
+2025-11-05 08:55:11 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:335 - 正在断开摄像头连接...
+2025-11-05 08:55:11 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:697 - 摄像头采集循环结束，总共采集 293 帧
+2025-11-05 08:55:11 | [32mINFO[0m | yolo_detector.core.camera_capture:_stop_capture_thread:632 - 摄像头采集线程已停止
+2025-11-05 08:55:11 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:349 - 摄像头已断开连接
+2025-11-05 08:55:11 | [32mINFO[0m | yolo_detector.ui.gradio_app:disconnect_camera:149 - 摄像头已断开
+2025-11-05 08:55:15 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:106 - 连接 Axis 摄像头（IP: 192.22.39.253）
+2025-11-05 08:55:15 | [32mINFO[0m | yolo_detector.core.camera_capture:__init__:98 - 摄像头采集器初始化完成，类型: axis, 索引: 0
+2025-11-05 08:55:15 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis:170 - 正在连接 Axis 摄像头（IP: 192.22.39.253）...
+2025-11-05 08:55:15 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:212 - 尝试 OpenCV URL 格式 1/6: http://192.22.39.253/axis-cgi/mjpg/video.cgi?resolution=640x480&fps=25
+2025-11-05 08:55:15 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:222 - OpenCV 连接成功，使用 URL 格式 1
+2025-11-05 08:55:15 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:223 - 图像尺寸: 640x480, 通道数: 3
+2025-11-05 08:55:15 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:642 - 开始摄像头采集循环（OpenCV方式）
+2025-11-05 08:55:15 | [32mINFO[0m | yolo_detector.core.camera_capture:_start_capture_thread:617 - 摄像头采集线程已启动
+2025-11-05 08:55:15 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis:176 - Axis 摄像头通过 OpenCV 连接成功: OpenCV 连接成功（URL格式 1）
+2025-11-05 08:55:15 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:124 - 摄像头连接成功: Axis 摄像头连接成功（OpenCV方式）: OpenCV 连接成功（URL格式 1）
+2025-11-05 08:57:09 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:226 - 原始图片已保存: outputs\tool_pose\raw_images\raw_20251105_085709.jpg
+2025-11-05 08:57:09 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:232 - 开始执行检测...
+2025-11-05 08:57:09 | [32mINFO[0m | yolo_detector.utils.tool_pose_utils:load_model:146 - 正在加载模型: D:\00deeplearn\yolo11\gradio_web_yolo\tool_pose\tools\train2\weights\best.pt
+2025-11-05 08:57:09 | [32mINFO[0m | yolo_detector.core.tool_pose_model_loader:get_model:60 - 正在加载模型: D:\00deeplearn\yolo11\gradio_web_yolo\tool_pose\tools\train2\weights\best.pt
+2025-11-05 08:57:09 | [32mINFO[0m | yolo_detector.core.tool_pose_model_loader:get_model:63 - 模型加载完成: D:\00deeplearn\yolo11\gradio_web_yolo\tool_pose\tools\train2\weights\best.pt
+2025-11-05 08:57:09 | [32mINFO[0m | yolo_detector.utils.tool_pose_utils:load_model:152 - 模型加载完成
+2025-11-05 08:57:14 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:259 - 结果图片已保存: outputs\tool_pose\result_images\result_20251105_085709.jpg
+2025-11-05 08:57:14 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:277 - JSON数据已保存: outputs\tool_pose\json_results\result_20251105_085709.json
+2025-11-05 08:57:14 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:292 - 检测完成
+2025-11-05 09:24:38 | [32mINFO[0m | __main__:setup_environment:35 - 环境设置完成
+2025-11-05 09:24:38 | [32mINFO[0m | __main__:run_web_interface:65 - 启动工具关键点检测Web界面...
+2025-11-05 09:24:38 | [32mINFO[0m | yolo_detector.utils.tool_pose_utils:__init__:86 - 工具关键点检测器初始化完成，配置文件: D:\00deeplearn\yolo11\gradio_tool\src\yolo_detector\config\tool_pose_config.yaml
+2025-11-05 09:24:38 | [32mINFO[0m | yolo_detector.utils.tool_pose_angle_calculator:load_angle_config:53 - 角度配置文件加载成功: D:\00deeplearn\yolo11\gradio_tool\src\yolo_detector\config\tool_pose_config.yaml
+2025-11-05 09:24:38 | [32mINFO[0m | yolo_detector.utils.tool_pose_utils:_load_angle_config:125 - 角度配置文件加载完成: D:\00deeplearn\yolo11\gradio_tool\src\yolo_detector\config\tool_pose_config.yaml
+2025-11-05 09:24:38 | [32mINFO[0m | yolo_detector.ui.gradio_app:__init__:64 - 工具关键点检测应用初始化完成，输出目录: outputs\tool_pose
+2025-11-05 09:24:38 | [32mINFO[0m | yolo_detector.ui.gradio_app:create_interface:630 - Gradio界面创建完成
+2025-11-05 09:24:38 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: GET http://127.0.0.1:7861/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-11-05 09:24:38 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: HEAD http://127.0.0.1:7861/ "HTTP/1.1 200 OK"
+2025-11-05 09:24:58 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:106 - 连接 Axis 摄像头（IP: 192.22.39.253）
+2025-11-05 09:24:58 | [32mINFO[0m | yolo_detector.core.camera_capture:__init__:92 - 摄像头采集器初始化完成，类型: axis, 索引: 0
+2025-11-05 09:24:58 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis:164 - 正在连接 Axis 摄像头（IP: 192.22.39.253）...
+2025-11-05 09:24:58 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:191 - 正在连接 Axis MJPEG 流: http://***:***@192.22.39.253/axis-cgi/mjpg/video.cgi
+2025-11-05 09:24:58 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:212 - Axis 摄像头连接成功
+2025-11-05 09:24:58 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:213 - 图像尺寸: 1280x720, 通道数: 3
+2025-11-05 09:24:58 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:540 - 开始摄像头采集循环（OpenCV方式）
+2025-11-05 09:24:58 | [32mINFO[0m | yolo_detector.core.camera_capture:_start_capture_thread:515 - 摄像头采集线程已启动
+2025-11-05 09:24:58 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis:170 - Axis 摄像头连接成功: Axis 摄像头连接成功
+2025-11-05 09:24:58 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:124 - 摄像头连接成功: Axis 摄像头连接成功: Axis 摄像头连接成功
+2025-11-05 09:25:12 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:237 - 正在断开摄像头连接...
+2025-11-05 09:25:12 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:595 - 摄像头采集循环结束，总共采集 341 帧
+2025-11-05 09:25:12 | [32mINFO[0m | yolo_detector.core.camera_capture:_stop_capture_thread:530 - 摄像头采集线程已停止
+2025-11-05 09:25:12 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:247 - 摄像头已断开连接
+2025-11-05 09:25:12 | [32mINFO[0m | yolo_detector.ui.gradio_app:disconnect_camera:149 - 摄像头已断开
+2025-11-05 09:25:14 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:106 - 连接 Axis 摄像头（IP: 192.22.39.253）
+2025-11-05 09:25:14 | [32mINFO[0m | yolo_detector.core.camera_capture:__init__:92 - 摄像头采集器初始化完成，类型: axis, 索引: 0
+2025-11-05 09:25:14 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis:164 - 正在连接 Axis 摄像头（IP: 192.22.39.253）...
+2025-11-05 09:25:14 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:191 - 正在连接 Axis MJPEG 流: http://***:***@192.22.39.253/axis-cgi/mjpg/video.cgi
+2025-11-05 09:25:14 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:212 - Axis 摄像头连接成功
+2025-11-05 09:25:14 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:213 - 图像尺寸: 1280x720, 通道数: 3
+2025-11-05 09:25:14 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:540 - 开始摄像头采集循环（OpenCV方式）
+2025-11-05 09:25:14 | [32mINFO[0m | yolo_detector.core.camera_capture:_start_capture_thread:515 - 摄像头采集线程已启动
+2025-11-05 09:25:14 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis:170 - Axis 摄像头连接成功: Axis 摄像头连接成功
+2025-11-05 09:25:14 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:124 - 摄像头连接成功: Axis 摄像头连接成功: Axis 摄像头连接成功
+2025-11-05 09:25:16 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:237 - 正在断开摄像头连接...
+2025-11-05 09:25:16 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:595 - 摄像头采集循环结束，总共采集 43 帧
+2025-11-05 09:25:16 | [32mINFO[0m | yolo_detector.core.camera_capture:_stop_capture_thread:530 - 摄像头采集线程已停止
+2025-11-05 09:25:16 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:247 - 摄像头已断开连接
+2025-11-05 09:25:16 | [32mINFO[0m | yolo_detector.ui.gradio_app:disconnect_camera:149 - 摄像头已断开
+2025-11-05 09:25:17 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:106 - 连接 Axis 摄像头（IP: 192.22.39.253）
+2025-11-05 09:25:17 | [32mINFO[0m | yolo_detector.core.camera_capture:__init__:92 - 摄像头采集器初始化完成，类型: axis, 索引: 0
+2025-11-05 09:25:17 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis:164 - 正在连接 Axis 摄像头（IP: 192.22.39.253）...
+2025-11-05 09:25:17 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:191 - 正在连接 Axis MJPEG 流: http://***:***@192.22.39.253/axis-cgi/mjpg/video.cgi
+2025-11-05 09:25:17 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:212 - Axis 摄像头连接成功
+2025-11-05 09:25:17 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:213 - 图像尺寸: 1280x720, 通道数: 3
+2025-11-05 09:25:17 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:540 - 开始摄像头采集循环（OpenCV方式）
+2025-11-05 09:25:17 | [32mINFO[0m | yolo_detector.core.camera_capture:_start_capture_thread:515 - 摄像头采集线程已启动
+2025-11-05 09:25:17 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis:170 - Axis 摄像头连接成功: Axis 摄像头连接成功
+2025-11-05 09:25:17 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:124 - 摄像头连接成功: Axis 摄像头连接成功: Axis 摄像头连接成功
+2025-11-05 09:25:38 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:237 - 正在断开摄像头连接...
+2025-11-05 09:25:38 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:595 - 摄像头采集循环结束，总共采集 508 帧
+2025-11-05 09:25:38 | [32mINFO[0m | yolo_detector.core.camera_capture:_stop_capture_thread:530 - 摄像头采集线程已停止
+2025-11-05 09:25:38 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:247 - 摄像头已断开连接
+2025-11-05 09:25:38 | [32mINFO[0m | yolo_detector.ui.gradio_app:disconnect_camera:149 - 摄像头已断开
+2025-11-05 09:25:38 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:106 - 连接 Axis 摄像头（IP: 192.22.39.253）
+2025-11-05 09:25:38 | [32mINFO[0m | yolo_detector.core.camera_capture:__init__:92 - 摄像头采集器初始化完成，类型: axis, 索引: 0
+2025-11-05 09:25:38 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis:164 - 正在连接 Axis 摄像头（IP: 192.22.39.253）...
+2025-11-05 09:25:38 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:191 - 正在连接 Axis MJPEG 流: http://***:***@192.22.39.253/axis-cgi/mjpg/video.cgi
+2025-11-05 09:25:38 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:212 - Axis 摄像头连接成功
+2025-11-05 09:25:38 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:213 - 图像尺寸: 1280x720, 通道数: 3
+2025-11-05 09:25:38 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:540 - 开始摄像头采集循环（OpenCV方式）
+2025-11-05 09:25:38 | [32mINFO[0m | yolo_detector.core.camera_capture:_start_capture_thread:515 - 摄像头采集线程已启动
+2025-11-05 09:25:38 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis:170 - Axis 摄像头连接成功: Axis 摄像头连接成功
+2025-11-05 09:25:38 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:124 - 摄像头连接成功: Axis 摄像头连接成功: Axis 摄像头连接成功
+2025-11-05 09:32:17 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:237 - 正在断开摄像头连接...
+2025-11-05 09:32:17 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:247 - 摄像头已断开连接
+2025-11-05 09:32:25 | [32mINFO[0m | __main__:setup_environment:35 - 环境设置完成
+2025-11-05 09:32:25 | [32mINFO[0m | __main__:run_web_interface:65 - 启动工具关键点检测Web界面...
+2025-11-05 09:32:25 | [32mINFO[0m | yolo_detector.utils.tool_pose_utils:__init__:86 - 工具关键点检测器初始化完成，配置文件: D:\00deeplearn\yolo11\gradio_tool\src\yolo_detector\config\tool_pose_config.yaml
+2025-11-05 09:32:25 | [32mINFO[0m | yolo_detector.utils.tool_pose_angle_calculator:load_angle_config:53 - 角度配置文件加载成功: D:\00deeplearn\yolo11\gradio_tool\src\yolo_detector\config\tool_pose_config.yaml
+2025-11-05 09:32:25 | [32mINFO[0m | yolo_detector.utils.tool_pose_utils:_load_angle_config:125 - 角度配置文件加载完成: D:\00deeplearn\yolo11\gradio_tool\src\yolo_detector\config\tool_pose_config.yaml
+2025-11-05 09:32:25 | [32mINFO[0m | yolo_detector.ui.gradio_app:__init__:71 - 工具关键点检测应用初始化完成，输出目录: outputs\tool_pose
+2025-11-05 09:32:25 | [32mINFO[0m | yolo_detector.ui.gradio_app:create_interface:740 - Gradio界面创建完成
+2025-11-05 09:32:25 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: GET http://127.0.0.1:7861/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-11-05 09:32:25 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: HEAD http://127.0.0.1:7861/ "HTTP/1.1 200 OK"
+2025-11-05 09:32:41 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:113 - 连接 Axis 摄像头（IP: 192.22.39.253）
+2025-11-05 09:32:41 | [32mINFO[0m | yolo_detector.core.camera_capture:__init__:92 - 摄像头采集器初始化完成，类型: axis, 索引: 0
+2025-11-05 09:32:41 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis:164 - 正在连接 Axis 摄像头（IP: 192.22.39.253）...
+2025-11-05 09:32:41 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:191 - 正在连接 Axis MJPEG 流: http://***:***@192.22.39.253/axis-cgi/mjpg/video.cgi
+2025-11-05 09:32:41 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:212 - Axis 摄像头连接成功
+2025-11-05 09:32:41 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:213 - 图像尺寸: 1280x720, 通道数: 3
+2025-11-05 09:32:41 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:540 - 开始摄像头采集循环（OpenCV方式）
+2025-11-05 09:32:41 | [32mINFO[0m | yolo_detector.core.camera_capture:_start_capture_thread:515 - 摄像头采集线程已启动
+2025-11-05 09:32:41 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis:170 - Axis 摄像头连接成功: Axis 摄像头连接成功
+2025-11-05 09:32:41 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:131 - 摄像头连接成功: Axis 摄像头连接成功: Axis 摄像头连接成功
+2025-11-05 09:32:43 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:206 - 自动刷新已开启
+2025-11-05 09:32:49 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:209 - 自动刷新已关闭
+2025-11-05 09:32:50 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:206 - 自动刷新已开启
+2025-11-05 09:32:51 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:209 - 自动刷新已关闭
+2025-11-05 09:32:52 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:206 - 自动刷新已开启
+2025-11-05 09:32:54 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:209 - 自动刷新已关闭
+2025-11-05 09:32:55 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:206 - 自动刷新已开启
+2025-11-05 09:32:55 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:209 - 自动刷新已关闭
+2025-11-05 09:32:56 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:206 - 自动刷新已开启
+2025-11-05 09:32:56 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:209 - 自动刷新已关闭
+2025-11-05 09:32:57 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:206 - 自动刷新已开启
+2025-11-05 09:32:58 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:209 - 自动刷新已关闭
+2025-11-05 09:32:59 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:206 - 自动刷新已开启
+2025-11-05 09:33:02 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:209 - 自动刷新已关闭
+2025-11-05 09:33:03 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:206 - 自动刷新已开启
+2025-11-05 09:33:05 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:209 - 自动刷新已关闭
+2025-11-05 09:33:06 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:206 - 自动刷新已开启
+2025-11-05 09:33:08 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:209 - 自动刷新已关闭
+2025-11-05 09:33:12 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:206 - 自动刷新已开启
+2025-11-05 09:33:13 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:209 - 自动刷新已关闭
+2025-11-05 09:33:14 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:206 - 自动刷新已开启
+2025-11-05 09:33:15 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:209 - 自动刷新已关闭
+2025-11-05 09:33:16 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:206 - 自动刷新已开启
+2025-11-05 09:33:17 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:209 - 自动刷新已关闭
+2025-11-05 09:33:19 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:206 - 自动刷新已开启
+2025-11-05 09:34:18 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:237 - 正在断开摄像头连接...
+2025-11-05 09:34:18 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:247 - 摄像头已断开连接
+2025-11-05 09:39:44 | [32mINFO[0m | __main__:setup_environment:35 - 环境设置完成
+2025-11-05 09:39:44 | [32mINFO[0m | __main__:run_web_interface:65 - 启动工具关键点检测Web界面...
+2025-11-05 09:39:44 | [32mINFO[0m | yolo_detector.utils.tool_pose_utils:__init__:86 - 工具关键点检测器初始化完成，配置文件: D:\00deeplearn\yolo11\gradio_tool\src\yolo_detector\config\tool_pose_config.yaml
+2025-11-05 09:39:44 | [32mINFO[0m | yolo_detector.utils.tool_pose_angle_calculator:load_angle_config:53 - 角度配置文件加载成功: D:\00deeplearn\yolo11\gradio_tool\src\yolo_detector\config\tool_pose_config.yaml
+2025-11-05 09:39:44 | [32mINFO[0m | yolo_detector.utils.tool_pose_utils:_load_angle_config:125 - 角度配置文件加载完成: D:\00deeplearn\yolo11\gradio_tool\src\yolo_detector\config\tool_pose_config.yaml
+2025-11-05 09:39:44 | [32mINFO[0m | yolo_detector.ui.gradio_app:__init__:71 - 工具关键点检测应用初始化完成，输出目录: outputs\tool_pose
+2025-11-05 09:39:44 | [32mINFO[0m | yolo_detector.ui.gradio_app:create_interface:740 - Gradio界面创建完成
+2025-11-05 09:39:44 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: GET http://127.0.0.1:7861/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-11-05 09:39:44 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: HEAD http://127.0.0.1:7861/ "HTTP/1.1 200 OK"
+2025-11-05 09:40:53 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:101 - 连接本机摄像头（索引: 0）
+2025-11-05 09:40:53 | [32mINFO[0m | yolo_detector.core.camera_capture:__init__:92 - 摄像头采集器初始化完成，类型: local, 索引: 0
+2025-11-05 09:40:53 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_local:123 - 正在连接本机摄像头（索引: 0）...
+2025-11-05 09:40:54 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_local:150 - 本机摄像头连接成功（索引: 0）
+2025-11-05 09:40:54 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:540 - 开始摄像头采集循环（OpenCV方式）
+2025-11-05 09:40:54 | [32mINFO[0m | yolo_detector.core.camera_capture:_start_capture_thread:515 - 摄像头采集线程已启动
+2025-11-05 09:40:54 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:131 - 摄像头连接成功: 本机摄像头连接成功（索引: 0）
+2025-11-05 09:40:57 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:237 - 正在断开摄像头连接...
+2025-11-05 09:40:57 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:595 - 摄像头采集循环结束，总共采集 94 帧
+2025-11-05 09:40:57 | [32mINFO[0m | yolo_detector.core.camera_capture:_stop_capture_thread:530 - 摄像头采集线程已停止
+2025-11-05 09:40:58 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:247 - 摄像头已断开连接
+2025-11-05 09:40:58 | [32mINFO[0m | yolo_detector.ui.gradio_app:disconnect_camera:156 - 摄像头已断开
+2025-11-05 09:41:06 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:113 - 连接 Axis 摄像头（IP: 192.22.39.253）
+2025-11-05 09:41:06 | [32mINFO[0m | yolo_detector.core.camera_capture:__init__:92 - 摄像头采集器初始化完成，类型: axis, 索引: 0
+2025-11-05 09:41:06 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis:164 - 正在连接 Axis 摄像头（IP: 192.22.39.253）...
+2025-11-05 09:41:06 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:191 - 正在连接 Axis MJPEG 流: http://***:***@192.22.39.253/axis-cgi/mjpg/video.cgi
+2025-11-05 09:41:06 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:212 - Axis 摄像头连接成功
+2025-11-05 09:41:06 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:213 - 图像尺寸: 1280x720, 通道数: 3
+2025-11-05 09:41:06 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:540 - 开始摄像头采集循环（OpenCV方式）
+2025-11-05 09:41:06 | [32mINFO[0m | yolo_detector.core.camera_capture:_start_capture_thread:515 - 摄像头采集线程已启动
+2025-11-05 09:41:06 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis:170 - Axis 摄像头连接成功: Axis 摄像头连接成功
+2025-11-05 09:41:06 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:131 - 摄像头连接成功: Axis 摄像头连接成功: Axis 摄像头连接成功
+2025-11-05 09:41:08 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:206 - 自动刷新已开启
+2025-11-05 09:41:10 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:209 - 自动刷新已关闭
+2025-11-05 09:41:11 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:206 - 自动刷新已开启
+2025-11-05 09:42:14 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:237 - 正在断开摄像头连接...
+2025-11-05 09:42:14 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:595 - 摄像头采集循环结束，总共采集 1717 帧
+2025-11-05 09:42:14 | [32mINFO[0m | yolo_detector.core.camera_capture:_stop_capture_thread:530 - 摄像头采集线程已停止
+2025-11-05 09:42:14 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:247 - 摄像头已断开连接
+2025-11-05 09:42:14 | [32mINFO[0m | yolo_detector.ui.gradio_app:disconnect_camera:156 - 摄像头已断开
+2025-11-05 09:42:18 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:101 - 连接本机摄像头（索引: 0）
+2025-11-05 09:42:18 | [32mINFO[0m | yolo_detector.core.camera_capture:__init__:92 - 摄像头采集器初始化完成，类型: local, 索引: 0
+2025-11-05 09:42:18 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_local:123 - 正在连接本机摄像头（索引: 0）...
+2025-11-05 09:42:19 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_local:150 - 本机摄像头连接成功（索引: 0）
+2025-11-05 09:42:19 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:540 - 开始摄像头采集循环（OpenCV方式）
+2025-11-05 09:42:19 | [32mINFO[0m | yolo_detector.core.camera_capture:_start_capture_thread:515 - 摄像头采集线程已启动
+2025-11-05 09:42:19 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:131 - 摄像头连接成功: 本机摄像头连接成功（索引: 0）
+2025-11-05 09:42:29 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:237 - 正在断开摄像头连接...
+2025-11-05 09:42:29 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:595 - 摄像头采集循环结束，总共采集 313 帧
+2025-11-05 09:42:29 | [32mINFO[0m | yolo_detector.core.camera_capture:_stop_capture_thread:530 - 摄像头采集线程已停止
+2025-11-05 09:42:29 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:247 - 摄像头已断开连接
+2025-11-05 09:42:29 | [32mINFO[0m | yolo_detector.ui.gradio_app:disconnect_camera:156 - 摄像头已断开
+2025-11-05 09:45:07 | [32mINFO[0m | __main__:setup_environment:35 - 环境设置完成
+2025-11-05 09:45:07 | [32mINFO[0m | __main__:run_web_interface:65 - 启动工具关键点检测Web界面...
+2025-11-05 09:45:07 | [32mINFO[0m | yolo_detector.utils.tool_pose_utils:__init__:86 - 工具关键点检测器初始化完成，配置文件: D:\00deeplearn\yolo11\gradio_tool\src\yolo_detector\config\tool_pose_config.yaml
+2025-11-05 09:45:07 | [32mINFO[0m | yolo_detector.utils.tool_pose_angle_calculator:load_angle_config:53 - 角度配置文件加载成功: D:\00deeplearn\yolo11\gradio_tool\src\yolo_detector\config\tool_pose_config.yaml
+2025-11-05 09:45:07 | [32mINFO[0m | yolo_detector.utils.tool_pose_utils:_load_angle_config:125 - 角度配置文件加载完成: D:\00deeplearn\yolo11\gradio_tool\src\yolo_detector\config\tool_pose_config.yaml
+2025-11-05 09:45:07 | [32mINFO[0m | yolo_detector.ui.gradio_app:__init__:72 - 工具关键点检测应用初始化完成，输出目录: outputs\tool_pose
+2025-11-05 09:45:07 | [32mINFO[0m | yolo_detector.ui.gradio_app:create_interface:840 - Gradio界面创建完成
+2025-11-05 09:45:07 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: GET http://127.0.0.1:7861/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-11-05 09:45:07 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: HEAD http://127.0.0.1:7861/ "HTTP/1.1 200 OK"
+2025-11-05 09:46:40 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:102 - 连接本机摄像头（索引: 0）
+2025-11-05 09:46:40 | [32mINFO[0m | yolo_detector.core.camera_capture:__init__:92 - 摄像头采集器初始化完成，类型: local, 索引: 0
+2025-11-05 09:46:40 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_local:123 - 正在连接本机摄像头（索引: 0）...
+2025-11-05 09:46:41 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_local:150 - 本机摄像头连接成功（索引: 0）
+2025-11-05 09:46:41 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:540 - 开始摄像头采集循环（OpenCV方式）
+2025-11-05 09:46:41 | [32mINFO[0m | yolo_detector.core.camera_capture:_start_capture_thread:515 - 摄像头采集线程已启动
+2025-11-05 09:46:41 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:132 - 摄像头连接成功: 本机摄像头连接成功（索引: 0）
+2025-11-05 09:46:44 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:207 - 自动刷新已开启
+2025-11-05 09:46:48 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:210 - 自动刷新已关闭
+2025-11-05 09:46:49 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:207 - 自动刷新已开启
+2025-11-05 09:46:55 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:237 - 正在断开摄像头连接...
+2025-11-05 09:46:55 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:595 - 摄像头采集循环结束，总共采集 410 帧
+2025-11-05 09:46:55 | [32mINFO[0m | yolo_detector.core.camera_capture:_stop_capture_thread:530 - 摄像头采集线程已停止
+2025-11-05 09:46:55 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:247 - 摄像头已断开连接
+2025-11-05 09:46:55 | [32mINFO[0m | yolo_detector.ui.gradio_app:disconnect_camera:157 - 摄像头已断开
+2025-11-05 09:47:03 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:114 - 连接 Axis 摄像头（IP: 192.22.39.253）
+2025-11-05 09:47:03 | [32mINFO[0m | yolo_detector.core.camera_capture:__init__:92 - 摄像头采集器初始化完成，类型: axis, 索引: 0
+2025-11-05 09:47:03 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis:164 - 正在连接 Axis 摄像头（IP: 192.22.39.253）...
+2025-11-05 09:47:03 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:191 - 正在连接 Axis MJPEG 流: http://***:***@192.22.39.253/axis-cgi/mjpg/video.cgi
+2025-11-05 09:47:03 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:212 - Axis 摄像头连接成功
+2025-11-05 09:47:03 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:213 - 图像尺寸: 1280x720, 通道数: 3
+2025-11-05 09:47:03 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:540 - 开始摄像头采集循环（OpenCV方式）
+2025-11-05 09:47:03 | [32mINFO[0m | yolo_detector.core.camera_capture:_start_capture_thread:515 - 摄像头采集线程已启动
+2025-11-05 09:47:03 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis:170 - Axis 摄像头连接成功: Axis 摄像头连接成功
+2025-11-05 09:47:03 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:132 - 摄像头连接成功: Axis 摄像头连接成功: Axis 摄像头连接成功
+2025-11-05 09:47:08 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:210 - 自动刷新已关闭
+2025-11-05 09:47:09 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:207 - 自动刷新已开启
+2025-11-05 09:47:10 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:210 - 自动刷新已关闭
+2025-11-05 09:47:10 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:207 - 自动刷新已开启
+2025-11-05 09:47:11 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:210 - 自动刷新已关闭
+2025-11-05 09:47:11 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:207 - 自动刷新已开启
+2025-11-05 09:47:12 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:210 - 自动刷新已关闭
+2025-11-05 09:47:13 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:207 - 自动刷新已开启
+2025-11-05 09:47:13 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:210 - 自动刷新已关闭
+2025-11-05 09:47:14 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:207 - 自动刷新已开启
+2025-11-05 09:47:15 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:210 - 自动刷新已关闭
+2025-11-05 09:47:15 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:207 - 自动刷新已开启
+2025-11-05 09:47:16 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:210 - 自动刷新已关闭
+2025-11-05 09:47:17 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:207 - 自动刷新已开启
+2025-11-05 09:47:18 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:210 - 自动刷新已关闭
+2025-11-05 09:47:18 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:207 - 自动刷新已开启
+2025-11-05 09:47:19 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:210 - 自动刷新已关闭
+2025-11-05 09:47:20 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:207 - 自动刷新已开启
+2025-11-05 09:47:21 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:210 - 自动刷新已关闭
+2025-11-05 09:47:21 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:207 - 自动刷新已开启
+2025-11-05 09:47:22 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:210 - 自动刷新已关闭
+2025-11-05 09:47:22 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:207 - 自动刷新已开启
+2025-11-05 09:47:23 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:210 - 自动刷新已关闭
+2025-11-05 09:47:23 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:207 - 自动刷新已开启
+2025-11-05 09:47:23 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:210 - 自动刷新已关闭
+2025-11-05 09:47:24 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:207 - 自动刷新已开启
+2025-11-05 09:47:24 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:210 - 自动刷新已关闭
+2025-11-05 09:47:24 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:207 - 自动刷新已开启
+2025-11-05 09:47:25 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:210 - 自动刷新已关闭
+2025-11-05 09:47:25 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:207 - 自动刷新已开启
+2025-11-05 09:47:25 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:210 - 自动刷新已关闭
+2025-11-05 09:47:25 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:207 - 自动刷新已开启
+2025-11-05 09:47:26 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:210 - 自动刷新已关闭
+2025-11-05 09:47:26 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:207 - 自动刷新已开启
+2025-11-05 09:47:26 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:210 - 自动刷新已关闭
+2025-11-05 09:47:27 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:207 - 自动刷新已开启
+2025-11-05 09:52:02 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:210 - 自动刷新已关闭
+2025-11-05 09:52:03 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:207 - 自动刷新已开启
+2025-11-05 09:52:04 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:210 - 自动刷新已关闭
+2025-11-05 10:14:53 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:207 - 自动刷新已开启
+2025-11-05 10:14:53 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:210 - 自动刷新已关闭
+2025-11-05 10:14:53 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:207 - 自动刷新已开启
+2025-11-05 10:14:54 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:210 - 自动刷新已关闭
+2025-11-05 10:14:54 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:207 - 自动刷新已开启
+2025-11-05 10:14:55 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:210 - 自动刷新已关闭
+2025-11-05 10:14:55 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:207 - 自动刷新已开启
+2025-11-05 10:14:56 | [32mINFO[0m | yolo_detector.ui.gradio_app:toggle_auto_refresh:210 - 自动刷新已关闭
+2025-11-05 10:20:06 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:237 - 正在断开摄像头连接...
+2025-11-05 10:20:06 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:247 - 摄像头已断开连接
+2025-11-05 10:20:14 | [32mINFO[0m | __main__:setup_environment:35 - 环境设置完成
+2025-11-05 10:20:14 | [32mINFO[0m | __main__:run_web_interface:65 - 启动工具关键点检测Web界面...
+2025-11-05 10:20:14 | [32mINFO[0m | yolo_detector.utils.tool_pose_utils:__init__:86 - 工具关键点检测器初始化完成，配置文件: D:\00deeplearn\yolo11\gradio_tool\src\yolo_detector\config\tool_pose_config.yaml
+2025-11-05 10:20:14 | [32mINFO[0m | yolo_detector.utils.tool_pose_angle_calculator:load_angle_config:53 - 角度配置文件加载成功: D:\00deeplearn\yolo11\gradio_tool\src\yolo_detector\config\tool_pose_config.yaml
+2025-11-05 10:20:14 | [32mINFO[0m | yolo_detector.utils.tool_pose_utils:_load_angle_config:125 - 角度配置文件加载完成: D:\00deeplearn\yolo11\gradio_tool\src\yolo_detector\config\tool_pose_config.yaml
+2025-11-05 10:20:14 | [32mINFO[0m | yolo_detector.ui.gradio_app:__init__:73 - 工具关键点检测应用初始化完成，输出目录: outputs\tool_pose
+2025-11-05 10:20:14 | [32mINFO[0m | yolo_detector.ui.gradio_app:create_interface:700 - Gradio界面创建完成
+2025-11-05 10:20:15 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: GET http://127.0.0.1:7861/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-11-05 10:20:15 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: HEAD http://127.0.0.1:7861/ "HTTP/1.1 200 OK"
+2025-11-05 10:20:30 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:115 - 连接 Axis 摄像头（IP: 192.22.39.253）
+2025-11-05 10:20:30 | [32mINFO[0m | yolo_detector.core.camera_capture:__init__:92 - 摄像头采集器初始化完成，类型: axis, 索引: 0
+2025-11-05 10:20:30 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis:164 - 正在连接 Axis 摄像头（IP: 192.22.39.253）...
+2025-11-05 10:20:30 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:191 - 正在连接 Axis MJPEG 流: http://***:***@192.22.39.253/axis-cgi/mjpg/video.cgi
+2025-11-05 10:20:30 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:212 - Axis 摄像头连接成功
+2025-11-05 10:20:30 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:213 - 图像尺寸: 1280x720, 通道数: 3
+2025-11-05 10:20:30 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:540 - 开始摄像头采集循环（OpenCV方式）
+2025-11-05 10:20:30 | [32mINFO[0m | yolo_detector.core.camera_capture:_start_capture_thread:515 - 摄像头采集线程已启动
+2025-11-05 10:20:30 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis:170 - Axis 摄像头连接成功: Axis 摄像头连接成功
+2025-11-05 10:20:30 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:133 - 摄像头连接成功: Axis 摄像头连接成功: Axis 摄像头连接成功
+2025-11-05 10:20:35 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:203 - 开始流式传输摄像头画面...
+2025-11-05 10:21:05 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:237 - 流式传输已停止
+2025-11-05 10:21:05 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:241 - 流式传输结束，共传输 1 帧
+2025-11-05 10:21:21 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:237 - 正在断开摄像头连接...
+2025-11-05 10:21:21 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:595 - 摄像头采集循环结束，总共采集 1272 帧
+2025-11-05 10:21:21 | [32mINFO[0m | yolo_detector.core.camera_capture:_stop_capture_thread:530 - 摄像头采集线程已停止
+2025-11-05 10:21:21 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:247 - 摄像头已断开连接
+2025-11-05 10:21:21 | [32mINFO[0m | yolo_detector.ui.gradio_app:disconnect_camera:158 - 摄像头已断开
+2025-11-05 10:21:37 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:115 - 连接 Axis 摄像头（IP: 192.22.39.253）
+2025-11-05 10:21:37 | [32mINFO[0m | yolo_detector.core.camera_capture:__init__:92 - 摄像头采集器初始化完成，类型: axis, 索引: 0
+2025-11-05 10:21:37 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis:164 - 正在连接 Axis 摄像头（IP: 192.22.39.253）...
+2025-11-05 10:21:37 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:191 - 正在连接 Axis MJPEG 流: http://***:***@192.22.39.253/axis-cgi/mjpg/video.cgi
+2025-11-05 10:21:37 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:212 - Axis 摄像头连接成功
+2025-11-05 10:21:37 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:213 - 图像尺寸: 1280x720, 通道数: 3
+2025-11-05 10:21:37 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:540 - 开始摄像头采集循环（OpenCV方式）
+2025-11-05 10:21:37 | [32mINFO[0m | yolo_detector.core.camera_capture:_start_capture_thread:515 - 摄像头采集线程已启动
+2025-11-05 10:21:37 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis:170 - Axis 摄像头连接成功: Axis 摄像头连接成功
+2025-11-05 10:21:37 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:133 - 摄像头连接成功: Axis 摄像头连接成功: Axis 摄像头连接成功
+2025-11-05 10:21:43 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:237 - 正在断开摄像头连接...
+2025-11-05 10:21:43 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:595 - 摄像头采集循环结束，总共采集 159 帧
+2025-11-05 10:21:43 | [32mINFO[0m | yolo_detector.core.camera_capture:_stop_capture_thread:530 - 摄像头采集线程已停止
+2025-11-05 10:21:43 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:247 - 摄像头已断开连接
+2025-11-05 10:21:43 | [32mINFO[0m | yolo_detector.ui.gradio_app:disconnect_camera:158 - 摄像头已断开
+2025-11-05 10:21:52 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:103 - 连接本机摄像头（索引: 0）
+2025-11-05 10:21:52 | [32mINFO[0m | yolo_detector.core.camera_capture:__init__:92 - 摄像头采集器初始化完成，类型: local, 索引: 0
+2025-11-05 10:21:52 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_local:123 - 正在连接本机摄像头（索引: 0）...
+2025-11-05 10:21:52 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_local:150 - 本机摄像头连接成功（索引: 0）
+2025-11-05 10:21:52 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:540 - 开始摄像头采集循环（OpenCV方式）
+2025-11-05 10:21:52 | [32mINFO[0m | yolo_detector.core.camera_capture:_start_capture_thread:515 - 摄像头采集线程已启动
+2025-11-05 10:21:52 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:133 - 摄像头连接成功: 本机摄像头连接成功（索引: 0）
+2025-11-05 10:22:01 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:237 - 正在断开摄像头连接...
+2025-11-05 10:22:01 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:595 - 摄像头采集循环结束，总共采集 256 帧
+2025-11-05 10:22:01 | [32mINFO[0m | yolo_detector.core.camera_capture:_stop_capture_thread:530 - 摄像头采集线程已停止
+2025-11-05 10:22:01 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:247 - 摄像头已断开连接
+2025-11-05 10:22:01 | [32mINFO[0m | yolo_detector.ui.gradio_app:disconnect_camera:158 - 摄像头已断开
+2025-11-05 10:22:11 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:115 - 连接 Axis 摄像头（IP: 192.22.39.253）
+2025-11-05 10:22:11 | [32mINFO[0m | yolo_detector.core.camera_capture:__init__:92 - 摄像头采集器初始化完成，类型: axis, 索引: 0
+2025-11-05 10:22:11 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis:164 - 正在连接 Axis 摄像头（IP: 192.22.39.253）...
+2025-11-05 10:22:11 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:191 - 正在连接 Axis MJPEG 流: http://***:***@192.22.39.253/axis-cgi/mjpg/video.cgi
+2025-11-05 10:22:11 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:212 - Axis 摄像头连接成功
+2025-11-05 10:22:11 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:213 - 图像尺寸: 1280x720, 通道数: 3
+2025-11-05 10:22:11 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:540 - 开始摄像头采集循环（OpenCV方式）
+2025-11-05 10:22:11 | [32mINFO[0m | yolo_detector.core.camera_capture:_start_capture_thread:515 - 摄像头采集线程已启动
+2025-11-05 10:22:11 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis:170 - Axis 摄像头连接成功: Axis 摄像头连接成功
+2025-11-05 10:22:11 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:133 - 摄像头连接成功: Axis 摄像头连接成功: Axis 摄像头连接成功
+2025-11-05 10:25:30 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:237 - 正在断开摄像头连接...
+2025-11-05 10:25:30 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:247 - 摄像头已断开连接
+2025-11-05 10:25:37 | [32mINFO[0m | __main__:setup_environment:35 - 环境设置完成
+2025-11-05 10:25:37 | [32mINFO[0m | __main__:run_web_interface:65 - 启动工具关键点检测Web界面...
+2025-11-05 10:25:37 | [32mINFO[0m | yolo_detector.utils.tool_pose_utils:__init__:86 - 工具关键点检测器初始化完成，配置文件: D:\00deeplearn\yolo11\gradio_tool\src\yolo_detector\config\tool_pose_config.yaml
+2025-11-05 10:25:37 | [32mINFO[0m | yolo_detector.utils.tool_pose_angle_calculator:load_angle_config:53 - 角度配置文件加载成功: D:\00deeplearn\yolo11\gradio_tool\src\yolo_detector\config\tool_pose_config.yaml
+2025-11-05 10:25:37 | [32mINFO[0m | yolo_detector.utils.tool_pose_utils:_load_angle_config:125 - 角度配置文件加载完成: D:\00deeplearn\yolo11\gradio_tool\src\yolo_detector\config\tool_pose_config.yaml
+2025-11-05 10:25:37 | [32mINFO[0m | yolo_detector.ui.gradio_app:__init__:73 - 工具关键点检测应用初始化完成，输出目录: outputs\tool_pose
+2025-11-05 10:25:38 | [32mINFO[0m | yolo_detector.ui.gradio_app:create_interface:764 - Gradio界面创建完成
+2025-11-05 10:25:38 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: GET http://127.0.0.1:7861/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-11-05 10:25:38 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: HEAD http://127.0.0.1:7861/ "HTTP/1.1 200 OK"
+2025-11-05 10:25:56 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:115 - 连接 Axis 摄像头（IP: 192.22.39.253）
+2025-11-05 10:25:56 | [32mINFO[0m | yolo_detector.core.camera_capture:__init__:92 - 摄像头采集器初始化完成，类型: axis, 索引: 0
+2025-11-05 10:25:56 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis:164 - 正在连接 Axis 摄像头（IP: 192.22.39.253）...
+2025-11-05 10:25:56 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:191 - 正在连接 Axis MJPEG 流: http://***:***@192.22.39.253/axis-cgi/mjpg/video.cgi
+2025-11-05 10:25:56 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:212 - Axis 摄像头连接成功
+2025-11-05 10:25:56 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:213 - 图像尺寸: 1280x720, 通道数: 3
+2025-11-05 10:25:56 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:540 - 开始摄像头采集循环（OpenCV方式）
+2025-11-05 10:25:56 | [32mINFO[0m | yolo_detector.core.camera_capture:_start_capture_thread:515 - 摄像头采集线程已启动
+2025-11-05 10:25:56 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis:170 - Axis 摄像头连接成功: Axis 摄像头连接成功
+2025-11-05 10:25:56 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:133 - 摄像头连接成功: Axis 摄像头连接成功: Axis 摄像头连接成功
+2025-11-05 10:25:56 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:144 - 摄像头连接成功，已获取到第一帧（类型: axis，尺寸: (720, 1280, 3)）
+2025-11-05 10:25:56 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_and_start_stream:684 - 摄像头连接成功，已获取预览帧（类型: axis），流式传输将自动开始
+2025-11-05 10:29:45 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:237 - 正在断开摄像头连接...
+2025-11-05 10:29:45 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:247 - 摄像头已断开连接
+2025-11-05 10:29:52 | [32mINFO[0m | __main__:setup_environment:35 - 环境设置完成
+2025-11-05 10:29:52 | [32mINFO[0m | __main__:run_web_interface:65 - 启动工具关键点检测Web界面...
+2025-11-05 10:29:52 | [32mINFO[0m | yolo_detector.utils.tool_pose_utils:__init__:86 - 工具关键点检测器初始化完成，配置文件: D:\00deeplearn\yolo11\gradio_tool\src\yolo_detector\config\tool_pose_config.yaml
+2025-11-05 10:29:52 | [32mINFO[0m | yolo_detector.utils.tool_pose_angle_calculator:load_angle_config:53 - 角度配置文件加载成功: D:\00deeplearn\yolo11\gradio_tool\src\yolo_detector\config\tool_pose_config.yaml
+2025-11-05 10:29:52 | [32mINFO[0m | yolo_detector.utils.tool_pose_utils:_load_angle_config:125 - 角度配置文件加载完成: D:\00deeplearn\yolo11\gradio_tool\src\yolo_detector\config\tool_pose_config.yaml
+2025-11-05 10:29:52 | [32mINFO[0m | yolo_detector.ui.gradio_app:__init__:73 - 工具关键点检测应用初始化完成，输出目录: outputs\tool_pose
+2025-11-05 10:29:52 | [32mINFO[0m | yolo_detector.ui.gradio_app:create_interface:755 - Gradio界面创建完成（Generator 方案，已启用队列）
+2025-11-05 10:29:52 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: GET http://127.0.0.1:7861/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-11-05 10:29:52 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: HEAD http://127.0.0.1:7861/ "HTTP/1.1 200 OK"
+2025-11-05 10:30:03 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:103 - 连接本机摄像头（索引: 0）
+2025-11-05 10:30:03 | [32mINFO[0m | yolo_detector.core.camera_capture:__init__:92 - 摄像头采集器初始化完成，类型: local, 索引: 0
+2025-11-05 10:30:03 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_local:123 - 正在连接本机摄像头（索引: 0）...
+2025-11-05 10:30:04 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_local:150 - 本机摄像头连接成功（索引: 0）
+2025-11-05 10:30:04 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:540 - 开始摄像头采集循环（OpenCV方式）
+2025-11-05 10:30:04 | [32mINFO[0m | yolo_detector.core.camera_capture:_start_capture_thread:515 - 摄像头采集线程已启动
+2025-11-05 10:30:04 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:133 - 摄像头连接成功: 本机摄像头连接成功（索引: 0）
+2025-11-05 10:30:05 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:144 - 摄像头连接成功，已获取到第一帧（类型: local，尺寸: (720, 1280, 3)）
+2025-11-05 10:30:05 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:218 - Generator 流式传输启动...
+2025-11-05 10:30:05 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:228 - 等待摄像头准备就绪（类型: local）...
+2025-11-05 10:30:05 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:240 - 摄像头已就绪，获取到第一帧（尺寸: (720, 1280, 3)）
+2025-11-05 10:30:05 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:269 - Generator 流式传输开始输出帧（类型: local）
+2025-11-05 10:30:25 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:237 - 正在断开摄像头连接...
+2025-11-05 10:30:25 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:595 - 摄像头采集循环结束，总共采集 631 帧
+2025-11-05 10:30:25 | [32mINFO[0m | yolo_detector.core.camera_capture:_stop_capture_thread:530 - 摄像头采集线程已停止
+2025-11-05 10:30:26 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:247 - 摄像头已断开连接
+2025-11-05 10:30:26 | [32mINFO[0m | yolo_detector.ui.gradio_app:disconnect_camera:172 - 摄像头已断开
+2025-11-05 10:30:26 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:115 - 连接 Axis 摄像头（IP: 192.22.39.253）
+2025-11-05 10:30:26 | [32mINFO[0m | yolo_detector.core.camera_capture:__init__:92 - 摄像头采集器初始化完成，类型: axis, 索引: 0
+2025-11-05 10:30:26 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis:164 - 正在连接 Axis 摄像头（IP: 192.22.39.253）...
+2025-11-05 10:30:26 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:191 - 正在连接 Axis MJPEG 流: http://***:***@192.22.39.253/axis-cgi/mjpg/video.cgi
+2025-11-05 10:30:26 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:212 - Axis 摄像头连接成功
+2025-11-05 10:30:26 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:213 - 图像尺寸: 1280x720, 通道数: 3
+2025-11-05 10:30:26 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:540 - 开始摄像头采集循环（OpenCV方式）
+2025-11-05 10:30:26 | [32mINFO[0m | yolo_detector.core.camera_capture:_start_capture_thread:515 - 摄像头采集线程已启动
+2025-11-05 10:30:26 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis:170 - Axis 摄像头连接成功: Axis 摄像头连接成功
+2025-11-05 10:30:26 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:133 - 摄像头连接成功: Axis 摄像头连接成功: Axis 摄像头连接成功
+2025-11-05 10:30:26 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:144 - 摄像头连接成功，已获取到第一帧（类型: axis，尺寸: (720, 1280, 3)）
+2025-11-05 10:30:27 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:272 - Generator 流式传输中（axis），已传输 100 帧
+2025-11-05 10:30:49 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:272 - Generator 流式传输中（axis），已传输 200 帧
+2025-11-05 10:31:12 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:272 - Generator 流式传输中（axis），已传输 300 帧
+2025-11-05 10:31:35 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:272 - Generator 流式传输中（axis），已传输 400 帧
+2025-11-05 10:31:58 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:272 - Generator 流式传输中（axis），已传输 500 帧
+2025-11-05 10:32:21 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:272 - Generator 流式传输中（axis），已传输 600 帧
+2025-11-05 10:32:44 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:272 - Generator 流式传输中（axis），已传输 700 帧
+2025-11-05 10:33:07 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:272 - Generator 流式传输中（axis），已传输 800 帧
+2025-11-05 10:33:29 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:272 - Generator 流式传输中（axis），已传输 900 帧
+2025-11-05 10:33:52 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:272 - Generator 流式传输中（axis），已传输 1000 帧
+2025-11-05 10:34:15 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:272 - Generator 流式传输中（axis），已传输 1100 帧
+2025-11-05 10:34:38 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:272 - Generator 流式传输中（axis），已传输 1200 帧
+2025-11-05 10:35:00 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:272 - Generator 流式传输中（axis），已传输 1300 帧
+2025-11-05 10:35:23 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:272 - Generator 流式传输中（axis），已传输 1400 帧
+2025-11-05 10:35:46 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:272 - Generator 流式传输中（axis），已传输 1500 帧
+2025-11-05 10:36:09 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:272 - Generator 流式传输中（axis），已传输 1600 帧
+2025-11-05 10:36:31 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:272 - Generator 流式传输中（axis），已传输 1700 帧
+2025-11-05 10:36:54 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:272 - Generator 流式传输中（axis），已传输 1800 帧
+2025-11-05 10:37:17 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:272 - Generator 流式传输中（axis），已传输 1900 帧
+2025-11-05 10:37:40 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:272 - Generator 流式传输中（axis），已传输 2000 帧
+2025-11-05 10:38:03 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:272 - Generator 流式传输中（axis），已传输 2100 帧
+2025-11-05 10:38:25 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:272 - Generator 流式传输中（axis），已传输 2200 帧
+2025-11-05 10:38:48 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:296 - Generator 流式传输已停止（GeneratorExit）
+2025-11-05 10:38:48 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:300 - Generator 流式传输结束，共传输 2296 帧
+2025-11-05 10:38:57 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:237 - 正在断开摄像头连接...
+2025-11-05 10:38:57 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:595 - 摄像头采集循环结束，总共采集 12773 帧
+2025-11-05 10:38:57 | [32mINFO[0m | yolo_detector.core.camera_capture:_stop_capture_thread:530 - 摄像头采集线程已停止
+2025-11-05 10:38:57 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:247 - 摄像头已断开连接
+2025-11-05 10:38:57 | [32mINFO[0m | yolo_detector.ui.gradio_app:disconnect_camera:172 - 摄像头已断开
+2025-11-05 10:38:57 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:115 - 连接 Axis 摄像头（IP: 192.22.39.253）
+2025-11-05 10:38:57 | [32mINFO[0m | yolo_detector.core.camera_capture:__init__:92 - 摄像头采集器初始化完成，类型: axis, 索引: 0
+2025-11-05 10:38:57 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis:164 - 正在连接 Axis 摄像头（IP: 192.22.39.253）...
+2025-11-05 10:38:57 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:191 - 正在连接 Axis MJPEG 流: http://***:***@192.22.39.253/axis-cgi/mjpg/video.cgi
+2025-11-05 10:38:57 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:212 - Axis 摄像头连接成功
+2025-11-05 10:38:57 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:213 - 图像尺寸: 1280x720, 通道数: 3
+2025-11-05 10:38:57 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:540 - 开始摄像头采集循环（OpenCV方式）
+2025-11-05 10:38:57 | [32mINFO[0m | yolo_detector.core.camera_capture:_start_capture_thread:515 - 摄像头采集线程已启动
+2025-11-05 10:38:57 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis:170 - Axis 摄像头连接成功: Axis 摄像头连接成功
+2025-11-05 10:38:57 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:133 - 摄像头连接成功: Axis 摄像头连接成功: Axis 摄像头连接成功
+2025-11-05 10:38:57 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:144 - 摄像头连接成功，已获取到第一帧（类型: axis，尺寸: (720, 1280, 3)）
+2025-11-05 10:38:57 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:218 - Generator 流式传输启动...
+2025-11-05 10:38:57 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:228 - 等待摄像头准备就绪（类型: axis）...
+2025-11-05 10:38:57 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:240 - 摄像头已就绪，获取到第一帧（尺寸: (720, 1280, 3)）
+2025-11-05 10:38:57 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:269 - Generator 流式传输开始输出帧（类型: axis）
+2025-11-05 10:39:24 | [32mINFO[0m | __main__:setup_environment:35 - 环境设置完成
+2025-11-05 10:39:24 | [32mINFO[0m | __main__:run_web_interface:65 - 启动工具关键点检测Web界面...
+2025-11-05 10:39:24 | [32mINFO[0m | yolo_detector.utils.tool_pose_utils:__init__:86 - 工具关键点检测器初始化完成，配置文件: D:\00deeplearn\yolo11\gradio_tool\src\yolo_detector\config\tool_pose_config.yaml
+2025-11-05 10:39:24 | [32mINFO[0m | yolo_detector.utils.tool_pose_angle_calculator:load_angle_config:53 - 角度配置文件加载成功: D:\00deeplearn\yolo11\gradio_tool\src\yolo_detector\config\tool_pose_config.yaml
+2025-11-05 10:39:24 | [32mINFO[0m | yolo_detector.utils.tool_pose_utils:_load_angle_config:125 - 角度配置文件加载完成: D:\00deeplearn\yolo11\gradio_tool\src\yolo_detector\config\tool_pose_config.yaml
+2025-11-05 10:39:24 | [32mINFO[0m | yolo_detector.ui.gradio_app:__init__:95 - 工具关键点检测应用初始化完成，输出目录: outputs\tool_pose，预览刷新间隔: 0.033秒（约30.3fps）
+2025-11-05 10:39:24 | [32mINFO[0m | yolo_detector.ui.gradio_app:create_interface:780 - Gradio界面创建完成（Generator 方案，已启用队列）
+2025-11-05 10:39:25 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: GET http://127.0.0.1:7861/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-11-05 10:39:25 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: HEAD http://127.0.0.1:7861/ "HTTP/1.1 200 OK"
+2025-11-05 10:39:54 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:137 - 连接 Axis 摄像头（IP: 192.168.39.253）
+2025-11-05 10:39:54 | [32mINFO[0m | yolo_detector.core.camera_capture:__init__:92 - 摄像头采集器初始化完成，类型: axis, 索引: 0
+2025-11-05 10:39:54 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis:164 - 正在连接 Axis 摄像头（IP: 192.168.39.253）...
+2025-11-05 10:39:54 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:191 - 正在连接 Axis MJPEG 流: http://***:***@192.168.39.253/axis-cgi/mjpg/video.cgi
+2025-11-05 10:40:13 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:237 - 正在断开摄像头连接...
+2025-11-05 10:40:13 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:247 - 摄像头已断开连接
+2025-11-05 10:40:13 | [32mINFO[0m | yolo_detector.ui.gradio_app:disconnect_camera:194 - 摄像头已断开
+2025-11-05 10:40:35 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:240 - Generator 流式传输启动...
+2025-11-05 10:41:08 | [31mERROR[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:199 - 无法打开 MJPEG 流，请检查 IP 地址和网络连接
+2025-11-05 10:41:08 | [31mERROR[0m | yolo_detector.core.camera_capture:_connect_axis:174 - Axis 摄像头连接失败: 无法打开 MJPEG 流，请检查 IP 地址和网络连接
+2025-11-05 10:41:08 | [31mERROR[0m | yolo_detector.ui.gradio_app:connect_camera:173 - 摄像头连接失败: Axis 摄像头连接失败: 无法打开 MJPEG 流，请检查 IP 地址和网络连接
+2025-11-05 10:41:08 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:137 - 连接 Axis 摄像头（IP: 192.22.39.253）
+2025-11-05 10:41:08 | [32mINFO[0m | yolo_detector.core.camera_capture:__init__:92 - 摄像头采集器初始化完成，类型: axis, 索引: 0
+2025-11-05 10:41:08 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis:164 - 正在连接 Axis 摄像头（IP: 192.22.39.253）...
+2025-11-05 10:41:08 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:191 - 正在连接 Axis MJPEG 流: http://***:***@192.22.39.253/axis-cgi/mjpg/video.cgi
+2025-11-05 10:41:08 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:212 - Axis 摄像头连接成功
+2025-11-05 10:41:08 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:213 - 图像尺寸: 1280x720, 通道数: 3
+2025-11-05 10:41:08 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:540 - 开始摄像头采集循环（OpenCV方式）
+2025-11-05 10:41:08 | [32mINFO[0m | yolo_detector.core.camera_capture:_start_capture_thread:515 - 摄像头采集线程已启动
+2025-11-05 10:41:08 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis:170 - Axis 摄像头连接成功: Axis 摄像头连接成功
+2025-11-05 10:41:08 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:155 - 摄像头连接成功: Axis 摄像头连接成功: Axis 摄像头连接成功
+2025-11-05 10:41:08 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:291 - Generator 流式传输开始输出帧（类型: axis）
+2025-11-05 10:41:08 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:166 - 摄像头连接成功，已获取到第一帧（类型: axis，尺寸: (720, 1280, 3)）
+2025-11-05 10:41:15 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:237 - 正在断开摄像头连接...
+2025-11-05 10:41:15 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:595 - 摄像头采集循环结束，总共采集 189 帧
+2025-11-05 10:41:15 | [32mINFO[0m | yolo_detector.core.camera_capture:_stop_capture_thread:530 - 摄像头采集线程已停止
+2025-11-05 10:41:15 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:247 - 摄像头已断开连接
+2025-11-05 10:41:15 | [32mINFO[0m | yolo_detector.ui.gradio_app:disconnect_camera:194 - 摄像头已断开
+2025-11-05 10:41:15 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:137 - 连接 Axis 摄像头（IP: 192.22.39.253）
+2025-11-05 10:41:15 | [32mINFO[0m | yolo_detector.core.camera_capture:__init__:92 - 摄像头采集器初始化完成，类型: axis, 索引: 0
+2025-11-05 10:41:15 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis:164 - 正在连接 Axis 摄像头（IP: 192.22.39.253）...
+2025-11-05 10:41:15 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:191 - 正在连接 Axis MJPEG 流: http://***:***@192.22.39.253/axis-cgi/mjpg/video.cgi
+2025-11-05 10:41:15 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:212 - Axis 摄像头连接成功
+2025-11-05 10:41:15 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:213 - 图像尺寸: 1280x720, 通道数: 3
+2025-11-05 10:41:15 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:540 - 开始摄像头采集循环（OpenCV方式）
+2025-11-05 10:41:15 | [32mINFO[0m | yolo_detector.core.camera_capture:_start_capture_thread:515 - 摄像头采集线程已启动
+2025-11-05 10:41:15 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis:170 - Axis 摄像头连接成功: Axis 摄像头连接成功
+2025-11-05 10:41:15 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:155 - 摄像头连接成功: Axis 摄像头连接成功: Axis 摄像头连接成功
+2025-11-05 10:41:16 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:166 - 摄像头连接成功，已获取到第一帧（类型: axis，尺寸: (720, 1280, 3)）
+2025-11-05 10:41:23 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:294 - Generator 流式传输中（axis），已传输 100 帧
+2025-11-05 10:41:39 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:294 - Generator 流式传输中（axis），已传输 200 帧
+2025-11-05 10:41:54 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:294 - Generator 流式传输中（axis），已传输 300 帧
+2025-11-05 10:42:10 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:294 - Generator 流式传输中（axis），已传输 400 帧
+2025-11-05 10:42:31 | [32mINFO[0m | __main__:setup_environment:35 - 环境设置完成
+2025-11-05 10:42:31 | [32mINFO[0m | __main__:run_web_interface:65 - 启动工具关键点检测Web界面...
+2025-11-05 10:42:31 | [32mINFO[0m | yolo_detector.utils.tool_pose_utils:__init__:86 - 工具关键点检测器初始化完成，配置文件: D:\00deeplearn\yolo11\gradio_tool\src\yolo_detector\config\tool_pose_config.yaml
+2025-11-05 10:42:31 | [32mINFO[0m | yolo_detector.utils.tool_pose_angle_calculator:load_angle_config:53 - 角度配置文件加载成功: D:\00deeplearn\yolo11\gradio_tool\src\yolo_detector\config\tool_pose_config.yaml
+2025-11-05 10:42:31 | [32mINFO[0m | yolo_detector.utils.tool_pose_utils:_load_angle_config:125 - 角度配置文件加载完成: D:\00deeplearn\yolo11\gradio_tool\src\yolo_detector\config\tool_pose_config.yaml
+2025-11-05 10:42:31 | [32mINFO[0m | yolo_detector.ui.gradio_app:__init__:95 - 工具关键点检测应用初始化完成，输出目录: outputs\tool_pose，预览刷新间隔: 0.033秒（约30.3fps）
+2025-11-05 10:42:31 | [32mINFO[0m | yolo_detector.ui.gradio_app:create_interface:780 - Gradio界面创建完成（Generator 方案，已启用队列）
+2025-11-05 10:42:31 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: GET http://127.0.0.1:7861/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-11-05 10:42:31 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: HEAD http://127.0.0.1:7861/ "HTTP/1.1 200 OK"
+2025-11-05 10:42:50 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:137 - 连接 Axis 摄像头（IP: 192.168.39.253）
+2025-11-05 10:42:50 | [32mINFO[0m | yolo_detector.core.camera_capture:__init__:92 - 摄像头采集器初始化完成，类型: axis, 索引: 0
+2025-11-05 10:42:50 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis:164 - 正在连接 Axis 摄像头（IP: 192.168.39.253）...
+2025-11-05 10:42:50 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:191 - 正在连接 Axis MJPEG 流: http://***:***@192.168.39.253/axis-cgi/mjpg/video.cgi
+2025-11-05 10:43:37 | [32mINFO[0m | __main__:setup_environment:35 - 环境设置完成
+2025-11-05 10:43:37 | [32mINFO[0m | __main__:run_web_interface:65 - 启动工具关键点检测Web界面...
+2025-11-05 10:43:37 | [32mINFO[0m | yolo_detector.utils.tool_pose_utils:__init__:86 - 工具关键点检测器初始化完成，配置文件: D:\00deeplearn\yolo11\gradio_tool\src\yolo_detector\config\tool_pose_config.yaml
+2025-11-05 10:43:37 | [32mINFO[0m | yolo_detector.utils.tool_pose_angle_calculator:load_angle_config:53 - 角度配置文件加载成功: D:\00deeplearn\yolo11\gradio_tool\src\yolo_detector\config\tool_pose_config.yaml
+2025-11-05 10:43:37 | [32mINFO[0m | yolo_detector.utils.tool_pose_utils:_load_angle_config:125 - 角度配置文件加载完成: D:\00deeplearn\yolo11\gradio_tool\src\yolo_detector\config\tool_pose_config.yaml
+2025-11-05 10:43:37 | [32mINFO[0m | yolo_detector.ui.gradio_app:__init__:95 - 工具关键点检测应用初始化完成，输出目录: outputs\tool_pose，预览刷新间隔: 0.033秒（约30.3fps）
+2025-11-05 10:43:37 | [32mINFO[0m | yolo_detector.ui.gradio_app:create_interface:780 - Gradio界面创建完成（Generator 方案，已启用队列）
+2025-11-05 10:43:38 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: GET http://127.0.0.1:7861/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-11-05 10:43:38 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: HEAD http://127.0.0.1:7861/ "HTTP/1.1 200 OK"
+2025-11-05 10:43:48 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:125 - 连接本机摄像头（索引: 0）
+2025-11-05 10:43:48 | [32mINFO[0m | yolo_detector.core.camera_capture:__init__:92 - 摄像头采集器初始化完成，类型: local, 索引: 0
+2025-11-05 10:43:48 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_local:123 - 正在连接本机摄像头（索引: 0）...
+2025-11-05 10:43:49 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_local:150 - 本机摄像头连接成功（索引: 0）
+2025-11-05 10:43:49 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:540 - 开始摄像头采集循环（OpenCV方式）
+2025-11-05 10:43:49 | [32mINFO[0m | yolo_detector.core.camera_capture:_start_capture_thread:515 - 摄像头采集线程已启动
+2025-11-05 10:43:49 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:155 - 摄像头连接成功: 本机摄像头连接成功（索引: 0）
+2025-11-05 10:43:49 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:166 - 摄像头连接成功，已获取到第一帧（类型: local，尺寸: (720, 1280, 3)）
+2025-11-05 10:43:49 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:240 - Generator 流式传输启动...
+2025-11-05 10:43:49 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:250 - 等待摄像头准备就绪（类型: local）...
+2025-11-05 10:43:49 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:262 - 摄像头已就绪，获取到第一帧（尺寸: (720, 1280, 3)）
+2025-11-05 10:43:49 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:291 - Generator 流式传输开始输出帧（类型: local）
+2025-11-05 10:44:05 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:294 - Generator 流式传输中（local），已传输 100 帧
+2025-11-05 10:44:15 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:237 - 正在断开摄像头连接...
+2025-11-05 10:44:15 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:595 - 摄像头采集循环结束，总共采集 796 帧
+2025-11-05 10:44:15 | [32mINFO[0m | yolo_detector.core.camera_capture:_stop_capture_thread:530 - 摄像头采集线程已停止
+2025-11-05 10:44:16 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:247 - 摄像头已断开连接
+2025-11-05 10:44:16 | [32mINFO[0m | yolo_detector.ui.gradio_app:disconnect_camera:194 - 摄像头已断开
+2025-11-05 10:44:32 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:137 - 连接 Axis 摄像头（IP: 192.22..253）
+2025-11-05 10:44:32 | [32mINFO[0m | yolo_detector.core.camera_capture:__init__:92 - 摄像头采集器初始化完成，类型: axis, 索引: 0
+2025-11-05 10:44:32 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis:164 - 正在连接 Axis 摄像头（IP: 192.22..253）...
+2025-11-05 10:44:32 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:191 - 正在连接 Axis MJPEG 流: http://***:***@192.22..253/axis-cgi/mjpg/video.cgi
+2025-11-05 10:44:33 | [31mERROR[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:199 - 无法打开 MJPEG 流，请检查 IP 地址和网络连接
+2025-11-05 10:44:33 | [31mERROR[0m | yolo_detector.core.camera_capture:_connect_axis:174 - Axis 摄像头连接失败: 无法打开 MJPEG 流，请检查 IP 地址和网络连接
+2025-11-05 10:44:33 | [31mERROR[0m | yolo_detector.ui.gradio_app:connect_camera:173 - 摄像头连接失败: Axis 摄像头连接失败: 无法打开 MJPEG 流，请检查 IP 地址和网络连接
+2025-11-05 10:44:59 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:137 - 连接 Axis 摄像头（IP: 192.22.39.253）
+2025-11-05 10:44:59 | [32mINFO[0m | yolo_detector.core.camera_capture:__init__:92 - 摄像头采集器初始化完成，类型: axis, 索引: 0
+2025-11-05 10:44:59 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis:164 - 正在连接 Axis 摄像头（IP: 192.22.39.253）...
+2025-11-05 10:44:59 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:191 - 正在连接 Axis MJPEG 流: http://***:***@192.22.39.253/axis-cgi/mjpg/video.cgi
+2025-11-05 10:44:59 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:212 - Axis 摄像头连接成功
+2025-11-05 10:44:59 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:213 - 图像尺寸: 1280x720, 通道数: 3
+2025-11-05 10:44:59 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:540 - 开始摄像头采集循环（OpenCV方式）
+2025-11-05 10:44:59 | [32mINFO[0m | yolo_detector.core.camera_capture:_start_capture_thread:515 - 摄像头采集线程已启动
+2025-11-05 10:44:59 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis:170 - Axis 摄像头连接成功: Axis 摄像头连接成功
+2025-11-05 10:44:59 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:155 - 摄像头连接成功: Axis 摄像头连接成功: Axis 摄像头连接成功
+2025-11-05 10:44:59 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:166 - 摄像头连接成功，已获取到第一帧（类型: axis，尺寸: (720, 1280, 3)）
+2025-11-05 10:45:04 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:294 - Generator 流式传输中（axis），已传输 200 帧
+2025-11-05 10:45:20 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:294 - Generator 流式传输中（axis），已传输 300 帧
+2025-11-05 10:45:36 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:294 - Generator 流式传输中（axis），已传输 400 帧
+2025-11-05 10:45:55 | [32mINFO[0m | __main__:setup_environment:35 - 环境设置完成
+2025-11-05 10:45:55 | [32mINFO[0m | __main__:run_web_interface:65 - 启动工具关键点检测Web界面...
+2025-11-05 10:45:55 | [32mINFO[0m | yolo_detector.utils.tool_pose_utils:__init__:86 - 工具关键点检测器初始化完成，配置文件: D:\00deeplearn\yolo11\gradio_tool\src\yolo_detector\config\tool_pose_config.yaml
+2025-11-05 10:45:55 | [32mINFO[0m | yolo_detector.utils.tool_pose_angle_calculator:load_angle_config:53 - 角度配置文件加载成功: D:\00deeplearn\yolo11\gradio_tool\src\yolo_detector\config\tool_pose_config.yaml
+2025-11-05 10:45:55 | [32mINFO[0m | yolo_detector.utils.tool_pose_utils:_load_angle_config:125 - 角度配置文件加载完成: D:\00deeplearn\yolo11\gradio_tool\src\yolo_detector\config\tool_pose_config.yaml
+2025-11-05 10:45:55 | [32mINFO[0m | yolo_detector.ui.gradio_app:__init__:95 - 工具关键点检测应用初始化完成，输出目录: outputs\tool_pose，预览刷新间隔: 0.033秒（约30.3fps）
+2025-11-05 10:45:55 | [32mINFO[0m | yolo_detector.ui.gradio_app:create_interface:780 - Gradio界面创建完成（Generator 方案，已启用队列）
+2025-11-05 10:45:55 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: GET http://127.0.0.1:7861/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-11-05 10:45:55 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: HEAD http://127.0.0.1:7861/ "HTTP/1.1 200 OK"
+2025-11-05 10:46:11 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:137 - 连接 Axis 摄像头（IP: 192.22.39.253）
+2025-11-05 10:46:11 | [32mINFO[0m | yolo_detector.core.camera_capture:__init__:92 - 摄像头采集器初始化完成，类型: axis, 索引: 0
+2025-11-05 10:46:11 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis:164 - 正在连接 Axis 摄像头（IP: 192.22.39.253）...
+2025-11-05 10:46:11 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:191 - 正在连接 Axis MJPEG 流: http://***:***@192.22.39.253/axis-cgi/mjpg/video.cgi
+2025-11-05 10:46:11 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:212 - Axis 摄像头连接成功
+2025-11-05 10:46:11 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:213 - 图像尺寸: 1280x720, 通道数: 3
+2025-11-05 10:46:11 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:540 - 开始摄像头采集循环（OpenCV方式）
+2025-11-05 10:46:11 | [32mINFO[0m | yolo_detector.core.camera_capture:_start_capture_thread:515 - 摄像头采集线程已启动
+2025-11-05 10:46:11 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis:170 - Axis 摄像头连接成功: Axis 摄像头连接成功
+2025-11-05 10:46:11 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:155 - 摄像头连接成功: Axis 摄像头连接成功: Axis 摄像头连接成功
+2025-11-05 10:46:11 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:166 - 摄像头连接成功，已获取到第一帧（类型: axis，尺寸: (720, 1280, 3)）
+2025-11-05 10:46:11 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:240 - Generator 流式传输启动...
+2025-11-05 10:46:11 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:250 - 等待摄像头准备就绪（类型: axis）...
+2025-11-05 10:46:11 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:262 - 摄像头已就绪，获取到第一帧（尺寸: (720, 1280, 3)）
+2025-11-05 10:46:11 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:291 - Generator 流式传输开始输出帧（类型: axis）
+2025-11-05 10:46:27 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:294 - Generator 流式传输中（axis），已传输 100 帧
+2025-11-05 10:46:43 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:294 - Generator 流式传输中（axis），已传输 200 帧
+2025-11-05 10:46:59 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:294 - Generator 流式传输中（axis），已传输 300 帧
+2025-11-05 10:47:14 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:294 - Generator 流式传输中（axis），已传输 400 帧
+2025-11-05 10:47:30 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:294 - Generator 流式传输中（axis），已传输 500 帧
+2025-11-05 10:47:46 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:294 - Generator 流式传输中（axis），已传输 600 帧
+2025-11-05 10:48:01 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:294 - Generator 流式传输中（axis），已传输 700 帧
+2025-11-05 10:48:17 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:294 - Generator 流式传输中（axis），已传输 800 帧
+2025-11-05 10:48:33 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:294 - Generator 流式传输中（axis），已传输 900 帧
+2025-11-05 10:48:49 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:294 - Generator 流式传输中（axis），已传输 1000 帧
+2025-11-05 10:49:05 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:294 - Generator 流式传输中（axis），已传输 1100 帧
+2025-11-05 10:49:20 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:294 - Generator 流式传输中（axis），已传输 1200 帧
+2025-11-05 10:49:36 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:294 - Generator 流式传输中（axis），已传输 1300 帧
+2025-11-05 10:49:52 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:294 - Generator 流式传输中（axis），已传输 1400 帧
+2025-11-05 10:50:08 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:294 - Generator 流式传输中（axis），已传输 1500 帧
+2025-11-05 10:50:23 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:294 - Generator 流式传输中（axis），已传输 1600 帧
+2025-11-05 10:50:39 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:294 - Generator 流式传输中（axis），已传输 1700 帧
+2025-11-05 10:50:55 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:294 - Generator 流式传输中（axis），已传输 1800 帧
+2025-11-05 10:51:09 | [32mINFO[0m | __main__:setup_environment:35 - 环境设置完成
+2025-11-05 10:51:09 | [32mINFO[0m | __main__:run_web_interface:65 - 启动工具关键点检测Web界面...
+2025-11-05 10:51:09 | [32mINFO[0m | yolo_detector.utils.tool_pose_utils:__init__:86 - 工具关键点检测器初始化完成，配置文件: D:\00deeplearn\yolo11\gradio_tool\src\yolo_detector\config\tool_pose_config.yaml
+2025-11-05 10:51:09 | [32mINFO[0m | yolo_detector.utils.tool_pose_angle_calculator:load_angle_config:53 - 角度配置文件加载成功: D:\00deeplearn\yolo11\gradio_tool\src\yolo_detector\config\tool_pose_config.yaml
+2025-11-05 10:51:09 | [32mINFO[0m | yolo_detector.utils.tool_pose_utils:_load_angle_config:125 - 角度配置文件加载完成: D:\00deeplearn\yolo11\gradio_tool\src\yolo_detector\config\tool_pose_config.yaml
+2025-11-05 10:51:09 | [32mINFO[0m | yolo_detector.ui.gradio_app:__init__:129 - 工具关键点检测应用初始化完成，输出目录: outputs\tool_pose，刷新间隔: 0.05秒（约20.0fps），预览尺寸: 最大宽度1280px
+2025-11-05 10:51:09 | [32mINFO[0m | yolo_detector.ui.gradio_app:create_interface:894 - Gradio界面创建完成（Generator 方案，已启用队列）
+2025-11-05 10:51:09 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: GET http://127.0.0.1:7861/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-11-05 10:51:09 | [32mINFO[0m | httpx:_send_single_request:1025 - HTTP Request: HEAD http://127.0.0.1:7861/ "HTTP/1.1 200 OK"
+2025-11-05 10:51:32 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:171 - 连接 Axis 摄像头（IP: 192.22.39.253）
+2025-11-05 10:51:32 | [32mINFO[0m | yolo_detector.core.camera_capture:__init__:92 - 摄像头采集器初始化完成，类型: axis, 索引: 0
+2025-11-05 10:51:32 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis:164 - 正在连接 Axis 摄像头（IP: 192.22.39.253）...
+2025-11-05 10:51:32 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:191 - 正在连接 Axis MJPEG 流: http://***:***@192.22.39.253/axis-cgi/mjpg/video.cgi
+2025-11-05 10:51:32 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:212 - Axis 摄像头连接成功
+2025-11-05 10:51:32 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:213 - 图像尺寸: 1280x720, 通道数: 3
+2025-11-05 10:51:32 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:540 - 开始摄像头采集循环（OpenCV方式）
+2025-11-05 10:51:32 | [32mINFO[0m | yolo_detector.core.camera_capture:_start_capture_thread:515 - 摄像头采集线程已启动
+2025-11-05 10:51:32 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis:170 - Axis 摄像头连接成功: Axis 摄像头连接成功
+2025-11-05 10:51:32 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:189 - 摄像头连接成功: Axis 摄像头连接成功: Axis 摄像头连接成功
+2025-11-05 10:51:32 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:200 - 摄像头连接成功，已获取到第一帧（类型: axis，尺寸: (720, 1280, 3)）
+2025-11-05 10:51:32 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:274 - Generator 流式传输启动...
+2025-11-05 10:51:32 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:284 - 等待摄像头准备就绪（类型: axis）...
+2025-11-05 10:51:32 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:296 - 摄像头已就绪，获取到第一帧（尺寸: (720, 1280, 3)）
+2025-11-05 10:51:32 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:355 - Generator 流式传输开始输出帧（类型: axis，预览尺寸: 1280x720）
+2025-11-05 10:51:50 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 100 帧
+2025-11-05 10:52:08 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 200 帧
+2025-11-05 10:52:25 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 300 帧
+2025-11-05 10:52:43 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 400 帧
+2025-11-05 10:53:01 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 500 帧
+2025-11-05 10:53:19 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 600 帧
+2025-11-05 10:53:36 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 700 帧
+2025-11-05 10:53:54 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 800 帧
+2025-11-05 10:54:11 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 900 帧
+2025-11-05 10:54:28 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 1000 帧
+2025-11-05 10:54:45 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 1100 帧
+2025-11-05 10:55:03 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 1200 帧
+2025-11-05 10:55:21 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 1300 帧
+2025-11-05 10:55:38 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 1400 帧
+2025-11-05 10:55:56 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 1500 帧
+2025-11-05 10:56:14 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 1600 帧
+2025-11-05 10:56:31 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 1700 帧
+2025-11-05 10:56:49 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 1800 帧
+2025-11-05 10:57:07 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 1900 帧
+2025-11-05 10:57:25 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 2000 帧
+2025-11-05 10:57:43 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 2100 帧
+2025-11-05 10:57:59 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 2200 帧
+2025-11-05 10:58:16 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 2300 帧
+2025-11-05 10:58:33 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 2400 帧
+2025-11-05 10:58:50 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 2500 帧
+2025-11-05 10:59:06 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 2600 帧
+2025-11-05 10:59:23 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 2700 帧
+2025-11-05 10:59:41 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 2800 帧
+2025-11-05 10:59:59 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 2900 帧
+2025-11-05 11:00:17 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 3000 帧
+2025-11-05 11:00:35 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 3100 帧
+2025-11-05 11:00:53 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 3200 帧
+2025-11-05 11:01:10 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 3300 帧
+2025-11-05 11:01:27 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 3400 帧
+2025-11-05 11:01:44 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 3500 帧
+2025-11-05 11:02:02 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 3600 帧
+2025-11-05 11:02:06 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:454 - 原始图片已保存: outputs\tool_pose\raw_images\raw_20251105_110206.jpg
+2025-11-05 11:02:06 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:460 - 开始执行检测...
+2025-11-05 11:02:06 | [32mINFO[0m | yolo_detector.utils.tool_pose_utils:load_model:146 - 正在加载模型: D:\00deeplearn\yolo11\gradio_web_yolo\tool_pose\tools\train2\weights\best.pt
+2025-11-05 11:02:06 | [32mINFO[0m | yolo_detector.core.tool_pose_model_loader:get_model:60 - 正在加载模型: D:\00deeplearn\yolo11\gradio_web_yolo\tool_pose\tools\train2\weights\best.pt
+2025-11-05 11:02:06 | [32mINFO[0m | yolo_detector.core.tool_pose_model_loader:get_model:63 - 模型加载完成: D:\00deeplearn\yolo11\gradio_web_yolo\tool_pose\tools\train2\weights\best.pt
+2025-11-05 11:02:06 | [32mINFO[0m | yolo_detector.utils.tool_pose_utils:load_model:152 - 模型加载完成
+2025-11-05 11:02:09 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:487 - 结果图片已保存: outputs\tool_pose\result_images\result_20251105_110206.jpg
+2025-11-05 11:02:09 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:505 - JSON数据已保存: outputs\tool_pose\json_results\result_20251105_110206.json
+2025-11-05 11:02:09 | [32mINFO[0m | yolo_detector.ui.gradio_app:start_detection:520 - 检测完成
+2025-11-05 11:02:21 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 3700 帧
+2025-11-05 11:02:40 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 3800 帧
+2025-11-05 11:02:57 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 3900 帧
+2025-11-05 11:03:15 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 4000 帧
+2025-11-05 11:03:34 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 4100 帧
+2025-11-05 11:03:52 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 4200 帧
+2025-11-05 11:04:11 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 4300 帧
+2025-11-05 11:04:29 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 4400 帧
+2025-11-05 11:04:48 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 4500 帧
+2025-11-05 11:05:06 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 4600 帧
+2025-11-05 11:05:23 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 4700 帧
+2025-11-05 11:05:41 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 4800 帧
+2025-11-05 11:05:59 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 4900 帧
+2025-11-05 11:06:17 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 5000 帧
+2025-11-05 11:06:26 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:237 - 正在断开摄像头连接...
+2025-11-05 11:06:26 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:595 - 摄像头采集循环结束，总共采集 22343 帧
+2025-11-05 11:06:26 | [32mINFO[0m | yolo_detector.core.camera_capture:_stop_capture_thread:530 - 摄像头采集线程已停止
+2025-11-05 11:06:26 | [32mINFO[0m | yolo_detector.core.camera_capture:disconnect:247 - 摄像头已断开连接
+2025-11-05 11:06:26 | [32mINFO[0m | yolo_detector.ui.gradio_app:disconnect_camera:228 - 摄像头已断开
+2025-11-05 11:06:40 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:171 - 连接 Axis 摄像头（IP: 192.22.39.253）
+2025-11-05 11:06:40 | [32mINFO[0m | yolo_detector.core.camera_capture:__init__:92 - 摄像头采集器初始化完成，类型: axis, 索引: 0
+2025-11-05 11:06:40 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis:164 - 正在连接 Axis 摄像头（IP: 192.22.39.253）...
+2025-11-05 11:06:40 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:191 - 正在连接 Axis MJPEG 流: http://***:***@192.22.39.253/axis-cgi/mjpg/video.cgi
+2025-11-05 11:06:40 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:212 - Axis 摄像头连接成功
+2025-11-05 11:06:40 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis_opencv:213 - 图像尺寸: 1280x720, 通道数: 3
+2025-11-05 11:06:40 | [32mINFO[0m | yolo_detector.core.camera_capture:_capture_loop:540 - 开始摄像头采集循环（OpenCV方式）
+2025-11-05 11:06:40 | [32mINFO[0m | yolo_detector.core.camera_capture:_start_capture_thread:515 - 摄像头采集线程已启动
+2025-11-05 11:06:40 | [32mINFO[0m | yolo_detector.core.camera_capture:_connect_axis:170 - Axis 摄像头连接成功: Axis 摄像头连接成功
+2025-11-05 11:06:40 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:189 - 摄像头连接成功: Axis 摄像头连接成功: Axis 摄像头连接成功
+2025-11-05 11:06:40 | [32mINFO[0m | yolo_detector.ui.gradio_app:connect_camera:200 - 摄像头连接成功，已获取到第一帧（类型: axis，尺寸: (720, 1280, 3)）
+2025-11-05 11:06:49 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 5100 帧
+2025-11-05 11:06:51 | [32mINFO[0m | yolo_detector.ui.gradio_app:apply_preview_settings:854 - 预览设置已更新: enable_scale=True, max_width=640
+2025-11-05 11:06:55 | [32mINFO[0m | yolo_detector.ui.gradio_app:apply_preview_settings:854 - 预览设置已更新: enable_scale=True, max_width=640
+2025-11-05 11:06:57 | [32mINFO[0m | yolo_detector.ui.gradio_app:apply_preview_settings:854 - 预览设置已更新: enable_scale=True, max_width=640
+2025-11-05 11:06:58 | [32mINFO[0m | yolo_detector.ui.gradio_app:apply_preview_settings:854 - 预览设置已更新: enable_scale=True, max_width=640
+2025-11-05 11:06:59 | [32mINFO[0m | yolo_detector.ui.gradio_app:apply_preview_settings:854 - 预览设置已更新: enable_scale=True, max_width=640
+2025-11-05 11:07:00 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 5200 帧
+2025-11-05 11:07:00 | [32mINFO[0m | yolo_detector.ui.gradio_app:apply_preview_settings:854 - 预览设置已更新: enable_scale=True, max_width=640
+2025-11-05 11:07:01 | [32mINFO[0m | yolo_detector.ui.gradio_app:apply_preview_settings:854 - 预览设置已更新: enable_scale=True, max_width=640
+2025-11-05 11:07:05 | [32mINFO[0m | yolo_detector.ui.gradio_app:apply_preview_settings:854 - 预览设置已更新: enable_scale=True, max_width=640
+2025-11-05 11:07:05 | [32mINFO[0m | yolo_detector.ui.gradio_app:apply_preview_settings:854 - 预览设置已更新: enable_scale=True, max_width=640
+2025-11-05 11:07:09 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 5300 帧
+2025-11-05 11:07:19 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 5400 帧
+2025-11-05 11:07:28 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 5500 帧
+2025-11-05 11:07:38 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 5600 帧
+2025-11-05 11:07:47 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 5700 帧
+2025-11-05 11:07:56 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 5800 帧
+2025-11-05 11:08:06 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 5900 帧
+2025-11-05 11:08:15 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 6000 帧
+2025-11-05 11:08:25 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 6100 帧
+2025-11-05 11:08:34 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 6200 帧
+2025-11-05 11:08:43 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 6300 帧
+2025-11-05 11:08:53 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 6400 帧
+2025-11-05 11:09:02 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 6500 帧
+2025-11-05 11:09:12 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 6600 帧
+2025-11-05 11:09:21 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 6700 帧
+2025-11-05 11:09:31 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 6800 帧
+2025-11-05 11:09:40 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 6900 帧
+2025-11-05 11:09:49 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 7000 帧
+2025-11-05 11:09:59 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 7100 帧
+2025-11-05 11:10:08 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 7200 帧
+2025-11-05 11:10:18 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 7300 帧
+2025-11-05 11:10:27 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 7400 帧
+2025-11-05 11:10:36 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 7500 帧
+2025-11-05 11:10:46 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 7600 帧
+2025-11-05 11:10:55 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 7700 帧
+2025-11-05 11:11:05 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 7800 帧
+2025-11-05 11:11:14 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 7900 帧
+2025-11-05 11:11:24 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 8000 帧
+2025-11-05 11:11:33 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 8100 帧
+2025-11-05 11:11:42 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 8200 帧
+2025-11-05 11:11:52 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 8300 帧
+2025-11-05 11:12:01 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 8400 帧
+2025-11-05 11:12:10 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 8500 帧
+2025-11-05 11:12:20 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 8600 帧
+2025-11-05 11:12:29 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 8700 帧
+2025-11-05 11:12:39 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 8800 帧
+2025-11-05 11:12:48 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 8900 帧
+2025-11-05 11:12:57 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 9000 帧
+2025-11-05 11:13:07 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 9100 帧
+2025-11-05 11:13:16 | [32mINFO[0m | yolo_detector.ui.gradio_app:stream_camera_frames:358 - Generator 流式传输中（axis），已传输 9200 帧

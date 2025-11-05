@@ -1,4 +1,9 @@
-# 创建者/修改者: chenliang；修改时间：2025年7月27日 22:32；主要修改内容：创建core包初始化文件
+# 创建者/修改者: chenliang
+# 修改时间：2025年11月02日 10:00
+# 主要修改内容：
+# 1. 添加工具关键点检测相关模块导出
+# 2. 从 tool_pose/demo 移植的模块
+
 """
 核心功能模块
 
@@ -9,6 +14,9 @@ from .detector import BaseDetector, ObjectDetector, SegmentationDetector, PoseDe
 from .image_processor import ImageProcessor
 from .result_processor import ResultProcessor
 from .batch_processor import BatchProcessor
+from .camera_capture import CameraCapture
+from .tool_pose_model_loader import ToolPoseModelLoader
+from .tool_pose_predictor import ToolPosePredictor
 
 __all__ = [
     "BaseDetector",
@@ -18,5 +26,8 @@ __all__ = [
     "DetectionResult",
     "ImageProcessor",
     "ResultProcessor",
-    "BatchProcessor"
+    "BatchProcessor",
+    "CameraCapture",
+    "ToolPoseModelLoader",
+    "ToolPosePredictor"
 ]

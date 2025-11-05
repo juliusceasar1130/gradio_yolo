@@ -5,9 +5,9 @@
 包含Gradio界面和相关的UI组件
 """
 
-from .gradio_app import create_gradio_interface, GradioApp
+from .gradio_app import create_gradio_interface, ToolPoseGradioApp
 
 __all__ = [
     "create_gradio_interface",
-    "GradioApp"
+    "ToolPoseGradioApp"
 ]

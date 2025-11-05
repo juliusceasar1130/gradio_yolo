@@ -15,7 +15,7 @@ from .core import (
     ObjectDetector, SegmentationDetector, PoseDetector, DetectionResult,
     ImageProcessor, ResultProcessor, BatchProcessor
 )
-from .ui import create_gradio_interface, GradioApp
+from .ui import create_gradio_interface, ToolPoseGradioApp
 
 __all__ = [
     "Config",
@@ -28,5 +28,5 @@ __all__ = [
     "ResultProcessor",
     "BatchProcessor",
     "create_gradio_interface",
-    "GradioApp"
+    "ToolPoseGradioApp"
 ]

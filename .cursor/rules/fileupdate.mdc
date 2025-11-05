@@ -11,3 +11,6 @@ alwaysApply: true
 
 - 尽量复用现有的函数，尽量不要重复写函数，可以在readme.md中实现检查函数清单
 - 新增的函数应该在readme.md清单中记录，并添加注释
+- 包版本：
+     -gradio               5.31.0
+     -gradio_client        1.10.1
